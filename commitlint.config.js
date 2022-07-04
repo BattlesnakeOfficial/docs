@@ -23,7 +23,7 @@ module.exports = {
             "docs/no-scope": (parsed) => {
                 return [
                     parsed.scope == null,
-                    `Scope is not allowed, sype found: '${parsed.scope}'`
+                    `Scope is not allowed, scope found: '${parsed.scope}'`
                 ];
             },
             "docs/header-length": (parsed) => {
