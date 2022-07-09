@@ -34,10 +34,10 @@ module.exports = {
             },
             "docs/body-blank-line": (parsed) => {
                 // get the first line in the body
-                const leading = parsed.raw.split(/(?:\r?\n)/).slice(1);
+                const leading = parsed.raw.split(/(?:\r?\n)/)[1];
 
                 return [
-                    leading != "",
+                    leading === "",
                     "There should be a blank line between the header and the body",
                 ]
             },
