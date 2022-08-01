@@ -58,6 +58,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'announcement-bar-1',  // Increment on new announcement
+        content: '⭐️ Enjoying Battlesnake? Follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/playbattlesnake">Twitter</a> and <a target="_blank" rel="noopener noreferrer" href="https://twitch.tv/BattlesnakeOfficial">Twitch</a> 💜'
+      },
       navbar: {
         logo: {
           alt: 'Battlesnake Docs',

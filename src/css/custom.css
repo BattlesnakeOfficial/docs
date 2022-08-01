@@ -33,3 +33,12 @@
   background: #000000;
   border-top: 5px solid var(--ifm-color-primary);
 }
+
+div[class^='announcementBar_'] {
+  background: #3e338f;
+  color: white;
+  font-weight: bold;
+}
+div[class^='announcementBar_'] .close {
+  color: white;
+}
