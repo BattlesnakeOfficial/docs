@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Battlesnake Docs',
-  tagline: 'Built and maintained by the Battlesnake Community',
+  tagline: 'A multiplayer programming game where your code is the controller.',
   url: 'https://BattlesnakeOfficial.github.io/',
   baseUrl: '/docs-new/',
   onBrokenLinks: 'throw',
@@ -59,24 +59,40 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Battlesnake Docs',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            label: 'Quick Start',
+            href: '#'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            label: 'Starter Templates',
+            href: '#'
+          },
+          {
+            label: 'API Reference',
+            href: '#'
+          },
+          {
+            label: 'Community Wiki',
+            href: '#'
+          },
+          {
+            href: 'https://github.com/BattlesnakeOfficial/docs-new',
             label: 'GitHub',
             position: 'right',
-          },
+          }
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          
         ],
       },
       footer: {
