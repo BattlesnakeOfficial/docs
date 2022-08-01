@@ -35,19 +35,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -70,33 +65,29 @@ const config = {
         items: [
           {
             label: 'Quick Start',
-            href: '#'
+            type: 'doc',
+            docId: 'quick-start'
           },
           {
             label: 'Starter Templates',
-            href: '#'
+            type: 'doc',
+            docId: 'starter-templates'
           },
           {
             label: 'API Reference',
-            href: '#'
+            type: 'doc',
+            docId: 'api/index'
           },
           {
             label: 'Community Wiki',
-            href: '#'
+            type: 'doc',
+            docId: 'wiki/index'
           },
           {
             href: 'https://github.com/BattlesnakeOfficial/docs-new',
             label: 'GitHub',
             position: 'right',
           }
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          
         ],
       },
       footer: {
