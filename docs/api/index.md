@@ -1,7 +1,7 @@
 ---
-title: API Reference
+title: Battlesnake API
 ---
 
-# API Reference
+# Battlesnake API
 
 TODO
