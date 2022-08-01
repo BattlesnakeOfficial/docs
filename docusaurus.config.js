@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Battlesnake Docs',
+  tagline: 'Built and maintained by the Battlesnake Community',
   url: 'https://BattlesnakeOfficial.github.io/',
   baseUrl: '/docs-new/',
   onBrokenLinks: 'throw',
