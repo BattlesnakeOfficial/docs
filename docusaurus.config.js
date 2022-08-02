@@ -75,6 +75,11 @@ const config = {
           },
           {
             type: 'doc',
+            docId: 'game-rules',
+            label: 'Game Rules'
+          },
+          {
+            type: 'doc',
             docId: 'api/overview',
             label: 'API Reference',
           },

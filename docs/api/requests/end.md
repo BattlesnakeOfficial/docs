@@ -1,5 +1,5 @@
 ---
-title: Game End
+sidebar_position: 4
 ---
 
 # Game End
