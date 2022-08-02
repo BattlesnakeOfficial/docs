@@ -9,7 +9,7 @@ const config = {
   title: 'Battlesnake Docs',
   tagline: 'A multiplayer programming game where your code is the controller.',
   url: 'https://BattlesnakeOfficial.github.io/',
-  baseUrl: '/docs-new/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -86,7 +86,17 @@ const config = {
           {
             href: 'https://github.com/BattlesnakeOfficial/docs-new',
             position: 'right',
-            className: 'header-github-link',
+            className: 'navbar-item-github',
+          },
+          {
+            href: 'https://play.battlesnake.com/discord',
+            className: 'navbar-item-discord',
+            position: 'right',
+          },
+          {
+            href: 'https://twitter.com/playbattlesnake',
+            className: 'navbar-item-twitter',
+            position: 'right',
           }
         ],
       },
@@ -98,34 +108,62 @@ const config = {
             items: [
               {
                 label: 'Quick Start',
-                to: 'quick-start',
+                to: 'quick-start'
               },
+              {
+                label: 'Starter Templates',
+                to: 'starter-templates'
+              },
+              {
+                label: 'API Reference',
+                to: 'api'
+              },
+              {
+                label: 'Community Wiki',
+                to: 'wiki'
+              }
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/BattlesnakeOfficial',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://play.battlesnake.com/discord',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/playbattlesnake',
               },
+              {
+                label: 'YouTube',
+                href: 'https://youtube.com/battlesnake'
+              }
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Blog',
+                href: 'https://blog.battlesnake.com',
               },
+              {
+                label: 'Feedback',
+                href: 'https://play.battlesnake.com/feedback',
+              },
+              {
+                label: 'Our Mission',
+                href: 'https://play.battlesnake.com/mission',
+              },
+              {
+                label: 'Code of Conduct',
+                href: 'https://play.battlesnake.com/conduct',
+              }
             ],
           },
         ],
