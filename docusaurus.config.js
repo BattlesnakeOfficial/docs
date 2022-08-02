@@ -116,7 +116,7 @@ const config = {
               },
               {
                 label: 'API Reference',
-                to: 'api'
+                to: 'api/overview'
               },
               {
                 label: 'Community Wiki',
