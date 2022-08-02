@@ -19,6 +19,7 @@ jobs:
         with:
           path: "build/"
   deploy:
+    name: Deploy
     needs: build
     permissions:
       pages: write
