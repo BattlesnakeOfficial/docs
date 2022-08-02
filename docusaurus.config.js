@@ -85,8 +85,8 @@ const config = {
           },
           {
             href: 'https://github.com/BattlesnakeOfficial/docs-new',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
           }
         ],
       },
