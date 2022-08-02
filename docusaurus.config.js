@@ -64,24 +64,24 @@ const config = {
         },
         items: [
           {
-            label: 'Quick Start',
             type: 'doc',
-            docId: 'quick-start'
+            docId: 'quick-start',
+            label: 'Quick Start'
           },
           {
-            label: 'Starter Templates',
             type: 'doc',
-            docId: 'starter-templates'
+            docId: 'starter-templates',
+            label: 'Starter Templates'
           },
           {
+            type: 'doc',
+            docId: 'api/overview',
             label: 'API Reference',
-            type: 'doc',
-            docId: 'api/index'
           },
           {
-            label: 'Community Wiki',
             type: 'doc',
-            docId: 'wiki/index'
+            docId: 'wiki/index',
+            label: 'Community Wiki'
           },
           {
             href: 'https://github.com/BattlesnakeOfficial/docs-new',

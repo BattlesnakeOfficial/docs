@@ -13,23 +13,29 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  apiSidebar: [
+  mainSidebar: [
+    'quick-start',
+    'starter-templates',
+    'game-rules',
     {
       type: 'category',
-      label: 'API Requests',
+      label: 'API Reference',
+      collapsed: false,
       items: [
-        'api/requests/info',
-        'api/requests/start', 
-        'api/requests/move', 
-        'api/requests/end'
-      ],
-      collapsed: false
-    },
-    {
-      type: 'category',
-      label: 'Examples',
-      items: ['api/examples/move'],
-      collapsed: false
+        'api/overview',
+        {
+          type: 'category',
+          label: 'Requests',
+          collapsed: false,
+          items: [
+            'api/requests/info',
+            'api/requests/start',
+            'api/requests/move',
+            'api/requests/end',
+          ]
+        },
+        'api/example-move'
+      ]
     }
   ],
   wikiSidebar: [{
