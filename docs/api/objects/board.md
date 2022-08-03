@@ -6,7 +6,7 @@ sidebar_position: 5
 
 The game board is represented by a standard 2D grid, oriented with (0,0) in the bottom left. The Y-Axis is positive in the up direction, and X-Axis is positive to the right. Coordinates begin at zero, such that a board that is 11x11 will have coordinates ranging from \[0, 10].
 
-![Battlesnake Coordinate System](./assets/coordinate_system.png)
+![Battlesnake Coordinate System](/img/coordinate_system.png)
 
 ```json
 {
