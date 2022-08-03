@@ -1,10 +1,9 @@
-# Game Rules
-
 ---
 description: Last Updated March 2020
 ---
 
 # Game Rules
+
 
 ## Winning the Game
 
