@@ -20,7 +20,7 @@ On every turn your Battlesnake will choose to move in a direction, one of _up_, 
 
 In order to restore the health your Battlesnake needs to survive, it must consume the traditional food of Battlesnakes: brightly colored nutritional discs.
 
-<!-- ![](../.gitbook/assets/kapture-2020-05-16-at-11.28.27.gif) -->
+![Snakes consuming food](/img/consuming-food.gif)
 
 These flavorful discs will appear throughout the game and remain on the game board until consumed. Battlesnakes that enter the same square as a piece of food will immediately consume it, filling their health to maximum. But ravenous consumption comes at a cost...
 
@@ -29,8 +29,7 @@ Every time a Battlesnake consumes food it will grow longer, making it more diffi
 ### Food Spawn
 
 At the beginning of each game some amount of food will be placed around the board. On each subsequent turn additional food may be added (according to our Super Secret Proprietary Algorithm\*). It's also possible for multiple pieces of food to appear on any single turn.
-
-\_\_[_\*the algorithm is neither secret or proprietary, but it is arguably super_](https://github.com/BattlesnakeOfficial/rules)\_\_
+[_**the algorithm is neither secret or proprietary, but it is arguably super**_](https://github.com/BattlesnakeOfficial/rules)
 
 ## Space
 
@@ -68,7 +67,7 @@ Each turn in every game is divided into three steps.
 
 ### 1. Identical requests are sent to every Battlesnake.
 
-The game engine will send to each Battlesnake in parallel a request containing information about the current state of the game board. This request includes location of all food, as well as the health and location of all Battlesnakes (including themselves). Details are available in the [Battlesnake API Reference](api/).
+The game engine will send to each Battlesnake in parallel a request containing information about the current state of the game board. This request includes location of all food, as well as the health and location of all Battlesnakes (including themselves). Details are available in the [Battlesnake API Reference](api/overview).
 
 Every Battlesnake will have the same amount of time to respond to this request.
 
@@ -105,6 +104,7 @@ After all moves have been received by the game engine, it will update the game b
 
 The code responsible for implementing these game rules is completely open source. We encourage all Battlesnake developers to review the rules code base to better understand the game mechanics and make any suggestions for new game modes.
 
-{% embed url="https://github.com/BattlesnakeOfficial/rules" %}
+<!-- These are not possible in Docusaurus out of the box -->
+<!-- {% embed url="https://github.com/BattlesnakeOfficial/rules" %} -->
 
 [https://github.com/BattlesnakeOfficial/rules](https://github.com/BattlesnakeOfficial/rules)
