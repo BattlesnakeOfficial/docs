@@ -103,7 +103,7 @@ After all moves have been received by the game engine, it will update the game b
 
 The code responsible for implementing these game rules is completely open source. We encourage all Battlesnake developers to review the rules code base to better understand the game mechanics and make any suggestions for new game modes.
 
-<!-- These are not possible in Docusaurus out of the box -->
+<!-- TODO: Find an alternative -->
 <!-- {% embed url="https://github.com/BattlesnakeOfficial/rules" %} -->
 
 [https://github.com/BattlesnakeOfficial/rules](https://github.com/BattlesnakeOfficial/rules)
