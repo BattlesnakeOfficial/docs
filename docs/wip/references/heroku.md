@@ -17,7 +17,7 @@ These instructions assume you have already installed the Git Command Line and He
 
 ## **Step 1: Select a Starter Project**
 
-Choose from the complete list of [**Starter Projects**](../starter-projects.md). The [**Official Starter Projects**](../starter-projects.md#official-starter-projects) have been tested and are maintained by the Battlesnake team.
+Choose from the complete list of [**Starter Projects**](../../starter-templates.md). The [**Official Starter Projects**](../../starter-templates.md#official-starter-projects) have been tested and are maintained by the Battlesnake team.
 
 For whichever Starter Project you choose, you will need to:
 
@@ -39,7 +39,7 @@ To run your Battlesnake, [**Create a new Heroku App**](https://devcenter.heroku.
 
 &#x20;`heroku create [YOUR-APP-NAME]`
 
-The first URL in the output will be the URL where your Battlesnake will be run. You will need this URL in Step 3 to [**Register your Battlesnake**](../../guides/getting-started.md#step-4-register-your-battlesnake).
+The first URL in the output will be the URL where your Battlesnake will be run. You will need this URL in Step 3 to [**Register your Battlesnake**](../../quick-start.md#step-4-create-your-battlesnake).
 
 :::info
 Check the [Language Support Page](https://devcenter.heroku.com/categories/language-support) if you are getting errors about versions when attempting to create or push your code to Heroku.
@@ -69,9 +69,9 @@ Optionally, you can view your server logs using the Heroku log command. The `--t
 
 ## Step 3: Register your Battlesnake
 
-Using the URL from Step 2, follow the instructions to [**Register your Battlesnake**](../../guides/getting-started.md#step-4-register-your-battlesnake) on the Battlesnake website. With Heroku, that URL will look something like `https://my-app-name.herokuapp.com/` where _my-app-name_ is the name you used in Step 2.
+Using the URL from Step 2, follow the instructions to [**Register your Battlesnake**](../../quick-start.md#step-4-create-your-battlesnake) on the Battlesnake website. With Heroku, that URL will look something like `https://my-app-name.herokuapp.com/` where _my-app-name_ is the name you used in Step 2.
 
-Once your Battlesnake is registered, you should also follow the instructions to [**Create your First Game**](../../guides/getting-started.md#step-5-create-your-first-game) to test and verify that your Battlesnake is communicating successfully. Be sure to watch the logs of your server by running the `heroku logs --tail` command.
+Once your Battlesnake is registered, you should also follow the instructions to [**Create your First Game**](../../quick-start.md#step-5-create-your-first-game) to test and verify that your Battlesnake is communicating successfully. Be sure to watch the logs of your server by running the `heroku logs --tail` command.
 
 ## Step 4: Making Changes and Updating your Battlesnake with Heroku
 

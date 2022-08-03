@@ -5,7 +5,7 @@ description: Last updated March 2020
 
 # Game Modes
 
-Battlesnake has several game modes all built on the same foundational [game rules.](rules.md) All game modes and are available for casual play and may appear in competitions. In the API, the game mode is defined as the _ruleset_ on the [Game Object.](api/#game)
+Battlesnake has several game modes all built on the same foundational [game rules.](../../game-rules.md) All game modes and are available for casual play and may appear in competitions. In the API, the game mode is defined as the _ruleset_ on the [Game Object.](../../api/objects/game.md)
 
 To play a specific mode, select the game mode at the top of the [Play Game](https://play.battlesnake.com/account/games/create/) page.
 
@@ -15,7 +15,7 @@ To play a specific mode, select the game mode at the top of the [Play Game](http
 
 ![Example Standard Game with four Battlesnakes](/img/wip/standard\_game.png)
 
-A Standard Game is the original Battlesnake following the [game rules](rules.md) without modification.
+A Standard Game is the original Battlesnake following the [game rules](../../game-rules.md) without modification.
 
 Note that within a Standard Game the number of Battlesnake in the game can vary, and winning strategies for 1v1 games can be different than strategies for four or eight Battlesnakes.
 
@@ -38,7 +38,7 @@ Specific scenarios and how hazards take effect:
 | Snake moves to hazard square also containing food               | Restored to 100                                                                                                                                                                           |
 | Hazard square spawns on a snake's head at the start of the turn | <p>No effect. </p><p></p><p>Hazard damage is only applied in squares that appeared on the previous turn. The snake will have an opportunity to leave the square before taking damage.</p> |
 
-The location of hazardous squares are found in the API on the [board object](api/#board) listed under `hazards`, and are visible on the board as a darker-grey square.
+The location of hazardous squares are found in the API on the [board object](../../api/objects/board.md) listed under `hazards`, and are visible on the board as a darker-grey square.
 
 ## Constrictor
 
@@ -48,7 +48,7 @@ In Constrictor mode, Battlesnake tails are 'pinned' at their starting location. 
 
 ## Wrapped
 
-![Example Wrapped Game](/img/wip/Screen Shot 2022-01-27 at 10.58.20 AM.png)
+![Example Wrapped Game](/img/wip/wrapped-game-mode.png)
 
 Wrapped mode games expand the game board by removing the edges of the board and allowing snakes to wrap from one side of the board to the other. During a wrapped mode game, it is impossible for a Battlesnake to collide with the walls. While wrapped, a Battlesnake does not occupy any space outside of the board, the edges of the board are considered next to each other.
 

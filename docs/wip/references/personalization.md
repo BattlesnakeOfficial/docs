@@ -11,15 +11,13 @@ This reference outlines all the available options for personalizing your Battles
 
 Each Battlesnake can choose a color, head, and tail to represent it on the game board. Here's an example of a full personalized Battlesnake.
 
-{% code title="snake-personalization.json" %}
-```javascript
+```json title="snake-personalization.json"
 {
 	"color": "#736CCB",
 	"head": "beluga",
 	"tail": "curled"
 }
 ```
-{% endcode %}
 
 This configuration will display your Battlesnake like this:
 
@@ -27,7 +25,7 @@ This configuration will display your Battlesnake like this:
 
 ## Choosing a Color
 
-Your Battlesnake can choose any valid six-digit hex color code to represent it on the game board. This value is provided in response to the [GET /](api/#undefined) command of the [Battlesnake API](api/) and should be a 7 character string starting with "#" that looks similar to "#33CC00".
+Your Battlesnake can choose any valid six-digit hex color code to represent it on the game board. This value is provided in response to the [GET /](../../api/requests/info.md) command of the [Battlesnake API](../../api/overview.md) and should be a 7 character string starting with "#" that looks similar to "#33CC00".
 
 You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors\_picker.asp) to help you find the exact color you're looking for.
 
@@ -43,7 +41,7 @@ You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors\
 
 Several personalization options are available for how your Battlesnake's head and tail will display on the game board. You can mix and match them however you like.
 
-Just like [choosing a color](personalization.md#color), your head and tail are provided in response to the [GET /](api/#undefined) command of the [Battlesnake API](api/). Each value is a string, matching one of the available options shown below.
+Just like [choosing a color](personalization.md#choosing-a-color), your head and tail are provided in response to the [GET /](../../api/requests/info.md) command of the [Battlesnake API](../../api/overview.md). Each value is a string, matching one of the available options shown below.
 
 If an invalid value is returned (or no value at all) the `default` options will be displayed.
 

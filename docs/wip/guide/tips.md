@@ -19,10 +19,10 @@ The best Battlesnake names are fun, creative, and also abide by our [Code of Con
 
 Web development often means handling multiple requests concurrently, and Battlesnake is no different. It's quite likely your Battlesnake will be playing multiple games at once, and you should develop your web server with that in mind.
 
-Start thinking about this early, and use the Game ID in the [Start](../references/api/#start), [Move](../references/api/#move), and [End](../references/api/#end) requests to keep your Battlesnake's brain organized.
+Start thinking about this early, and use the Game ID in the [Start](../../api/requests/start.md), [Move](../../api/requests/move.md), and [End](../../api/requests/end.md) requests to keep your Battlesnake's brain organized.
 
 :::tip
-Not all web servers are built for handling multiple requests concurrently. Most of the [Starter Projects](../references/starter-projects.md) are set up for concurrency by default.
+Not all web servers are built for handling multiple requests concurrently. Most of the [Starter Projects](../../starter-templates.md) are set up for concurrency by default.
 :::
 
 ## Keep Your Battlesnake Server Running
