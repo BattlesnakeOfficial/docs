@@ -10,12 +10,12 @@ Your Battlesnake will receive this request when it has been entered into a new g
 
 #### Parameters
 
-| Body                    | Type    | Description                                                              |
-| ----------------------- | ------- | ------------------------------------------------------------------------ |
-| [`game`](./#game)       | object  | [Game Object](./#game) describing the game being played.                 |
-| `turn`                  | integer | Turn number of the game being played (0 for new games).                  |
-| [`board`](./#board)     | object  | [Board Object](./#board) describing the initial state of the game board. |
-| [`you`](./#battlesnake) | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake.        |
+| Body                            | Type    | Description                                                                      |
+| ------------------------------- | ------- | -------------------------------------------------------------------------------- |
+| [`game`](../objects/game)       | object  | [Game Object](../objects/game) describing the game being played.                 |
+| `turn`                          | integer | Turn number of the game being played (0 for new games).                          |
+| [`board`](../objects/board)     | object  | [Board Object](../objects/board) describing the initial state of the game board. |
+| [`you`](../objects/battlesnake) | object  | [Battlesnake Object](../objects/battlesnake) describing your Battlesnake.        |
 
 | Responses | Type                                                      |
 | --------- | --------------------------------------------------------- |

@@ -10,12 +10,12 @@ This request will be sent for every turn of the game. Use the information provid
 
 #### Parameters
 
-| Body                    | Type    | Description                                                       |
-| ----------------------- | ------- | ----------------------------------------------------------------- |
-| [`game`](./#game)       | object  | [Game Object](./#game) describing the game being played.          |
-| `turn`                  | integer | Turn number for this move.                                        |
-| [`board`](./#board)     | object  | [Board Object](./#board) describing the game board on this turn.  |
-| [`you`](./#battlesnake) | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake. |
+| Body                            | Type    | Description                                                               |
+| ------------------------------- | ------- | ------------------------------------------------------------------------- |
+| [`game`](../objects/game)       | object  | [Game Object](../objects/game) describing the game being played.          |
+| `turn`                          | integer | Turn number for this move.                                                |
+| [`board`](../objects/board)     | object  | [Board Object](../objects/board) describing the game board on this turn.  |
+| [`you`](../objects/battlesnake) | object  | [Battlesnake Object](../objects/battlesnake) describing your Battlesnake. |
 
 | Responses | Type             |
 | --------- | ---------------- |
