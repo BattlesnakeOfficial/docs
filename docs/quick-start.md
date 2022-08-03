@@ -190,7 +190,7 @@ We recommend starting simple - start by adding rules that prevent your Battlesna
 
 **For details on how /move and other commands work**, we recommend reading through the code in the [Battlesnake API Reference](/api/overview).
 
-<!-- <!-- TODO: Find an alternative --> -->
+<!-- TODO: Find an alternative -->
 <!-- {% content-ref url="../references/api/" %}
 [api](../references/api/)
 {% endcontent-ref %} -->
