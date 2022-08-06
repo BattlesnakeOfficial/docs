@@ -84,7 +84,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'guides/index',
+            docId: 'guides/overview',
             label: 'Guides'
           },
           {
@@ -133,8 +133,8 @@ const config = {
                 to: 'api/overview'
               },
               {
-                label: 'Community Wiki',
-                to: 'wiki'
+                label: 'Guides',
+                to: 'guides/overview'
               }
             ],
           },

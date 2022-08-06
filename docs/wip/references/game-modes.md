@@ -5,7 +5,7 @@ description: Last updated March 2020
 
 # Game Modes
 
-Battlesnake has several game modes all built on the same foundational [game rules.](../../game-rules.md) All game modes and are available for casual play and may appear in competitions. In the API, the game mode is defined as the _ruleset_ on the [Game Object.](../../api/objects/game.md)
+Battlesnake has several game modes all built on the same foundational [game rules.](guides/game-rules.md) All game modes and are available for casual play and may appear in competitions. In the API, the game mode is defined as the _ruleset_ on the [Game Object.](../../api/objects/game.md)
 
 To play a specific mode, select the game mode at the top of the [Play Game](https://play.battlesnake.com/account/games/create/) page.
 
@@ -15,7 +15,7 @@ To play a specific mode, select the game mode at the top of the [Play Game](http
 
 ![Example Standard Game with four Battlesnakes](/img/wip/standard\_game.png)
 
-A Standard Game is the original Battlesnake following the [game rules](../../game-rules.md) without modification.
+A Standard Game is the original Battlesnake following the [game rules](guides/game-rules.md) without modification.
 
 Note that within a Standard Game the number of Battlesnake in the game can vary, and winning strategies for 1v1 games can be different than strategies for four or eight Battlesnakes.
 

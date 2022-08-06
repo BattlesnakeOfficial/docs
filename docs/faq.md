@@ -20,13 +20,13 @@ We suggest you start with the technologies you're comfortable with and expand to
 
 You can be a successful Battlesnake developer on almost any cloud provider, hosted anywhere around the world. Your cloud provider choice has no impact on your ability to play the game and we encourage you to explore and learn new things.
 
-If you are wanting to compete at the highest level and are worried about optimizing location and round-trip latency, you may want to host your Battlesnake inside one of the supported [game engine regions](/todo).
+If you are wanting to compete at the highest level and are worried about optimizing location and round-trip latency, you may want to host your Battlesnake inside one of the supported game engine regions.
 
 ### What can I do with my Battlesnake?
 
-* **Challenges** provide a “single-player campaign” of Battlesnake. It’s just you and the puzzle you need to solve. They're a great way to test and build up your skills in prep for Battlegrounds & Leagues. [See guide](../guides/quick-start-challenges-guide.md).
-* **Battlegrounds** are a rotating series of monthly leaderboards. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique maps and game modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches. [See guide.](../guide/battlegrounds-guide.md)
-* **Leagues** are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held a few times each year and the finals are streamed live on Twitch. Has your Battlesnake got what it takes? [See guide.](../guide/quick-start-league-guide.md)
+* **Challenges** provide a “single-player campaign” of Battlesnake. It’s just you and the puzzle you need to solve. They're a great way to test and build up your skills in prep for Battlegrounds & Leagues. [See guide](wip/guide/quick-start-challenges-guide.md).
+* **Battlegrounds** are a rotating series of monthly leaderboards. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique maps and game modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches. [See guide.](wip/guide/battlegrounds-guide.md)
+* **Leagues** are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held a few times each year and the finals are streamed live on Twitch. Has your Battlesnake got what it takes? [See guide.](wip/guide/quick-start-league-guide.md)
 
 
 ### How does food appear on the board?
