@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 description: Test your skills against other developers by competing in a Battlesnake League!
 ---
 
-# League Guide
+# Leagues
 
 Battlesnake hosts several annual [online competitions](https://play.battlesnake.com/competitions/) called Leagues. A Battlesnake League is a special event that runs for several weeks where developers all over the world compete for title, prizes, and prestige! \
 \
@@ -30,7 +30,7 @@ If this is your first time creating a Battlesnake, check out the [Quick Start Co
 
 ### Qualifying Ladder Opens
 
-When the Qualifying Ladder opens and participants who have entered a Battlesnake into the Qualifying Ladder, will begin to compete. The league Qualifying Ladders automatically run games between a set time period each day. How many Ladders, and in which [game modes](../references/game-modes.md) depends on the League. All participants enter the Ladders at the bottom rung, and the system will automatically play a set number of games against other Battlesnakes in the ladder each, tracking your Battlesnakes score as it rises up the ranks.\
+When the Qualifying Ladder opens and participants who have entered a Battlesnake into the Qualifying Ladder, will begin to compete. The league Qualifying Ladders automatically run games between a set time period each day. How many Ladders, and in which [game modes](wip/references/game-modes.md) depends on the League. All participants enter the Ladders at the bottom rung, and the system will automatically play a set number of games against other Battlesnakes in the ladder each, tracking your Battlesnakes score as it rises up the ranks.\
 \
 We encourage you to make updates and changes to your Battlesnake as it competes during the scheduled downtime.&#x20;
 
@@ -75,4 +75,3 @@ The planned Leagues for the 2022 season are:
 You can see the complete Battlesnake schedule on the [Community Calendar.](https://play.battlesnake.com/schedule/)
 
 ![2022 Battlesnake Leagues](/img/wip/2022LeagueBadges.png)
-

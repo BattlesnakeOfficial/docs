@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 description: Tips and common patterns for hosting your Battlesnake
 ---
 

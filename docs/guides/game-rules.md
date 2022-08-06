@@ -1,5 +1,5 @@
 ---
-description: Last Updated March 2020
+sidebar_position: 2
 ---
 
 # Game Rules

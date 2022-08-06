@@ -9,7 +9,7 @@ This guide will walk you through one way to get your first Battlesnake running, 
 * A free [**Battlesnake Account**](https://play.battlesnake.com)
 * A free [**Replit Account**](https://replit.com)
 
-If you do not wish to use Replit, you are welcome to use your own IDE, or any [hosting solution](wip/references/hosting-suggestions.md) of your choosing.
+If you do not wish to use Replit, you are welcome to use your own IDE, or any [hosting solution](guides/hosting-suggestions) of your choosing.
 
 ## How does it work?
 
@@ -85,15 +85,15 @@ The output should match whatever configuration changes you made in Step 2. For e
 
 This means that your Battlesnake is up and running correctly on Replit!
 
-Replit is a fast and free option for hosting your Battlesnake server, but you can use whatever you like to run your server. For more options and information about hosting, check out [Hosting Suggestions](wip/references/hosting-suggestions.md).
+Replit is a fast and free option for hosting your Battlesnake server, but you can use whatever you like to run your server. For more options and information about hosting, check out [Hosting Suggestions](guides/hosting-suggestions).
 
 :::success
 Keeping Replit open in a second window while games are running is helpful for watching server activity and debugging any problems with your Battlesnake.
 :::
 
 <!-- TODO: Find an alternative -->
-<!-- {% content-ref url="wip/references/hosting-suggestions.md" %}
-[hosting-suggestions](wip/references/hosting-suggestions.md)
+<!-- {% content-ref url="guides/hosting-suggestions" %}
+[hosting-suggestions](guides/hosting-suggestions)
 {% endcontent-ref %} -->
 
 ## Step 4: Create your Battlesnake

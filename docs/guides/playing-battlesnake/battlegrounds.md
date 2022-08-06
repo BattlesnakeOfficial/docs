@@ -1,10 +1,9 @@
 ---
-description: >-
-  A monthly mini-competition between Battlesnake Developers that features unique
-  maps, rules, and modes.
+sidebar_position: 2
+description: A monthly mini-competition between Battlesnake Developers that features unique maps, rules, and modes.
 ---
 
-# Battlegrounds Guide
+# Battlegrounds
 
 **Battlegrounds is a cycling competition where you can test your skills against other developers by putting your Battlesnakes into different ladders, each with a unique game mode.**
 

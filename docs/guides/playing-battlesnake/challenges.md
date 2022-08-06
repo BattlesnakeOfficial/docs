@@ -1,11 +1,11 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 description: Solo Challenges that help you improve your Battlesnake.
 ---
 
-# Challenges Guide
+# Challenges
 
-Whether your Battlesnake is brand new, or a longtime veteran looking for practice between [leagues](quick-start-league-guide.md), challenges are a great way to build up your Battlesnake skills. We like to think of Challenges as the Battlesnake 'Single Player Campaign' 🕹️.&#x20;
+Whether your Battlesnake is brand new, or a longtime veteran looking for practice between [leagues](guides/leagues), challenges are a great way to build up your Battlesnake skills. We like to think of Challenges as the Battlesnake 'Single Player Campaign' 🕹️.&#x20;
 
 ## What is a Challenge?
 
