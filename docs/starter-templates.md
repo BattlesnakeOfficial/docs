@@ -4,27 +4,31 @@ title: Starter Templates
 
 # Starter Templates
 
-## Official Starter Projects
+## Official Battlesnake Templates
 
-These projects are built and maintained by the Battlesnake team. We do our best to keep them functional and up-to-date with the latest game features.
+These GitHub templates are built and maintained by the Battlesnake team. We do our best to keep them functional and up-to-date with the latest game features. If something doesn't work as you'd expect, or needs updating, [please let us know](https://github.com/BattlesnakeOfficial/feedback/discussions) so we can make changes :)
 
 If you're building a Battlesnake for the first time, these are great starting points.
 
-* [Python Starter Project](https://github.com/battlesnakeofficial/starter-snake-python)
-* [Go Starter Project](https://github.com/battlesnakeofficial/starter-snake-go)
-* [JavaScript Starter Project](https://github.com/BattlesnakeOfficial/starter-snake-javascript)
-* [TypeScript Starter Project](https://github.com/BattlesnakeOfficial/starter-snake-typescript)
-* [Rust Starter Project](https://github.com/BattlesnakeOfficial/starter-snake-rust)
+* **[Python Template](https://github.com/battlesnakeofficial/starter-snake-python)**
+* **[Go Template](https://github.com/battlesnakeofficial/starter-snake-go)**
+* **[JavaScript Template](https://github.com/BattlesnakeOfficial/starter-snake-javascript)**
+* **[TypeScript Template](https://github.com/BattlesnakeOfficial/starter-snake-typescript)**
+* **[Rust Template](https://github.com/BattlesnakeOfficial/starter-snake-rust)**
 
-You are welcome to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) one of these repos, or click the green **Use this template** button to bring a clean copy of the Starter Project into your own GitHub account.
+It is recommended to click the green **Use this Template** button to bring a clean copy of the starter code into your own GitHub account. You are also welcome to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) one of these repos instead, but please do not submit Pull Requests back to the template repo.
 
 ## Community Starter Projects
 
-The Battlesnake community is all about collaboration and shared learning. Some of our core members and partners have built their own Starter Projects to get developers started with new languages and technologies.
+The Battlesnake community is all about collaboration and shared learning. Some of our core members and partners have built their own projects to get developers started with new languages and technologies.
+
+:::info
+**These projects are maintained independently by their developers.** See project guidelines for each project if you're interested in getting involved or have any questions/concerns.
+:::
 
 | Project                                                                                                      | Developer                                                     |
 | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------ |
-| [C\# Starter Project with Microsoft Azure](https://github.com/neistow/battlesnake-starter-csharp)            | [neistow](https://github.com/neistow)                         |
+| [C\# Starter on Microsoft Azure](https://github.com/neistow/battlesnake-starter-csharp)                      | [neistow](https://github.com/neistow)                         |
 | [C++ Starter Project with repl.it](https://github.com/DAChenScratch/Starter-Battlesnake-Cpp-with-replit)     | [DAChenScratch](https://github.com/DAChenScratch)             |
 | [F\# Starter Project](https://github.com/olivercoad/battlesnake-starter-fsharp)                              | [olivercoad](https://github.com/olivercoad)                   |
 | [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java)                            | [BattlesnakeOfficial](https://github.com/BattlesnakeOfficial) |
@@ -42,29 +46,24 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 | [TypeScript Starter Project](https://github.com/kgorgi/starter-snake-node-ts)                                | [Kian Gorgichuk](https://github.com/kgorgi)                   |
 | [TypeScript and Deno Starter Project](https://github.com/tyrelh/starter-snake-typescript-deno)               | [Tyrel Hiebert](https://github.com/tyrelh)                    |
 
-**Legacy Starter Projects**
+### Legacy Starter Projects
 
-The following starter projects use a deprecated version of the Battlesnake API. They're still great starting points, but require some additional updates to work correctly. See [Migrating to API Version 1](./starter-templates.md) for details.
+The following starter projects use a deprecated version of the Battlesnake API. They're still great starting points, but require some additional updates to work correctly.
 
 | Project                                                                                 | Developer                                   |
 | :-------------------------------------------------------------------------------------- | :------------------------------------------ |
 | [JavaScript and AWS Lambda](https://colinjfw.github.io/battlesnake-learn/)              | [Colin Walker](https://github.com/colinjfw) |
 | [Node.js Starter Project with Microsoft Azure](https://github.com/mcraealex/AzureSnake) | [McRaeAlex](https://github.com/McRaeAlex)   |
 
-:::info
-**These projects are maintained independently by their developers.** See project guidelines for each project if you're interested in getting involved or have any questions/concerns.
-:::
+### Contributing Your Own Starter Project
 
-## Contributing Your Own Starter Project
+**Want to submit your starter project to this list?** Wonderful!
 
-**Want to submit your Starter Project to this list?** Wonderful!
-
-You can submit a [pull request or create an issue on GitHub](https://github.com/BattlesnakeOfficial/docs) and we'll take a look. Community created Starter Projects must follow these guidelines in order to be approved:
+Community starter projects must follow these guidelines in order to be listed:
 
 * Contain just enough code to run a simple Battlesnake and nothing more
-* Return hardcoded responses to all requests
 * Be well documented and easy to understand
-* Provide simple, extensible unit tests
+* Provide a simple, extensible unit test setup
 * Ideally have a minimal project structure
 
-
+If your project fits, feel free to submit a [pull request](https://github.com/BattlesnakeOfficial/docs) or [start a feedback thread](https://github.com/BattlesnakeOfficial/feedback/discussions) and we'll take a look!
