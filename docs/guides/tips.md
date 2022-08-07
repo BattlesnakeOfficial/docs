@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 9
 description: A collection of tips for developing your best Battlesnake.
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 description: Tips and suggestions for choosing your Battlesnake's engine region.
 ---
 

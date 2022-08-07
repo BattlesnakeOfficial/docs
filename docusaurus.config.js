@@ -93,11 +93,6 @@ const config = {
             label: 'FAQ'
           },
           {
-            type: 'doc',
-            docId: 'wip/index',
-            label: 'WIP'
-          },
-          {
             href: 'https://github.com/BattlesnakeOfficial/docs-new',
             position: 'right',
             className: 'navbar-item-github',

@@ -40,8 +40,8 @@ Our mission is **to make it fun and accessible for anyone to become a better pro
 ## Popular References
 
 <!-- TODO: Find an alternative -->
-<!-- {% content-ref url="../../game-rules.md" %}
-[rules.md](../../game-rules.md)
+<!-- {% content-ref url="guides/game-rules" %}
+[rules.md](guides/game-rules)
 {% endcontent-ref %} -->
 
 <!-- TODO: Find an alternative -->

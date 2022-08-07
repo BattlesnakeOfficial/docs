@@ -30,7 +30,7 @@ If this is your first time creating a Battlesnake, check out the [Quick Start Co
 
 ### Qualifying Ladder Opens
 
-When the Qualifying Ladder opens and participants who have entered a Battlesnake into the Qualifying Ladder, will begin to compete. The league Qualifying Ladders automatically run games between a set time period each day. How many Ladders, and in which [game modes](wip/references/game-modes.md) depends on the League. All participants enter the Ladders at the bottom rung, and the system will automatically play a set number of games against other Battlesnakes in the ladder each, tracking your Battlesnakes score as it rises up the ranks.\
+When the Qualifying Ladder opens and participants who have entered a Battlesnake into the Qualifying Ladder, will begin to compete. The league Qualifying Ladders automatically run games between a set time period each day. How many Ladders, and in which [game modes](guides/game-modes) depends on the League. All participants enter the Ladders at the bottom rung, and the system will automatically play a set number of games against other Battlesnakes in the ladder each, tracking your Battlesnakes score as it rises up the ranks.\
 \
 We encourage you to make updates and changes to your Battlesnake as it competes during the scheduled downtime.&#x20;
 

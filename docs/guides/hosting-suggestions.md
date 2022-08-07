@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
 description: Tips and common patterns for hosting your Battlesnake
 ---
 
@@ -90,7 +90,7 @@ Fly.io is a Platform-as-a-Service (PaaS)**,** running code in [Firecracker](http
 
 **Website**: [Heroku](https://www.heroku.com/)
 
-**Instructions:** [Deploy your Battlesnake with Heroku](wip/references/heroku.md)
+**Instructions:** [Deploy your Battlesnake with Heroku](guides/wip/heroku)
 
 * **Advantages**
   * Handles the hosting for you.

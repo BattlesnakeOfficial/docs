@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 8
 description: A collection of useful algorithms for building a competitive Battlesnake.
 ---
 
