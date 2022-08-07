@@ -130,6 +130,10 @@ const config = {
               {
                 label: 'Guides',
                 to: 'guides/overview'
+              },
+              {
+                label: 'FAQ',
+                to: 'faq'
               }
             ],
           },
@@ -151,6 +155,10 @@ const config = {
               {
                 label: 'YouTube',
                 href: 'https://youtube.com/battlesnake'
+              },
+              {
+                label: 'Twitch',
+                href: 'https://twitch.tv/BattlesnakeOfficial'
               }
             ],
           },
@@ -168,6 +176,10 @@ const config = {
               {
                 label: 'Our Mission',
                 href: 'https://play.battlesnake.com/mission',
+              },
+              {
+                label: 'Diversity',
+                href: 'https://docs.battlesnake.com/policies/diversity',
               },
               {
                 label: 'Code of Conduct',

@@ -59,6 +59,11 @@ html[data-theme='dark'] .navbar-item-github:before {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media screen and (max-width: 996px) {
+  .navbar-item-github {
+    display: none !important;
+  }
+}
 
 .navbar-item-twitter:hover {
   opacity: 0.6;
@@ -81,6 +86,11 @@ html[data-theme='dark'] .navbar-item-twitter:before {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media screen and (max-width: 996px) {
+  .navbar-item-twitter {
+    display: none !important;
+  }
+}
 
 .navbar-item-discord:hover {
   opacity: 0.6;
@@ -102,6 +112,11 @@ html[data-theme='dark'] .navbar-item-discord:before {
     no-repeat;
   background-repeat: no-repeat;
   background-position: center;
+}
+@media screen and (max-width: 996px) {
+  .navbar-item-discord {
+    display: none !important;
+  }
 }
 
 /* Footer */
