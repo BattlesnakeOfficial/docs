@@ -24,9 +24,9 @@ If you are wanting to compete at the highest level and are worried about optimiz
 
 ### What can I do with my Battlesnake?
 
-* **Challenges** provide a “single-player campaign” of Battlesnake. It’s just you and the puzzle you need to solve. They're a great way to test and build up your skills in prep for Battlegrounds & Leagues. [See guide](wip/guide/quick-start-challenges-guide.md).
-* **Battlegrounds** are a rotating series of monthly leaderboards. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique maps and game modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches. [See guide.](wip/guide/battlegrounds-guide.md)
-* **Leagues** are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held a few times each year and the finals are streamed live on Twitch. Has your Battlesnake got what it takes? [See guide.](wip/guide/quick-start-league-guide.md)
+* **Challenges** provide a “single-player campaign” of Battlesnake. It’s just you and the puzzle you need to solve. They're a great way to test and build up your skills in prep for Battlegrounds & Leagues. [See guide](guides/playing-battlesnake/challenges).
+* **Battlegrounds** are a rotating series of monthly leaderboards. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique maps and game modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches. [See guide.](guides/playing-battlesnake/battlegrounds)
+* **Leagues** are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held a few times each year and the finals are streamed live on Twitch. Has your Battlesnake got what it takes? [See guide.](guides/playing-battlesnake/leagues)
 
 
 ### How does food appear on the board?

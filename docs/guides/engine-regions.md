@@ -23,7 +23,7 @@ Go to your profile at [http://play.battlesnake.com/me](http://play.battlesnake.c
 
 ![Options for a Battlesnake's Engine Region](/img/wip/engine-region-2.png)
 
-Selecting one of the other regions and clicking "Save" will refresh your Battlesnake's metadata through the region. If it's reachable and returns a valid response, you'll be able to see the new latency next to your Battlesnake. Hover your cursor over the "Latency" element to see the exact number in milliseconds. From now on, all [Battlesnake API requests](../../api/overview.md) will go through the new engine region, hopefully giving your Battlesnake more time to think!
+Selecting one of the other regions and clicking "Save" will refresh your Battlesnake's metadata through the region. If it's reachable and returns a valid response, you'll be able to see the new latency next to your Battlesnake. Hover your cursor over the "Latency" element to see the exact number in milliseconds. From now on, all [Battlesnake API requests](api/overview.md) will go through the new engine region, hopefully giving your Battlesnake more time to think!
 
 :::note
 Sometimes persistent HTTP connections, DNS lookups, and other factors can cause the first request to a snake from a region to be slower than subsequent requests. If the latency seems higher than expected, try refreshing your Battlesnake again to get a more realistic estimate of the latency for most of the turns in a game.

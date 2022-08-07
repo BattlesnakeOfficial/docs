@@ -27,16 +27,16 @@ We recommend the following hosting options if you're just getting started, aren'
 
 **Website**: [Replit](https://replit.com/)
 
-**Instructions:** [**Deploy your Battlesnake with Replit**](../../quick-start.md)
+**Instructions:** [**Deploy your Battlesnake with Replit**](quick-start)
 
 * **Advantages**
-  * Handles both IDE and hosting - see the [Quick Start Coding Guide](../../quick-start.md) for detailed instructions.
+  * Handles both IDE and hosting - see the [Quick Start Coding Guide](quick-start) for detailed instructions.
   * Everything is in your web browser - no need to install software or run anything locally.
   * Free tier is good for getting started.
 * **Gotchas**
   * Might not have the most up-to-date version of your preferred programming language.
   * Your Replit might be slow to start up! You likely have to ping it periodically, or check to make sure that is running, especially before a tournament.
-  * For speed and by default, your Replit instance will be run close to where you are, geographically. This is an advantage when using your IDE (quick when you are writing code) but may result in [high-latency](../../api/overview.md#request-timeouts), and in the worst case, timeouts, for your Battlesnake if you and your server are located in a country far-away from where the [Battlesnake servers](faq#what-cloud-provider-and-region-should-i-use) are.
+  * For speed and by default, your Replit instance will be run close to where you are, geographically. This is an advantage when using your IDE (quick when you are writing code) but may result in [high-latency](api/overview#request-timeouts), and in the worst case, timeouts, for your Battlesnake if you and your server are located in a country far-away from where the [Battlesnake servers](faq#what-cloud-provider-and-region-should-i-use) are.
   * 
 * **You should probably use Replit if...**
   * You are just getting started and want to test out Battlesnake without too much commitment or setup.
@@ -90,14 +90,14 @@ Fly.io is a Platform-as-a-Service (PaaS)**,** running code in [Firecracker](http
 
 **Website**: [Heroku](https://www.heroku.com/)
 
-**Instructions:** [Deploy your Battlesnake with Heroku](heroku.md)
+**Instructions:** [Deploy your Battlesnake with Heroku](wip/references/heroku.md)
 
 * **Advantages**
   * Handles the hosting for you.
   * Great learning opportunity - chance to start experimenting with hosting without having to do everything by yourself.
   * Free tier provides up to 1,000 dyno hours/month.
 * **Gotchas**
-  * Free tier is _not quite enough_ hours to run for an entire [League Event](../guide/quick-start-league-guide.md), and your Battlesnake may stop if you run out of hours.
+  * Free tier is _not quite enough_ hours to run for an entire [League Event](guides/playing-battlesnake/leagues), and your Battlesnake may stop if you run out of hours.
 * **You should probably use Heroku if...**
   * You want full control over your IDE and local development environment.
   * You don't want to have to manage your own hosting yet.

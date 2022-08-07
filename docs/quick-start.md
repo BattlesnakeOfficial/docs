@@ -53,13 +53,13 @@ To make sure everything works correctly when you deploy and run your Battlesnake
 * [TypeScript Starter Project Customization](https://github.com/BattlesnakeOfficial/starter-snake-typescript#customizing-your-battlesnake)
 * [Rust Starter Project Customization](https://github.com/BattlesnakeOfficial/starter-snake-rust#customizing-your-battlesnake)
 
-While color is a great place to start, Battlesnake also features an exciting collection of customizable heads and tails! All customization options are described in detail on the [Personalization Reference](wip/references/personalization.md) page.
+While color is a great place to start, Battlesnake also features an exciting collection of customizable heads and tails! All customization options are described in detail on the [Customization Guide](guides/customizations) page.
 
 After making changes to your Battlesnake, you can restart your Replit to have the change take effect (or in many cases, your Replit will restart automatically).
 
 <!-- TODO: Find an alternative -->
-<!-- {% content-ref url="wip/references/personalization.md" %}
-[personalization.md](wip/references/personalization.md)
+<!-- {% content-ref url="guides/customizations" %}
+[customizations](guides/customizations)
 {% endcontent-ref %} -->
 
 ## Step 3: Deploy and run your Battlesnake
@@ -206,7 +206,7 @@ This guide has helped you build and deploy your first Battlesnake using [Replit]
 
 But this only scratches the surface!
 
-Check out the [Battlesnake Game Rules](guides/game-rules.md) and [Tips & Tricks](wip/guide/tips.md) guide to making sure you understand how to program your Battlesnake to win the most games possible. You may have also noticed there are different [Game Modes ](wip/references/game-modes.md)to explore that provide different challenges for your Battlesnake.
+Check out the [Battlesnake Game Rules](guides/game-rules.md) and [Tips & Tricks](guides/tips) guide to making sure you understand how to program your Battlesnake to win the most games possible. You may have also noticed there are different [Game Modes ](wip/references/game-modes.md)to explore that provide different challenges for your Battlesnake.
 
 <!-- TODO: Find an alternative -->
 <!-- {% content-ref url="game-rules.md" %}
@@ -219,8 +219,8 @@ Check out the [Battlesnake Game Rules](guides/game-rules.md) and [Tips & Tricks]
 {% endcontent-ref %} -->
 
 <!-- TODO: Find an alternative -->
-<!-- {% content-ref url="wip/guide/tips.md" %}
-[tips.md](wip/guide/tips.md)
+<!-- {% content-ref url="guides/tips" %}
+[tips.md](guides/tips)
 {% endcontent-ref %} -->
 
 You can also check out the [Battlesnake Awesome List](https://github.com/xtagon/awesome-battlesnake), built by [Xtagon](https://play.battlesnake.com/u/xtagon/) and maintained by the community for great Battlesnake resources. Anyone may [contribute](https://github.com/xtagon/awesome-battlesnake/blob/master/CONTRIBUTING.md), so if you know of any interesting resources or wish to share your own creations, [open a pull request](https://github.com/xtagon/awesome-battlesnake/pulls).

@@ -11,7 +11,7 @@ This reference outlines all the available options for personalizing your Battles
 
 Each Battlesnake can choose a color, head, and tail to represent it on the game board. Here's an example of a full personalized Battlesnake.
 
-```json title="snake-personalization.json"
+```json title="customizations.json"
 {
 	"color": "#736CCB",
 	"head": "beluga",
@@ -39,7 +39,7 @@ You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors\
 
 ## Choosing a Head and Tail
 
-Several personalization options are available for how your Battlesnake's head and tail will display on the game board. You can mix and match them however you like.
+Several customization options are available for how your Battlesnake's head and tail will display on the game board. You can mix and match them however you like.
 
 Just like [choosing a color](#choosing-a-color), your head and tail are provided in response to the [GET /](api/requests/info) command of the [Battlesnake API](api/overview). Each value is a string, matching one of the available options shown below.
 
