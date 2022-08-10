@@ -35,6 +35,7 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 | [Java Starter Project with JBang and Quarkus](https://github.com/jbangdev/jbang-battlesnake)                 | [Max Rydahl Andersen](https://github.com/maxandersen)         |
 | [JavaScript Starter Project with IBM Cloud](https://github.com/IBM/starter-snake-node)                       | [Steve Martinelli](https://github.com/stevemar), IBM Cloud    |
 | [Julia Starter Project](https://github.com/Nettogrof/starter-snake-julia)                                    | [Nettogrof](https://github.com/Nettogrof)                     |
+| [Julia Starter Project](https://github.com/luigiannelli/starter-snake-julia)                                 | [luigiannelli](https://github.com/luigiannelli)           |
 | [Kotlin Starter Project](https://github.com/770grappenmaker/starter-snake-kotlin)                            | [NotEvenJoking](https://github.com/770grappenmaker)           |
 | [Kotlin and Java Battlesnake Quick Start](https://github.com/pambrose/battlesnake-quickstart)                | [Paul Ambrose](https://github.com/pambrose)                   |
 | [PHP Starter Project](https://github.com/Nettogrof/starter-snake-php)                                        | [Nettogrof](https://github.com/Nettogrof)                     |
