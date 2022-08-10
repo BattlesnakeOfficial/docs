@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Starter Templates',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/illustration-starter.svg').default,
     description: (
       <>
         Looking for code to get you started? These Starter Templates are great starting points for building your own Battlesnake.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'API Reference',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/illustration-api.svg').default,
     description: (
       <>
         Anything and everything you need to know to implement the Battlesnake API and start responding to game engine requests.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Guides',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/illustration-guides.svg').default,
     description: (
       <>
         Comprehensive guides written by Battlesnake team members and community contributors, ranging from beginner topics to advanced tutorials.
