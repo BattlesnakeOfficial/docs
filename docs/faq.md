@@ -12,7 +12,7 @@ If you're brand new to programming and want to start learning - awesome, we're h
 
 ### Is Battlesnake only for Machine Learning and Artificial Intelligence?
 
-Nope, you can use _any technology, tools, and algorithms_ you want to power your Battlesnake! It doesn't have to be built with Machine Learning or Artificial Intelligence - in fact, many developers have great success writing simple programs and decision trees that employ specific and creative strategies.
+Nope, _you can use any technology, tools, and algorithms_ you want to power your Battlesnake! It doesn't have to be built with Machine Learning or Artificial Intelligence - in fact, many developers have great success writing simple programs and decision trees that employ specific and creative strategies.
 
 We suggest you start with the technologies you're comfortable with and expand to include new things you want to learn.
 
