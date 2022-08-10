@@ -79,7 +79,7 @@ You will need your Battlesnake server URL later in Step 3 when registering your 
 
 The output should match whatever configuration changes you made in Step 2. For example, if you changed your Battlesnake to be red, with the hex color value `#ff0000` then your output should look like this:
 
-```
+```json
 {"apiversion": "1", "author": "", "color": "#ff0000", "head": "default", "tail": "default"}
 ```
 

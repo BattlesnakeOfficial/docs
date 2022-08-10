@@ -9,9 +9,8 @@
   position: relative;
   overflow: hidden;
   color: var(--ifm-color-white);
-  background-color: var(--ifm-color-primary);
-  background-image: linear-gradient(135deg, var(--ifm-color-primary)  0%, #64398a 50%, #3e338f 100%);
-
+  background: rgb(232,9,135);
+  background: linear-gradient(135deg, rgba(232,9,135,1) 0%, rgba(232,9,135,1) 15%, rgba(62,50,143,1) 85%, rgba(62,50,143,1) 100%);
 }
 
 @media screen and (max-width: 996px) {

@@ -8,18 +8,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Battlesnake Docs',
   tagline: 'A multiplayer programming game where your code is the controller.',
-  url: 'https://BattlesnakeOfficial.github.io/',
+  url: 'https://docs.battlesnake.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'BattlesnakeOfficial', // Usually your GitHub org/user name.
-  projectName: 'docs-new', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   trailingSlash: false,
-
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -40,7 +39,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/BattlesnakeOfficial/docs',
         },
         blog: false,
         theme: {
@@ -113,7 +112,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Get Started',
             items: [
               {
                 label: 'Quick Start',
@@ -124,18 +123,27 @@ const config = {
                 to: 'starter-templates'
               },
               {
-                label: 'API Reference',
-                to: 'api/overview'
-              },
+                label: 'Developer FAQ',
+                to: 'faq'
+              }
+            ]
+          },
+          {
+            title: 'Docs',
+            items: [
               {
                 label: 'Guides',
                 to: 'guides/overview'
               },
               {
-                label: 'FAQ',
-                to: 'faq'
+                label: 'API Reference',
+                to: 'api/overview'
+              },
+              {
+                label: 'Move Request',
+                to: 'api/example-move'
               }
-            ],
+            ]
           },
           {
             title: 'Community',
@@ -148,17 +156,10 @@ const config = {
                 label: 'Discord',
                 href: 'https://play.battlesnake.com/discord',
               },
+              
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/playbattlesnake',
-              },
-              {
-                label: 'YouTube',
-                href: 'https://youtube.com/battlesnake'
-              },
-              {
-                label: 'Twitch',
-                href: 'https://twitch.tv/BattlesnakeOfficial'
               }
             ],
           },
@@ -170,20 +171,12 @@ const config = {
                 href: 'https://blog.battlesnake.com',
               },
               {
-                label: 'Feedback',
-                href: 'https://play.battlesnake.com/feedback',
-              },
-              {
                 label: 'Our Mission',
                 href: 'https://play.battlesnake.com/mission',
               },
               {
-                label: 'Diversity',
-                href: 'https://docs.battlesnake.com/policies/diversity',
-              },
-              {
-                label: 'Code of Conduct',
-                href: 'https://play.battlesnake.com/conduct',
+                label: 'Player Feedback',
+                href: 'https://play.battlesnake.com/feedback',
               }
             ],
           },

@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="quick-start">
-            Battlesnake Quick Start
+            Get Started
           </Link>
         </div>
       </div>
