@@ -1,6 +1,6 @@
 module.exports = {
     // Set the help url to the contributing guide
-    helpUrl: 'https://github.com/BattlesnakeOfficial/docs-new/blob/main/CONTRIBUTING.md',
+    helpUrl: 'https://github.com/BattlesnakeOfficial/docs/blob/main/CONTRIBUTING.md',
     rules: {
         "docs/no-type": [2, "always"],
         "docs/no-scope": [2, "always"],

@@ -92,7 +92,7 @@ const config = {
             label: 'FAQ'
           },
           {
-            href: 'https://github.com/BattlesnakeOfficial/docs-new',
+            href: 'https://github.com/BattlesnakeOfficial/docs',
             position: 'right',
             className: 'navbar-item-github',
           },
