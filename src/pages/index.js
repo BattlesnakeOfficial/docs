@@ -36,8 +36,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Welcome to the Official ${siteConfig.title}`}
-      description="A multiplayer programming game where your code is the controller. <head />">
+      title={`Welcome to the Battlesnake Docs`}
+      description="A multiplayer programming game where your code is the controller.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
