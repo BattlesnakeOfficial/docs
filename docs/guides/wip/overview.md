@@ -20,11 +20,11 @@ Our mission is **to make it fun and accessible for anyone to become a better pro
 
 **Compete in Leagues:** Leagues are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held 4 times a year and the finals are streamed live on Twitch. Has your Battlesnake got what it takes? [See guide.](guides/playing-battlesnake/leagues)
 
-## Quick Start
+## Quickstart
 
 <!-- TODO: Find an alternative -->
-<!-- {% content-ref url="../../quick-start.md" %}
-[getting-started.md](../../quick-start.md)
+<!-- {% content-ref url="quickstart" %}
+[getting-started.md](quickstart)
 {% endcontent-ref %} -->
 
 <!-- TODO: Find an alternative -->

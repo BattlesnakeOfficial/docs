@@ -27,10 +27,10 @@ We recommend the following hosting options if you're just getting started, aren'
 
 **Website**: [Replit](https://replit.com/)
 
-**Instructions:** [**Deploy your Battlesnake with Replit**](quick-start)
+**Instructions:** [**Deploy your Battlesnake with Replit**](quickstart)
 
 * **Advantages**
-  * Handles both IDE and hosting - see the [Quick Start Coding Guide](quick-start) for detailed instructions.
+  * Handles both IDE and hosting - see the [Quickstart Coding Guide](quickstart) for detailed instructions.
   * Everything is in your web browser - no need to install software or run anything locally.
   * Free tier is good for getting started.
 * **Gotchas**
@@ -50,7 +50,7 @@ App Platform is a Platform-as-a-Service (PaaS) that allows you to deploy your Ba
 
 **Instructions**: [How to create apps](https://docs.digitalocean.com/products/app-platform/how-to/create-apps/)
 
-**Quick Start Guide**: [Getting Started with DigitalOcean and Battlesnake](https://blog.battlesnake.com/p/373ee072-815e-4138-b216-80908655309d/)
+**Quickstart Guide**: [Getting Started with DigitalOcean and Battlesnake](https://blog.battlesnake.com/p/373ee072-815e-4138-b216-80908655309d/)
 
 * **Advantages**
   * Handles the hosting for you - no need to set up or maintain servers.

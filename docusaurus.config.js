@@ -68,8 +68,8 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'quick-start',
-            label: 'Quick Start'
+            docId: 'quickstart',
+            label: 'Quickstart'
           },
           {
             type: 'doc',
@@ -115,8 +115,8 @@ const config = {
             title: 'Get Started',
             items: [
               {
-                label: 'Quick Start',
-                to: 'quick-start'
+                label: 'Quickstart',
+                to: 'quickstart'
               },
               {
                 label: 'Starter Templates',

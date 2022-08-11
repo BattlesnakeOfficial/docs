@@ -1,8 +1,8 @@
 ---
-title: Quick Start
+title: Quickstart
 ---
 
-# Quick Start
+# Quickstart
 
 This guide will walk you through one way to get your first Battlesnake running, using a [pre-built starter project](starter-templates.md) and [Replit](https://replit.com) as your development environment and web server host. You will need:
 

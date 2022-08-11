@@ -7,7 +7,7 @@ description: Test your skills against other developers by competing in a Battles
 
 Battlesnake hosts several annual [online competitions](https://play.battlesnake.com/competitions/) called Leagues. A Battlesnake League is a special event that runs for several weeks where developers all over the world compete for title, prizes, and prestige! \
 \
-To enter a league, you will need to [register a Battlesnake](https://play.battlesnake.com/account/snakes/create/) with your Battlesnake account, as explained in the [Quick Start Coding Guide](../../quick-start.md).
+To enter a league, you will need to [register a Battlesnake](https://play.battlesnake.com/account/snakes/create/) with your Battlesnake account, as explained in the [Quickstart Coding Guide](quickstart).
 
 <!-- TODO: Find an alternative -->
 <!-- {% embed url="https://www.youtube.com/watch?feature=youtu.be&t=650&v=Ou3m_cYSq9U" %}
@@ -23,7 +23,7 @@ Each league has a Registration, Qualifying, and Tournaments (which consist of tw
 When a League is announced, the registration phase opens where participants can register for the League. At this time, the league's game mode and rules will be announced.&#x20;
 
 ::success
-If this is your first time creating a Battlesnake, check out the [Quick Start Coding Guide](../../quick-start.md).
+If this is your first time creating a Battlesnake, check out the [Quickstart Coding Guide](quickstart).
 :::
 
 ## League Start
