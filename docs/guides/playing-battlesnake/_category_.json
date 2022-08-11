@@ -1,6 +1,5 @@
 {
     "position": 5,
     "label": "Playing Battlesnake",
-    "collapsible": true,
-    "collapsed": false
+    "collapsible": true
 }

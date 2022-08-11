@@ -1,10 +1,9 @@
 ---
-sidebar_position: 1
+title: Overview
+sidebar_position: 0
 ---
 
-# API Overview
-
-## Introduction
+# Battlesnake API
 
 The Battlesnake API is an HTTP Webhook API, meaning developers build a web server that implements this API and the game engine will act as an API client during each game. How your server responds to these requests controls how your Battlesnake behaves.
 

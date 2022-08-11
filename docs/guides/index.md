@@ -1,6 +1,6 @@
 ---
-title: Overview
-sidebar_position: 1
+title: Introduction
+sidebar_position: 0
 ---
 
 # Battlesnake Guides

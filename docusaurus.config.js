@@ -77,14 +77,14 @@ const config = {
             label: 'Starter Templates'
           },
           {
-            type: 'doc',
-            docId: 'api/overview',
-            label: 'API Reference',
+            type: 'docSidebar',
+            sidebarId: 'api',
+            label: 'API',
           },
           {
-            type: 'doc',
-            docId: 'guides/overview',
-            label: 'Guides'
+            type: 'docSidebar',
+            sidebarId: 'guides',
+            label: 'Guides',
           },
           {
             type: 'doc',
@@ -133,11 +133,11 @@ const config = {
             items: [
               {
                 label: 'Guides',
-                to: 'guides/overview'
+                to: 'guides'
               },
               {
                 label: 'API Reference',
-                to: 'api/overview'
+                to: 'api'
               },
               {
                 label: 'Move Request',

@@ -17,7 +17,7 @@ const FeatureList = [
   {
     title: 'API Reference',
     Svg: require('@site/static/img/illustration-api.svg').default,
-    to: 'api/overview',
+    to: 'api',
     description: (
       <>
         Anything and everything you need to know to implement the Battlesnake API and start responding to game engine requests.
@@ -27,7 +27,7 @@ const FeatureList = [
   {
     title: 'Guides',
     Svg: require('@site/static/img/illustration-guides.svg').default,
-    to: 'guides/overview',
+    to: 'guides',
     description: (
       <>
         Comprehensive guides written by Battlesnake team members and community contributors, ranging from beginner topics to advanced tutorials.
