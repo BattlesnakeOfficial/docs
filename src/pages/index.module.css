@@ -19,12 +19,19 @@
   }
 }
 
-.buttons {
+.heroButtons {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-.buttons > a {
+.heroButton {
   margin: 5px;
+}
+
+@media screen and (max-width: 996px) {
+  .heroButton {
+    flex-basis: 100%;
+  }
 }
