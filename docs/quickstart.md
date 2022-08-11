@@ -13,7 +13,7 @@ If you do not wish to use Replit, you are welcome to use your own IDE, or any [h
 
 ## How does it work?
 
-Developers build and deploy a web server that implements the [Battlesnake API](api/overview.md). When a game is created, the game engine will make HTTP requests to your Battlesnake server, sending game board information and asking for your next move. Your Battlesnake's behavior is determined by how you program it to respond to these requests.
+Developers build and deploy a web server that implements the [Battlesnake API](api). When a game is created, the game engine will make HTTP requests to your Battlesnake server, sending game board information and asking for your next move. Your Battlesnake's behavior is determined by how you program it to respond to these requests.
 
 You can use any programming language, cloud platform, and strategy you want - from simple game logic to machine learning and AI.
 
@@ -34,7 +34,7 @@ If you're unsure what language to choose, we suggest starting with [JavaScript](
 * [Open the TypeScript Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-typescript)
 * [Open the Rust Starter Project in Replit](https://replit.com/github/BattlesnakeOfficial/starter-snake-rust)
 
-All of the Official Starter Projects implement the full [Battlesnake API](api/overview.md) with enough code to run a basic Battlesnake that moves in a random direction.
+All of the Official Starter Projects implement the full [Battlesnake API](api) with enough code to run a basic Battlesnake that moves in a random direction.
 
 <!-- TODO: Find an alternative -->
 <!-- {% content-ref url="starter-templates.md" %}
@@ -43,7 +43,7 @@ All of the Official Starter Projects implement the full [Battlesnake API](api/ov
 
 ## Step 2: Customize your Battlesnake (a little bit)
 
-To make sure everything works correctly when you deploy and run your Battlesnake for the first time, **make a small customization change**, such as the color of your Battlesnake. The `README.md` file in each Starter Project describes where the customization code can be found. Customizations are set in the root ["GET /"](api/requests/info.md) command of the [Battlesnake API](/api/overview).
+To make sure everything works correctly when you deploy and run your Battlesnake for the first time, **make a small customization change**, such as the color of your Battlesnake. The `README.md` file in each Starter Project describes where the customization code can be found. Customizations are set in the root ["GET /"](api/requests/info.md) command of the [Battlesnake API](/api).
 
 ![Customizing the Battlesnake colour to 'red' #ff0000 for the Python Starter Snake](/img/python_customization.png)
 
@@ -180,7 +180,7 @@ The [**/move** ](api/requests/move.md)command in the API is where your Battlesna
 * [TypeScript Starter Project - `move()` function inside of logic.ts](https://github.com/BattlesnakeOfficial/starter-snake-typescript#changing-behavior)
 * [Rust Starter Project - `get_move()` function inside of logic.rs](https://github.com/BattlesnakeOfficial/starter-snake-rust#changing-behavior)
 
-On every turn of the game, the Battlesnake Engine makes a call to your Battlesnakes **/move** command with data that describes the current state of the board, including its size, the location of food, the locations of other Battlesnakes, and other important game data. The [API Reference](api/overview.md) has a [**sample JSON object**](api/example-move.md) that contains this data.
+On every turn of the game, the Battlesnake Engine makes a call to your Battlesnakes **/move** command with data that describes the current state of the board, including its size, the location of food, the locations of other Battlesnakes, and other important game data. The [API Reference](api) has a [**sample JSON object**](api/example-move.md) that contains this data.
 
 ![A subset of JSON data received on calls to /move](/img/move_request_subset.png)
 
@@ -188,11 +188,11 @@ In the unmodified Official Starter Projects, the **/move** command accepts this 
 
 We recommend starting simple - start by adding rules that prevent your Battlesnake from turning back on its own neck, or running head-first into a wall. There is a series of [**Training Program Challenges**](https://play.battlesnake.com/challenges/) that can act as your guide and help you track progress as you train up your Battlesnake. The secret is to make small changes and then immediately test.
 
-**For details on how /move and other commands work**, we recommend reading through the code in the [Battlesnake API Reference](api/overview.md).
+**For details on how /move and other commands work**, we recommend reading through the code in the [Battlesnake API Reference](api).
 
 <!-- TODO: Find an alternative -->
-<!-- {% content-ref url="api/overview.md" %}
-[api](api/overview.md)
+<!-- {% content-ref url="api" %}
+[api](api)
 {% endcontent-ref %} -->
 
 <!-- TODO: Find an alternative -->

@@ -66,7 +66,7 @@ Each turn in every game is divided into three steps.
 
 ### 1. Identical requests are sent to every Battlesnake.
 
-The game engine will send to each Battlesnake in parallel a request containing information about the current state of the game board. This request includes location of all food, as well as the health and location of all Battlesnakes (including themselves). Details are available in the [Battlesnake API Reference](api/overview.md).
+The game engine will send to each Battlesnake in parallel a request containing information about the current state of the game board. This request includes location of all food, as well as the health and location of all Battlesnakes (including themselves). Details are available in the [Battlesnake API Reference](api).
 
 Every Battlesnake will have the same amount of time to respond to this request.
 

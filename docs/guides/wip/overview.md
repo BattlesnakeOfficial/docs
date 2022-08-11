@@ -45,8 +45,8 @@ Our mission is **to make it fun and accessible for anyone to become a better pro
 {% endcontent-ref %} -->
 
 <!-- TODO: Find an alternative -->
-<!-- {% content-ref url="../../api/overview.md" %}
-[api](../../api/overview.md)
+<!-- {% content-ref url="api" %}
+[api](api)
 {% endcontent-ref %} -->
 
 <!-- TODO: Find an alternative -->
