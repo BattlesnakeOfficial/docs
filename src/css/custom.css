@@ -124,3 +124,10 @@ html[data-theme='dark'] .navbar-item-discord:before {
   background: #000000;
   border-top: 5px solid var(--ifm-color-primary);
 }
+
+/* Markdown Content */
+.markdown h1 {
+  border-bottom: 5px solid rgb(232,9,135);
+  border-image: linear-gradient(135deg, rgba(232,9,135,1) 0%, rgba(232,9,135,1) 15%, rgba(62,50,143,1) 85%, rgba(62,50,143,1) 100%);
+  border-image-slice: 1;
+}
