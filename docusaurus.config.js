@@ -53,8 +53,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
-        id: 'announcement-bar-2',  // Increment on new announcement
-        content: '⭐️ Enjoying Battlesnake? Follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/playbattlesnake">Twitter</a> and <a target="_blank" rel="noopener noreferrer" href="https://twitch.tv/BattlesnakeOfficial">Twitch</a> 💜',
+        id: 'announcement-bar-3',  // Increment on new announcement
+        content: '⭐️ Want to see Battlesnake in action? <a href="https://youtu.be/LOlKCO3fS-s?t=7847" target="_blank" rel="noopener noreferrer">Check out a match here.</a> 💜',
         backgroundColor: '#3e338f',
         textColor: '#ffffff',
         isCloseable: true
