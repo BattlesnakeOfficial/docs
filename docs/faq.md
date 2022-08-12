@@ -12,7 +12,7 @@ If you're new to programming and want to start learning - awesome, we're happy y
 
 ### Is Battlesnake only for machine learning and artificial intelligence?
 
-Nope, you can use _any technology, tools, and algorithms_ you want to power your Battlesnake! It doesn't have to be built with machine learning or artificial intelligence - in fact, many developers have created incredibly competitive Battlesnakes using simple programs and decision trees that employ specific and creative strategies.
+Nope, you can use any technology, tools, and algorithms you want to power your Battlesnake! It doesn't have to be built with machine learning or artificial intelligence - in fact, many developers have created incredibly competitive Battlesnakes using simple programs and decision trees that employ specific and creative strategies.
 
 We suggest you start with the technologies you're comfortable with and expand to include new things you want to learn.
 
@@ -28,12 +28,12 @@ The Battlesnake rules implementation and engine is [open source](https://github.
 
 ### What can I do with my Battlesnake?
 
-**[Challenges](guides/playing-battlesnake/challenges)** provide a “single-player campaign” of Battlesnake. It’s just you and the puzzle you need to solve. They're a great way to test and build up your skills in prep for Battlegrounds & Leagues.
+[Challenges](guides/playing-battlesnake/challenges) provide a “single-player campaign” of Battlesnake. It’s just you and the puzzle you need to solve. They're a great way to test and build up your skills in prep for Battlegrounds & Leagues.
 
-**[Battlegrounds](guides/playing-battlesnake/battlegrounds)** are a rotating series of monthly leaderboards. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique maps and game modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches.
+[Battlegrounds](guides/playing-battlesnake/battlegrounds) are a rotating series of monthly leaderboards. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique maps and game modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches.
 
-**[Leagues](guides/playing-battlesnake/leagues)** are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held a few times each year and the finals are streamed live on Twitch. Does your Battlesnake have what it takes?
+[Leagues](guides/playing-battlesnake/leagues) are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held a few times each year and the finals are streamed live on Twitch. Does your Battlesnake have what it takes?
 
 ### How do I organize a Battlesnake competition for my class, colleagues, or friends?
 
-[Email us directly](mailto:hello@battlesnake.com) or fill out our [contact form](https://play.battlesnake.com/partner/contact/). We'll be in touch!
+[Email us](mailto:hello@battlesnake.com) or fill out our [contact form](https://play.battlesnake.com/partner/contact/). We'll be in touch!

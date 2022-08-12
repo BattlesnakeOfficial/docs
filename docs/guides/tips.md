@@ -22,7 +22,7 @@ Web development often means handling multiple requests concurrently, and Battles
 Start thinking about this early, and use the Game ID in the [Start](api/requests/start.md), [Move](api/requests/move), and [End](api/requests/end) requests to keep your Battlesnake's brain organized.
 
 :::tip
-Not all web servers are built for handling multiple requests concurrently. Most of the [Starter Projects](starter-templates) are set up for concurrency by default.
+Not all web servers are built for handling multiple requests concurrently. Most of the [Starter Projects](starter-projects) are set up for concurrency by default.
 :::
 
 ## Keep Your Battlesnake Server Running

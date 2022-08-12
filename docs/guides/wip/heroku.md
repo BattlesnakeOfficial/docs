@@ -17,7 +17,7 @@ These instructions assume you have already installed the Git Command Line and He
 
 ## **Step 1: Select a Starter Project**
 
-Choose from the complete list of [**Starter Projects**](../../starter-templates.md). The [**Official Starter Projects**](../../starter-templates.md#official-starter-projects) have been tested and are maintained by the Battlesnake team.
+Choose from the complete list of [**Starter Projects**](starter-projects). The [**Official Starter Projects**](starter-projects#official-templates) have been tested and are maintained by the Battlesnake team.
 
 For whichever Starter Project you choose, you will need to:
 

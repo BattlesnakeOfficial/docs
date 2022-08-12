@@ -4,7 +4,7 @@ title: Quickstart
 
 # Quickstart
 
-This guide will walk you through one way to get your first Battlesnake running, using a [pre-built starter project](starter-templates.md) and [Replit](https://replit.com) as your development environment and web server host. You will need:
+This guide will walk you through one way to get your first Battlesnake running, using a [pre-built starter project](starter-projects) and [Replit](https://replit.com) as your development environment and web server host. You will need:
 
 * A free [**Battlesnake Account**](https://play.battlesnake.com)
 * A free [**Replit Account**](https://replit.com)
@@ -21,7 +21,7 @@ You can use any programming language, cloud platform, and strategy you want - fr
 
 There are several community-built and supported starter projects for popular languages and technologies. Each one is documented with detailed development and deployment instructions. It's possible to use most programming languages, but some will be easier than others.
 
-You can choose from the complete list of [Starter Projects](starter-templates.md), or use a Replit quick-link below to automatically clone an officially supported starter project and open it in your Replit account.
+You can choose from the complete list of [Starter Projects](starter-projects), or use a Replit quick-link below to automatically clone an officially supported starter project and open it in your Replit account.
 
 :::tip
 If you're unsure what language to choose, we suggest starting with [JavaScript](https://github.com/BattlesnakeOfficial/starter-snake-node) or [Python](https://github.com/BattlesnakeOfficial/starter-snake-python) as they're both widely supported and popular in the Battlesnake community.
@@ -37,8 +37,8 @@ If you're unsure what language to choose, we suggest starting with [JavaScript](
 All of the Official Starter Projects implement the full [Battlesnake API](api) with enough code to run a basic Battlesnake that moves in a random direction.
 
 <!-- TODO: Find an alternative -->
-<!-- {% content-ref url="starter-templates.md" %}
-[starter-projects.md](starter-templates.md)
+<!-- {% content-ref url="starter-projects" %}
+[starter-projects](starter-projects)
 {% endcontent-ref %} -->
 
 ## Step 2: Customize your Battlesnake (a little bit)
@@ -202,7 +202,7 @@ We recommend starting simple - start by adding rules that prevent your Battlesna
 
 ## Coding Resources
 
-This guide has helped you build and deploy your first Battlesnake using [Replit](https://replit.com) and an [Official Starter Project](starter-templates.md), and has reviewed the steps necessary to get it registered in your Battlesnake account and running your very first games.
+This guide has helped you build and deploy your first Battlesnake using [Replit](https://replit.com) and an [Official Starter Project](starter-projects), and has reviewed the steps necessary to get it registered in your Battlesnake account and running your very first games.
 
 But this only scratches the surface!
 

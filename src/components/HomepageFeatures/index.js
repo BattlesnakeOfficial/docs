@@ -5,12 +5,12 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Starter Templates',
+    title: 'Starter Projects',
     Svg: require('@site/static/img/illustration-starter.svg').default,
-    to: 'starter-templates',
+    to: 'starter-projects',
     description: (
       <>
-        Looking for code to get you started? These Starter Templates are great starting points for building your own Battlesnake.
+        Looking for code to get you started? These Starter Projects are great starting points for building your own Battlesnake.
       </>
     ),
   },

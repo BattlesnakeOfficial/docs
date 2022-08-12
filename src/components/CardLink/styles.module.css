@@ -1,0 +1,9 @@
+.card {
+  margin-bottom: var(--ifm-spacing-vertical);
+}
+
+.card:hover {
+  text-decoration: none;
+  transition: all 0.2s ease;
+  outline: 2px solid var(--ifm-color-primary);
+}

@@ -73,8 +73,8 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'starter-templates',
-            label: 'Starter Templates'
+            docId: 'starter-projects',
+            label: 'Starter Projects'
           },
           {
             type: 'docSidebar',
@@ -119,8 +119,8 @@ const config = {
                 to: 'quickstart'
               },
               {
-                label: 'Starter Templates',
-                to: 'starter-templates'
+                label: 'Starter Projects',
+                to: 'starter-projects'
               },
               {
                 label: 'Developer FAQ',

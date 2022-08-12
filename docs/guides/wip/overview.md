@@ -28,8 +28,8 @@ Our mission is **to make it fun and accessible for anyone to become a better pro
 {% endcontent-ref %} -->
 
 <!-- TODO: Find an alternative -->
-<!-- {% content-ref url="../../starter-templates.md" %}
-[starter-projects.md](../../starter-templates.md)
+<!-- {% content-ref url="starter-projects" %}
+[starter-projects](starter-projects)
 {% endcontent-ref %} -->
 
 <!-- TODO: Find an alternative -->
@@ -57,7 +57,7 @@ Our mission is **to make it fun and accessible for anyone to become a better pro
 ## Other Resources
 
 * The quickest way to get questions answered is through [Discord](https://play.battlesnake.com/discord).
-* Find real working examples in the [Community Starter Projects](starter-templates#community-starter-projects).
+* Find real working examples in the [Community Starter Projects](starter-projects#community-starter-projects).
 * You can always [email](mailto:hello@battlesnake.com) or [tweet](https://twitter.com/playbattlesnake) us and we'll point you in the right direction 😊
 
 ### Feedback
