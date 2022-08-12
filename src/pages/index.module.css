@@ -35,3 +35,7 @@
     flex-basis: 100%;
   }
 }
+
+.quickstart {
+  white-space: normal;
+}

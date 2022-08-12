@@ -20,15 +20,27 @@ function HomepageHeader() {
             to="quickstart">
             Get Started
           </Link>
-          <Link
-            className={clsx('button button--primary button--lg', styles.heroButton)}
-            to="https://play.battlesnake.com">
-            Play Battlesnake
-          </Link>
         </div>
       </div>
     </header>
   );
+}
+
+function HomepageQuickstart() {
+  return (
+
+      <div className="row">
+        <div className="col">
+          <div className="text--center padding-bottom--xl">
+            <Link
+              className={clsx('button button--primary button--lg margin-horiz--md', styles.quickstart)}
+              to="quickstart">
+              Start Building Your Battlesnake
+            </Link>
+          </div>
+        </div>
+      </div>
+  )
 }
 
 export default function Home() {
@@ -39,6 +51,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HomepageQuickstart />
       </main>
     </Layout>
   );
