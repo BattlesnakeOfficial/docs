@@ -35,7 +35,7 @@ function HomepageQuickstart() {
             <Link
               className={clsx('button button--primary button--lg margin-horiz--md', styles.quickstart)}
               to="quickstart">
-              Start Building Your Battlesnake
+              Build Your Battlesnake
             </Link>
           </div>
         </div>
