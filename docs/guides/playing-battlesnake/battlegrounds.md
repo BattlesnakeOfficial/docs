@@ -13,8 +13,8 @@ Each day, between a set time period, Ladders will run up to 100 matches.&#x20;
 
 At the end of each month, the ladders will be scored and achievements awarded based on your placement on the leaderboards (such as 1st, Top 10 or Top 50).
 
-:::caption
-You must first **complete the** [**Training Program**](https://play.battlesnake.com/challenges/) **** before being able to enter your snakes in the Battlegrounds.&#x20;
+:::info
+You must first **complete the** [**Training Program**](https://play.battlesnake.com/challenges/) before being able to enter your snakes in the Battlegrounds.&#x20;
 :::
 
 ## Monthly Changes
