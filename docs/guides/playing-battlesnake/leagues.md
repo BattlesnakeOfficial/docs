@@ -22,7 +22,7 @@ Each league has a Registration, Qualifying, and Tournaments (which consist of tw
 
 When a League is announced, the registration phase opens where participants can register for the League. At this time, the league's game mode and rules will be announced.&#x20;
 
-::success
+:::success
 If this is your first time creating a Battlesnake, check out the [Quickstart Coding Guide](quickstart).
 :::
 
