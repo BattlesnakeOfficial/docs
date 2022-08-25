@@ -4,28 +4,19 @@ sidebar_position: 4
 
 # Example Move Request
 
-## Request
+### Move API Request
 
-```json title="POST https://your.battlesnake.server.com/move"
+```json title="POST /move"
 {
   "game": {
-    "id": "game-00fe20da-94ad-11ea-bb37",
+    "id": "totally-unique-game-id",
     "ruleset": {
       "name": "standard",
-      "version": "v.1.2.3",
+      "version": "v1.1.15",
       "settings": {
-        "foodSpawnChance": 25,
+        "foodSpawnChance": 15,
         "minimumFood": 1,
-        "hazardDamagePerTurn": 14,
-        "royale": {
-          "shrinkEveryNTurns": 5
-        },
-        "squad": {
-          "allowBodyCollisions": true,
-          "sharedElimination": true,
-          "sharedHealth": true,
-          "sharedLength": true
-        }
+        "hazardDamagePerTurn": 14
       }
     },
     "map": "standard",
@@ -58,7 +49,6 @@ sidebar_position: 4
         "head": {"x": 0, "y": 0},
         "length": 3,
         "shout": "why are we shouting??",
-        "squad": "",
         "customizations":{
           "color":"#FF0000",
           "head":"pixel",
@@ -79,7 +69,6 @@ sidebar_position: 4
         "head": {"x": 5, "y": 4},
         "length": 4,
         "shout": "I'm not really sure...",
-        "squad": "",
         "customizations":{
           "color":"#26CF04",
           "head":"silly",
@@ -101,7 +90,6 @@ sidebar_position: 4
     "head": {"x": 0, "y": 0},
     "length": 3,
     "shout": "why are we shouting??",
-    "squad": "",
     "customizations": {
       "color":"#FF0000",
       "head":"pixel",
@@ -111,7 +99,7 @@ sidebar_position: 4
 }
 ```
 
-## **Response**
+### Move API Response
 
 ```json title="200 OK"
 {
