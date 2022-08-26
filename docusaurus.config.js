@@ -52,6 +52,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: 'MWV3QIWAYI',
+        apiKey: '0e16ab11aafbcc953a3f72215140716c',
+        indexName: 'battlesnake',
+        contextualSearch: true,
+        searchParameters: {},
+        searchPagePath: 'search',
+      },
       announcementBar: {
         id: 'announcement-bar-3',  // Increment on new announcement
         content: '⭐️ Want to see Battlesnake in action? <a href="https://youtu.be/LOlKCO3fS-s?t=7847" target="_blank" rel="noopener noreferrer">Check out a match here.</a> 💜',
