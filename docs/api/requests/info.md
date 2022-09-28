@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Info
+# GET /
 
-`https://your.battlesnake.com`**`/`**
+Example: `GET https://your.battlesnake.com/`
 
 An empty GET request made to the top-level URL of your Battlesnake, used for customization, checking latency, and verifying successful communications between the Battlesnake and the Battlesnake Engine.
 

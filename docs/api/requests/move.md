@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Move
+# POST /move
 
-`https://your.battlesnake.com`**`/move`**
+Example: `POST https://your.battlesnake.com/move`
 
 This request will be sent for every turn of the game. Use the information provided to determine how your Battlesnake will move on that turn, either up, down, left, or right.
 

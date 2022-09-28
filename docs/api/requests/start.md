@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# Game Start
+# POST /start
 
-`https://your.battlesnake.com`**`/start`**
+Example: `POST https://your.battlesnake.com/start`
 
 Your Battlesnake will receive this request when it has been entered into a new game. Every game has a unique ID that can be used to allocated resources or data you may need. Your response to this request will be ignored.
 

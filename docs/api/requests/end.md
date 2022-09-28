@@ -2,9 +2,9 @@
 sidebar_position: 4
 ---
 
-# Game End
+# POST /end
 
-`https://your.battlesnake.com`**`/end`**
+Example: `POST https://your.battlesnake.com/end`
 
 Your Battlesnake will receive this request whenever a game it was playing has ended. Use it to learn how your Battlesnake won or lost and deallocate any server-side resources. Your response to this request will be ignored.
 
