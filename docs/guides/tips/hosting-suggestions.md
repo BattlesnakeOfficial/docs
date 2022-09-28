@@ -9,7 +9,7 @@ Battlesnakes must be deployed to a publicly accessible web server so they can in
 
 ![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](/img/wip/simple_server_diagram.png)
 
-Most of the [Starter Projects](starter-projects) have instructions for using [Heroku](https://heroku.com) or [Replit](https://replit.com/), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
+Most of the [Starter Projects](starter-projects.md) have instructions for using [Heroku](https://heroku.com) or [Replit](https://replit.com/), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
 
 Successfully deploying your Battlesnake should provide you with a unique URL. Opening that URL in a browser should show your Battlesnake in action!
 
@@ -27,16 +27,16 @@ We recommend the following hosting options if you're just getting started, aren'
 
 **Website**: [Replit](https://replit.com/)
 
-**Instructions:** [**Deploy your Battlesnake with Replit**](quickstart)
+**Instructions:** [**Deploy your Battlesnake with Replit**](quickstart.md)
 
 * **Advantages**
-  * Handles both IDE and hosting - see the [Quickstart Coding Guide](quickstart) for detailed instructions.
+  * Handles both IDE and hosting - see the [Quickstart Coding Guide](quickstart.md) for detailed instructions.
   * Everything is in your web browser - no need to install software or run anything locally.
   * Free tier is good for getting started.
 * **Gotchas**
   * Might not have the most up-to-date version of your preferred programming language.
   * Your Replit might be slow to start up! You likely have to ping it periodically, or check to make sure that is running, especially before a tournament.
-  * For speed and by default, your Replit instance will be run close to where you are, geographically. This is an advantage when using your IDE (quick when you are writing code) but may result in [high-latency](api#request-timeouts), and in the worst case, timeouts, for your Battlesnake if you and your server are located in a country far-away from where the [Battlesnake servers](faq#what-cloud-provider-and-region-should-i-use) are.
+  * For speed and by default, your Replit instance will be run close to where you are, geographically. This is an advantage when using your IDE (quick when you are writing code) but may result in [high-latency](api/index.md#request-timeouts), and in the worst case, timeouts, for your Battlesnake if you and your server are located in a country far-away from where the [Battlesnake servers](faq.md#what-cloud-provider-and-region-should-i-use) are.
   * 
 * **You should probably use Replit if...**
   * You are just getting started and want to test out Battlesnake without too much commitment or setup.
@@ -95,7 +95,7 @@ Fly.io is a Platform-as-a-Service (PaaS)**,** running code in [Firecracker](http
   * Great learning opportunity - chance to start experimenting with hosting without having to do everything by yourself.
   * Free tier provides up to 1,000 dyno hours/month.
 * **Gotchas**
-  * Free tier is _not quite enough_ hours to run for an entire [League Event](guides/playing-battlesnake/leagues), and your Battlesnake may stop if you run out of hours.
+  * Free tier is _not quite enough_ hours to run for an entire [League Event](guides/playing/leagues.md), and your Battlesnake may stop if you run out of hours.
 * **You should probably use Heroku if...**
   * You want full control over your IDE and local development environment.
   * You don't want to have to manage your own hosting yet.

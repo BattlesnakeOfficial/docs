@@ -20,10 +20,10 @@ The best Battlesnake names are fun, creative, and also abide by our [Code of Con
 
 Web development often means handling multiple requests concurrently, and Battlesnake is no different. It's quite likely your Battlesnake will be playing multiple games at once, and you should develop your web server with that in mind.
 
-Start thinking about this early, and use the Game ID in the [Start](api/requests/start.md), [Move](api/requests/move), and [End](api/requests/end) requests to keep your Battlesnake's brain organized.
+Start thinking about this early, and use the Game ID in the [Start](api/requests/start.md), [Move](api/requests/move.md), and [End](api/requests/end.md) requests to keep your Battlesnake's brain organized.
 
 :::tip
-Not all web servers are built for handling multiple requests concurrently. Most of the [Starter Projects](starter-projects) are set up for concurrency by default.
+Not all web servers are built for handling multiple requests concurrently. Most of the [Starter Projects](starter-projects.md) are set up for concurrency by default.
 :::
 
 ## Keep Your Battlesnake Server Running
@@ -44,7 +44,7 @@ The amount of time you have to respond is provided in each API request sent. In 
 
 For most Battlesnake developers this won't be a problem. However top competitors will optimize their Battlesnakes to use as much compute time as possible.
 
-If you're seeing latency from where your Battlesnake is hosted geographically (i.e. far from the main Battlesnake game engine servers), check out [Engine Regions](guides/engine-regions) to optimize how we communicate with your server.
+If you're seeing latency from where your Battlesnake is hosted geographically (i.e. far from the main Battlesnake game engine servers), check out [Engine Regions](guides/tips/engine-regions.md) to optimize how we communicate with your server.
 
 :::tip
 **Tip:** Response time includes round-trip latency. The Battlesnake game engine timeouts also include the time it takes to send the request to your server and receive the response back. Consider this extra response time when optimizing your Battlesnake.
