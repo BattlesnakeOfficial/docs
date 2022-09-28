@@ -1,5 +1,6 @@
 {
     "position": 2,
     "label": "Requests",
-    "collapsible": true
+    "collapsible": true,
+    "collapsed": false
 }
