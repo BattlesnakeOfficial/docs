@@ -5,10 +5,10 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 const languageMeta = {
-  go: {label: 'Go', ordinal: 3},
-  javascript: {label: 'JavaScript', ordinal: 1},
   python: {label: 'Python', ordinal: 0},
-  rust: {label: 'Rust', ordinal: 2}
+  javascript: {label: 'JavaScript', ordinal: 1},
+  go: {label: 'Go', ordinal: 2},
+  rust: {label: 'Rust', ordinal: 3}
 }
 
 export default function TabbedCodeBlocks({children}) {
