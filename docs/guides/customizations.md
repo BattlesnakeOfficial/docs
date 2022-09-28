@@ -3,7 +3,7 @@ sidebar_position: 4
 description: Options for customizing your Battlesnake's appearance
 ---
 
-# Customizations
+# Customizing Your Battlesnake
 
 ## Introduction
 

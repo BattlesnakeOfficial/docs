@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 2
 description: Tips and common patterns for hosting your Battlesnake
 ---
 
@@ -9,7 +9,7 @@ Battlesnakes must be deployed to a publicly accessible web server so they can in
 
 ![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](/img/wip/simple_server_diagram.png)
 
-Most of the [Starter Projects](https://docs.battlesnake.com/starter-snakes) have instructions for using [Heroku](https://heroku.com) or [Replit](https://replit.com/), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
+Most of the [Starter Projects](starter-projects) have instructions for using [Heroku](https://heroku.com) or [Replit](https://replit.com/), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
 
 Successfully deploying your Battlesnake should provide you with a unique URL. Opening that URL in a browser should show your Battlesnake in action!
 
@@ -89,8 +89,6 @@ Fly.io is a Platform-as-a-Service (PaaS)**,** running code in [Firecracker](http
 ### Heroku
 
 **Website**: [Heroku](https://www.heroku.com/)
-
-**Instructions:** [Deploy your Battlesnake with Heroku](guides/wip/heroku)
 
 * **Advantages**
   * Handles the hosting for you.

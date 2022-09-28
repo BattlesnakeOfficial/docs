@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+title: Rules
+sidebar_position: 0
 ---
 
 # Game Rules

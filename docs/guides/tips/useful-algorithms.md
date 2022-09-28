@@ -1,11 +1,15 @@
 ---
-sidebar_position: 8
+sidebar_position: 4
 description: A collection of useful algorithms for building a competitive Battlesnake.
 ---
 
 # Useful Algorithms
 
-_This page was inspired by BoldBigflank, 101donutman, and Xtagon in the_ [_Battlesnake Discord_](https://play.battlesnke.com/discord)_. Each algorithm listed should include a widely accessible definition (_[_think ELI5 style_](https://www.howtogeek.com/694298/what-does-eli5-mean-and-how-do-you-use-it/)_), how it could be applied to Battlesnake, and links to further resources._ [_Contributions and updates are always welcome!_](https://github.com/BattlesnakeOfficial/docs)__
+:::info
+This page was inspired by BoldBigflank, 101donutman, and Xtagon in the [Battlesnake Discord](https://play.battlesnke.com/discord). Each algorithm listed should include a widely accessible definition ([think ELI5 style](https://www.howtogeek.com/694298/what-does-eli5-mean-and-how-do-you-use-it/)), how it could be applied to Battlesnake, and links to further resources. 
+
+[Contributions and updates are always welcome!](https://github.com/BattlesnakeOfficial/docs)
+:::
 
 ## Flood Fill
 
