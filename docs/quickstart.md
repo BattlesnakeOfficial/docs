@@ -9,7 +9,7 @@ This guide will walk you through one way to get your first Battlesnake running, 
 * A free [**Battlesnake Account**](https://play.battlesnake.com)
 * A free [**Replit Account**](https://replit.com)
 
-If you do not wish to use Replit, you are welcome to use your own IDE, or any [hosting solution](guides/hosting-suggestions) of your choosing.
+If you do not wish to use Replit, you are welcome to use your own IDE, or any [hosting solution](guides/tips/hosting-suggestions.md) of your choosing.
 
 ## How does it work?
 
@@ -36,14 +36,9 @@ If you're unsure what language to choose, we suggest starting with [JavaScript](
 
 All of the Official Starter Projects implement the full [Battlesnake API](api) with enough code to run a basic Battlesnake that moves in a random direction.
 
-<!-- TODO: Find an alternative -->
-<!-- {% content-ref url="starter-projects" %}
-[starter-projects](starter-projects)
-{% endcontent-ref %} -->
-
 ## Step 2: Customize your Battlesnake (a little bit)
 
-To make sure everything works correctly when you deploy and run your Battlesnake for the first time, **make a small customization change**, such as the color of your Battlesnake. The `README.md` file in each Starter Project describes where the customization code can be found. Customizations are set in the root ["GET /"](api/requests/info.md) command of the [Battlesnake API](/api).
+To make sure everything works correctly when you deploy and run your Battlesnake for the first time, **make a small customization change**, such as the color of your Battlesnake. The `README.md` file in each Starter Project describes where the customization code can be found. Customizations are set in the root ["GET /"](api/requests/info.md) command of the [Battlesnake API](api).
 
 ![Customizing the Battlesnake colour to 'red' #ff0000 for the Python Starter Snake](/img/python_customization.png)
 
@@ -53,14 +48,9 @@ To make sure everything works correctly when you deploy and run your Battlesnake
 * [TypeScript Starter Project Customization](https://github.com/BattlesnakeOfficial/starter-snake-typescript#customizing-your-battlesnake)
 * [Rust Starter Project Customization](https://github.com/BattlesnakeOfficial/starter-snake-rust#customizing-your-battlesnake)
 
-While color is a great place to start, Battlesnake also features an exciting collection of customizable heads and tails! All customization options are described in detail on the [Customization Guide](guides/customizations) page.
+While color is a great place to start, Battlesnake also features an exciting collection of customizable heads and tails! All customization options are described in detail on the [Customization Guide](guides/customizations.md) page.
 
 After making changes to your Battlesnake, you can restart your Replit to have the change take effect (or in many cases, your Replit will restart automatically).
-
-<!-- TODO: Find an alternative -->
-<!-- {% content-ref url="guides/customizations" %}
-[customizations](guides/customizations)
-{% endcontent-ref %} -->
 
 ## Step 3: Deploy and run your Battlesnake
 
@@ -85,16 +75,11 @@ The output should match whatever configuration changes you made in Step 2. For e
 
 This means that your Battlesnake is up and running correctly on Replit!
 
-Replit is a fast and free option for hosting your Battlesnake server, but you can use whatever you like to run your server. For more options and information about hosting, check out [Hosting Suggestions](guides/hosting-suggestions).
+Replit is a fast and free option for hosting your Battlesnake server, but you can use whatever you like to run your server. For more options and information about hosting, check out [Hosting Suggestions](guides/tips/hosting-suggestions.md).
 
 :::success
 Keeping Replit open in a second window while games are running is helpful for watching server activity and debugging any problems with your Battlesnake.
 :::
-
-<!-- TODO: Find an alternative -->
-<!-- {% content-ref url="guides/hosting-suggestions" %}
-[hosting-suggestions](guides/hosting-suggestions)
-{% endcontent-ref %} -->
 
 ## Step 4: Create your Battlesnake
 
@@ -190,41 +175,14 @@ We recommend starting simple - start by adding rules that prevent your Battlesna
 
 **For details on how /move and other commands work**, we recommend reading through the code in the [Battlesnake API Reference](api).
 
-<!-- TODO: Find an alternative -->
-<!-- {% content-ref url="api" %}
-[api](api)
-{% endcontent-ref %} -->
-
-<!-- TODO: Find an alternative -->
-<!-- {% content-ref url="api/example-move.md" %}
-[sample-move-request.md](api/example-move.md)
-{% endcontent-ref %} -->
-
 ## Coding Resources
 
 This guide has helped you build and deploy your first Battlesnake using [Replit](https://replit.com) and an [Official Starter Project](starter-projects), and has reviewed the steps necessary to get it registered in your Battlesnake account and running your very first games.
 
 But this only scratches the surface!
 
-Check out the [Battlesnake Game Rules](guides/game-rules.md) and [Tips & Tricks](guides/tips) guide to making sure you understand how to program your Battlesnake to win the most games possible. You may have also noticed there are different [Game Modes ](guides/game-modes)to explore that provide different challenges for your Battlesnake.
-
-<!-- TODO: Find an alternative -->
-<!-- {% content-ref url="game-rules.md" %}
-[rules.md](guides/game-rules.md)
-{% endcontent-ref %} -->
-
-<!-- TODO: Find an alternative -->
-<!-- {% content-ref url="guides/game-modes" %}
-[game-modes.md](guides/game-modes)
-{% endcontent-ref %} -->
-
-<!-- TODO: Find an alternative -->
-<!-- {% content-ref url="guides/tips" %}
-[tips.md](guides/tips)
-{% endcontent-ref %} -->
+Check out the [Battlesnake Game Rules](guides/game/rules.md) and [Tips & Tricks](guides/tips/general.md) guide to making sure you understand how to program your Battlesnake to win the most games possible. You may have also noticed there are different [Game Modes ](guides/game/modes.md)to explore that provide different challenges for your Battlesnake.
 
 You can also check out the [Battlesnake Awesome List](https://github.com/xtagon/awesome-battlesnake), built by [Xtagon](https://play.battlesnake.com/u/xtagon/) and maintained by the community for great Battlesnake resources. Anyone may [contribute](https://github.com/xtagon/awesome-battlesnake/blob/master/CONTRIBUTING.md), so if you know of any interesting resources or wish to share your own creations, [open a pull request](https://github.com/xtagon/awesome-battlesnake/pulls).
 
 **Good luck, and happy programming!**
-
-\*\*\*\*
