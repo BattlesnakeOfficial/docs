@@ -1,6 +1,6 @@
 ---
 title: Starter Projects
-description: Build a Battlesnake quickly using a starter project created by the community.
+description: A collection of starter code and templates for building Battlesnakes!
 ---
 
 import Link from '@docusaurus/Link'
@@ -178,7 +178,7 @@ export const CommunityProjects = ({projects}) => (
   </div>
 )
 
-<p>{frontMatter.description}</p>
+These projects and templates are great starting points for building your Battlesnake. They're available for many different programming languages and platforms &mdash; some officially maintained by the Battlesnake team, and others contributed by the Battlesnake community!
 
 ## Official Templates
 
@@ -186,13 +186,15 @@ These GitHub templates are built and maintained by the Battlesnake team. We do o
 
 If you're building a Battlesnake for the first time, these are great starting points.
 
-<OfficialProjects projects={officialProjects} />
+:::tip
+We recommended clicking the green _"Use this template"_ button to bring a clean copy of the starter code into your own GitHub account. You are also welcome to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) one of these repos instead, but please do not submit Pull Requests back to the template repos.
+:::
 
-It is recommended to click the green _"Use this template"_ button to bring a clean copy of the starter code into your own GitHub account. You are also welcome to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) one of these repos instead, but please do not submit Pull Requests back to the template repo.
+<OfficialProjects projects={officialProjects} />
 
 ## Community Starter Projects
 
-The Battlesnake community is all about collaboration and shared learning. Some of our core members and partners have built their own projects to get developers started with new languages and technologies.
+The Battlesnake community is all about collaboration and shared learning. Sometimes players will build their own starter projects for new combinations of languages and platforms and share them back to the community to help new players get started!
 
 :::info
 **These projects are maintained independently by their developers.** See project guidelines for each project if you're interested in getting involved or have any questions/concerns.
