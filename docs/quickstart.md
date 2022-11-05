@@ -27,7 +27,7 @@ You can choose from the complete list of [Starter Projects](starter-projects.md)
 If you're unsure what language to choose, we suggest starting with [JavaScript](https://github.com/BattlesnakeOfficial/starter-snake-node) or [Python](https://github.com/BattlesnakeOfficial/starter-snake-python) as they're both widely supported and popular in the Battlesnake community.
 :::
 
-* [Open the Python Starter Project in Replit](https://replit.com/@Battlesnake/starter-snakespython?v=1)
+* [Open the Python Starter Project in Replit](https://replit.com/@Battlesnake/starter-snake-python?v=1)
     * __NOTE__: Importing Python projects from Github in Replit is currently not working, so you'll need to fork the template above to get started.
 * [Open the Go Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-go)
 * [Open the JavaScript Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-javascript)
