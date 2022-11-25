@@ -6,16 +6,23 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
+import { DocSearch } from '@docsearch/react'
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        
+          <div className={styles.docSearch}>
+            <DocSearch apiKey="0e16ab11aafbcc953a3f72215140716c" appId="MWV3QIWAYI" indexName="battlesnake" />
+          </div>
+
+
         <div className={styles.heroButtons}>
-         <Link
+          <Link
             className={clsx('button button--secondary button--lg', styles.heroButton)}
             to="quickstart">
             Get Started
@@ -29,17 +36,17 @@ function HomepageHeader() {
 function HomepageQuickstart() {
   return (
 
-      <div className="row">
-        <div className="col">
-          <div className="text--center padding-bottom--xl">
-            <Link
-              className={clsx('button button--primary button--lg margin-horiz--md', styles.quickstart)}
-              to="quickstart">
-              Build Your Battlesnake
-            </Link>
-          </div>
+    <div className="row">
+      <div className="col">
+        <div className="text--center padding-bottom--xl">
+          <Link
+            className={clsx('button button--primary button--lg margin-horiz--md', styles.quickstart)}
+            to="quickstart">
+            Build Your Battlesnake
+          </Link>
         </div>
       </div>
+    </div>
   )
 }
 

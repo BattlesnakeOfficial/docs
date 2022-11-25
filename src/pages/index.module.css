@@ -39,3 +39,12 @@
 .quickstart {
   white-space: normal;
 }
+
+.docSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+
+}
