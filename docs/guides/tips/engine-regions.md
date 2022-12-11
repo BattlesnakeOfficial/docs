@@ -57,6 +57,11 @@ Here are some tips for common hosting setups:
 
 * Railway is hosted entirely on GCP US-WEST. use the "AWS US-WEST-2" region.
 
+#### Running on Heroku
+
+* If you're using the "United States" Heroku region, use the "GCP US-EAST4" region.
+* If you're using the "Europe" Heroku region, use the "GCP EUROPE-WEST4" region.
+
 ### Currently supported engine regions
 
 * **Amazon Web Services (AWS)**
