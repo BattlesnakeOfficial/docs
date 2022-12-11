@@ -9,7 +9,7 @@ Battlesnakes must be deployed to a publicly accessible web server so they can in
 
 ![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](/img/wip/simple_server_diagram.png)
 
-Most of the [Starter Projects](starter-projects.md) have instructions for using [Heroku](https://heroku.com) or [Replit](https://replit.com/), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
+Most of the [Starter Projects](starter-projects.md) have instructions for using [Replit](https://replit.com/), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
 
 Successfully deploying your Battlesnake should provide you with a unique URL. Opening that URL in a browser should show your Battlesnake in action!
 
@@ -74,7 +74,7 @@ Fly.io is a Platform-as-a-Service (PaaS)**,** running code in [Firecracker](http
 
 * **Advantages**
   * Handles hosting for you, just bring a Dockerfile.&#x20;
-  * Generous free plan (enough to run 3 snakes) and more regions than Heroku.
+  * Generous free plan (enough to run 3 snakes)
   * The support forums are great and the staff is very responsive/helpful even to free users.
   * If you run multiple instances and configure the health checks correctly then you can do zero-downtime deploys mid-game without missing a move.
 * **Gotchas**
@@ -121,7 +121,7 @@ Droplets are Linux-based virtual machines that give you full access to a server 
 * **Advantages**
   * Totally customize the software and network setup on your own Linux-based virtual machine.
   * Shell access to the VM running your code for debugging or performance monitoring
-  * Lower cost for the same resources than App Platform, Heroku and other PaaS services.
+  * Lower cost for the same resources than App Platform and other PaaS services.
 * **Gotchas**
   * Paid options only.
   * You're responsible for the configuration and security of your own server.
