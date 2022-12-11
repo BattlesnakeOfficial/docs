@@ -93,6 +93,7 @@ Railway is a Platform-as-a-Service (PaaS) that allows you to deploy your Battles
 **Website**: [Railway](https://railway.app/)
 **Pricing**: [Pricing](https://railway.app/pricing)
 **Documentation**: [Docs](https://docs.railway.app/)
+**Discord**: [Discord](https://discord.com/invite/railway)
 
 * **Advantages**
   * Handles the hosting for you.
