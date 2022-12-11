@@ -97,7 +97,7 @@ Railway is a Platform-as-a-Service (PaaS) that allows you to deploy your Battles
 * **Advantages**
   * Handles the hosting for you.
   * Free tier provides up to 500 hours of runtime per month per project.
-    * Developer tier removes the hour limitation and will likely be covered by free credit.
+    * Developer tier removes the hour limitation. An average Battlesnake will be covered by the free credit.
   * Efficient horizontal scaling, allowing your snake to use more resources.
   * Can pull your code directly from Github and auto-deploy from a branch without needing to setup any special deploy tools.
 * **Gotchas**
