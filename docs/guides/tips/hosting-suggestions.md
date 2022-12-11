@@ -108,6 +108,21 @@ Railway is a Platform-as-a-Service (PaaS) that allows you to deploy your Battles
   * You want full control over your local development environment.
   * You don't want to have to manage your own hosting yet, but want the option to in the future.
 
+### Heroku
+
+**Website**: [Heroku](https://www.heroku.com/)
+**Pricing**: [Pricing](https://www.heroku.com/pricing)
+
+* **Advantages**
+  * Handles the hosting for you.
+  * Great learning opportunity - chance to start experimenting with hosting without having to do everything by yourself.
+* **Gotchas**
+  * Free tier was removed, lowest tier is now 5$ a month.
+* **You should probably use Heroku if...**
+  * You want full control over your IDE and local development environment.
+  * You don't want to have to manage your own hosting yet.
+
+
 ## League Ready - Most Competitive Options
 
 &#x20;The following options are for more advanced users that want to get more performance out of their snake, or are looking for a more cost-effective hosting when scaling up resources.
