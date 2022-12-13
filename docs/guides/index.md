@@ -31,7 +31,7 @@ Our mission is **to make it fun and accessible for anyone to become a better pro
 
 * [Game Rules](guides/game/rules.md)
 * [API Reference](api/index.md)
-* [Customziations](guides/customizations.md)
+* [Customizations](guides/customizations.md)
 
 ## Other Resources
 
