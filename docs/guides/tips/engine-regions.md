@@ -55,7 +55,7 @@ Here are some tips for common hosting setups:
 
 #### Running on Railway
 
-* Railway is hosted entirely on GCP US-WEST. use the "AWS US-WEST-2" region.
+* Railway deployments run on GCP US-WEST, use the "AWS US-WEST-2" engine region for optimal latency.
 
 #### Running on Heroku
 
