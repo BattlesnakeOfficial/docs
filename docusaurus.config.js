@@ -98,6 +98,7 @@ const config = {
             docId: 'starter-projects',
             label: 'Starter Projects'
           },
+         
           {
             type: 'docSidebar',
             sidebarId: 'api',
@@ -112,6 +113,11 @@ const config = {
             type: 'doc',
             docId: 'faq',
             label: 'FAQ'
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'halloffame',
+            label: 'Hall of Fame',
           },
           {
             href: 'https://github.com/BattlesnakeOfficial/docs',
@@ -147,7 +153,8 @@ const config = {
               {
                 label: 'Developer FAQ',
                 to: 'faq'
-              }
+              },
+           
             ]
           },
           {
@@ -157,6 +164,7 @@ const config = {
                 label: 'Guides',
                 to: 'guides'
               },
+            
               {
                 label: 'API Reference',
                 to: 'api'
@@ -182,8 +190,8 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/playbattlesnake',
-              }
-            ],
+              },
+                       ],
           },
           {
             title: 'More',
