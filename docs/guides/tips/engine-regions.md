@@ -53,6 +53,10 @@ Here are some tips for common hosting setups:
 * e.g. for AWS us-east-1, use "GCP US-EAST4".
 * for DigitalOcean TOR1, use "DigitalOcean TOR (Toronto)"
 
+#### Running on Railway
+
+* Railway is hosted entirely on GCP US-WEST. use the "AWS US-WEST-2" region.
+
 #### Running on Heroku
 
 * If you're using the "United States" Heroku region, use the "GCP US-EAST4" region.

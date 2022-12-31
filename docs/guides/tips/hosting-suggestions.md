@@ -62,7 +62,7 @@ App Platform is a Platform-as-a-Service (PaaS) that allows you to deploy your Ba
   * You want full control over your IDE and local development environment.
   * You don't want to have to manage your own hosting yet.
 
-### **Fly.io**
+### Fly.io
 
 Fly.io is a Platform-as-a-Service (PaaS)**,** running code in [Firecracker](https://firecracker-microvm.github.io/) microVMs around the world.
 
@@ -86,16 +86,38 @@ Fly.io is a Platform-as-a-Service (PaaS)**,** running code in [Firecracker](http
   * You want full control over your IDE and local development environment.
   * You don't want to have to manage your own hosting yet.
 
+### Railway
+
+Railway is a Platform-as-a-Service (PaaS) that allows you to deploy your Battlesnake server without needing to handle the underlying infrastructure yourself.
+
+**Website**: [Railway](https://railway.app/)
+**Pricing**: [Pricing](https://railway.app/pricing)
+**Documentation**: [Docs](https://docs.railway.app/)
+**Discord**: [Discord](https://discord.com/invite/railway)
+
+* **Advantages**
+  * Handles the hosting for you.
+  * Free tier provides up to 500 hours of runtime per month per project.
+    * Developer tier removes the hour limitation. An average Battlesnake will be covered by the free credit.
+  * Efficient horizontal scaling, allowing your snake to use more resources.
+  * Can pull your code directly from Github and auto-deploy from a branch without needing to setup any special deploy tools.
+* **Gotchas**
+  * Free tier runs just short of 21 days per month, _not quite enough_ hours to run for an entire [League Event](guides/playing/leagues.md). Luckily, the developer plan removes this limitation.
+  * Only located in US-West for now, perfect for Battlesnake but may affect local development.
+* **You should probably use Railway if...**
+  * You want full control over your local development environment.
+  * You don't want to have to manage your own hosting yet, but want the option to in the future.
+
 ### Heroku
 
 **Website**: [Heroku](https://www.heroku.com/)
+**Pricing**: [Pricing](https://www.heroku.com/pricing)
 
 * **Advantages**
   * Handles the hosting for you.
   * Great learning opportunity - chance to start experimenting with hosting without having to do everything by yourself.
-  * Free tier provides up to 1,000 dyno hours/month.
 * **Gotchas**
-  * Free tier is _not quite enough_ hours to run for an entire [League Event](guides/playing/leagues.md), and your Battlesnake may stop if you run out of hours.
+  * Free tier has been removed, the lowest tier is now $5/month.
 * **You should probably use Heroku if...**
   * You want full control over your IDE and local development environment.
   * You don't want to have to manage your own hosting yet.
