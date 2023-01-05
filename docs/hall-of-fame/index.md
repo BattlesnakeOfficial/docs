@@ -11,7 +11,7 @@ import CardLink from '@site/src/components/CardLink';
 
 **The Hall of Fame recognizes exceptional developers from around the world who have demonstrated excellence in the Battlesnake Community and Competition.**
 
-Through their exemplary programming and competitive prowess, they have showcased the best of Battlesnake and through this Hall of Fame we seek to immortalize their achivements, cemeting their place in the collective history of the Battlesnake Community.
+Through their exemplary programming and competitive prowess, they have showcased the best of Battlesnake and through this Hall of Fame we seek to immortalize their achievements, cementing their place in the collective history of the Battlesnake Community.
 
 
 export const hallInductees = [
