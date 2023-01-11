@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Battlesnake has several game modes all built on the same foundational [game rules.](guides/game/rules.md) All game modes and are available for casual play and may appear in competitions. In the API, the game mode is defined as the _ruleset_ on the [Game Object.](api/objects/game.md)
 
-To play a specific mode, select the game mode at the top of the [Play Game](https://play.battlesnake.com/account/games/create/) page.
+To play a specific mode, select the game mode at the top of the [Play Game](https://play.battlesnake.com/account/games/create) page.
 
 ## Standard
 

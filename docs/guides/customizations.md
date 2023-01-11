@@ -41,7 +41,7 @@ You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors\
 
 Several customization options are available for how your Battlesnake's head and tail will display on the game board. You can mix and match them however you like.
 
-Just like [choosing a color](#choosing-a-color), your head and tail are provided in response to the [GET /](api/requests/info.md) command of the [Battlesnake API](api/index.md). Each value is a string, matching one of the available options shown [on our customizations page](https://play.battlesnake.com/customizations/).
+Just like [choosing a color](#choosing-a-color), your head and tail are provided in response to the [GET /](api/requests/info.md) command of the [Battlesnake API](api/index.md). Each value is a string, matching one of the available options shown [on our customizations page](https://play.battlesnake.com/customizations).
 
 If an invalid value is returned (or no value at all) the `default` options will be displayed.
 

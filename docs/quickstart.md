@@ -91,11 +91,11 @@ Battlesnake creation happens in your profile. **Copy the Battlesnake server URL 
 If you get an SSL error when loading your Replit Battlesnake server URL, try changing the `https://` to `http://`.
 :::
 
-[**Click here to create a new Battlesnake in your account.**](https://play.battlesnake.com/account/snakes/create/)
+[**Click here to create a new Battlesnake in your account.**](https://play.battlesnake.com/account/battlesnakes/create)
 
 ![Form for registering a Battesnake](/img/create_battlesnake.png)
 
-If you want your Battlesnake available for games with other people, you will need to check the _Allow anyone to add this Battlesnake to a game_ option. If you leave this unchecked, your Battlesnake will only be available for games that you create or are a part of an official Battlesnake Tournament or Arena.
+If you want your Battlesnake available for games with other people, you will need to select the _Public - Allow anyone to add this Battlesnake to a game_ option for the _Public Access_ setting. If you select the default of _Private_, your Battlesnake will only be available for games that you create or are a part of an official Battlesnake Tournament or Arena.
 
 If everything is set up correctly, your Battlesnake should show as operational with the color, head, and tail you set in your code. Some additional information will also be displayed about the latency of communication between the game engine and your Battlesnake server.
 
@@ -116,7 +116,7 @@ You are now ready to test your Battlesnake in live games! So far, your Battlesna
 Here's how to create a new game:
 
 * Go to [**play.battlesnake.com**](https://play.battlesnake.com)
-* From the navigation menu, choose [**Create Game**](https://play.battlesnake.com/account/games/create/)
+* From the navigation menu, choose [**Create Game**](https://play.battlesnake.com/account/games/create)
 
 ![Form for creating a new Battlesnake game](/img/play_game_start.png)
 
@@ -183,6 +183,6 @@ But this only scratches the surface!
 
 Check out the [Battlesnake Game Rules](guides/game/rules.md) and [Tips & Tricks](guides/tips/general.md) guide to making sure you understand how to program your Battlesnake to win the most games possible. You may have also noticed there are different [Game Modes ](guides/game/modes.md)to explore that provide different challenges for your Battlesnake.
 
-You can also check out the [Battlesnake Awesome List](https://github.com/xtagon/awesome-battlesnake), built by [Xtagon](https://play.battlesnake.com/u/xtagon/) and maintained by the community for great Battlesnake resources. Anyone may [contribute](https://github.com/xtagon/awesome-battlesnake/blob/master/CONTRIBUTING.md), so if you know of any interesting resources or wish to share your own creations, [open a pull request](https://github.com/xtagon/awesome-battlesnake/pulls).
+You can also check out the [Battlesnake Awesome List](https://github.com/xtagon/awesome-battlesnake), built by [Xtagon](https://play.battlesnake.com/profile/xtagon) and maintained by the community for great Battlesnake resources. Anyone may [contribute](https://github.com/xtagon/awesome-battlesnake/blob/master/CONTRIBUTING.md), so if you know of any interesting resources or wish to share your own creations, [open a pull request](https://github.com/xtagon/awesome-battlesnake/pulls).
 
 **Good luck, and happy programming!**

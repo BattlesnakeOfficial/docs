@@ -9,7 +9,7 @@ Some league winners are given prizes depending on their placement in competitive
 Prize winners will be contacted via email with a link and a code to claim their reward through the Battlesnake Merch Store.&#x20;
 
 :::info
-For the purposes of prizes, we can only contact folks that are subscribed to **"Leagues and Competitions"** email notifications. You can control this in your [**Account Notification Settings**](https://play.battlesnake.com/account/settings/#notifications). This ensures that we comply with anti-spam and email marketing laws.
+For the purposes of prizes, we can only contact folks that are subscribed to **"Leagues and Competitions"** email notifications. You can control this in your [**Account Notification Settings**](https://play.battlesnake.com/account/settings#notifications). This ensures that we comply with anti-spam and email marketing laws.
 :::
 
 ****
