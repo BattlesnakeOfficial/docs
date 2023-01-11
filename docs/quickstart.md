@@ -171,7 +171,7 @@ On every turn of the game, the Battlesnake Engine makes a call to your Battlesna
 
 In the unmodified Official Starter Projects, the **/move** command accepts this JSON data, and then with absolutely no regard for self-preservation, responds with a move in a random direction, one of 'left', 'right', 'up' or 'down'. By changing the code in your projects `move()` function, you can better control how your Battlesnake behaves.
 
-We recommend starting simple - start by adding rules that prevent your Battlesnake from turning back on its own neck, or running head-first into a wall. There is a series of [**Training Program Challenges**](https://play.battlesnake.com/challenges/) that can act as your guide and help you track progress as you train up your Battlesnake. The secret is to make small changes and then immediately test.
+We recommend starting simple - start by adding rules that prevent your Battlesnake from turning back on its own neck, or running head-first into a wall. The secret is to make small changes and then immediately test.
 
 **For details on how /move and other commands work**, we recommend reading through the code in the [Battlesnake API Reference](api/index.md).
 
