@@ -3,9 +3,9 @@ sidebar_position: 2
 description: A monthly mini-competition between Battlesnake Developers that features unique maps, rules, and modes.
 ---
 
-# Battlegrounds
+# Leaderboards
 
-**Battlegrounds is a cycling competition where you can test your skills against other developers by putting your Battlesnakes into different ladders, each with a unique game mode.**
+**Leaderboards are a cycling competition where you can test your skills against other developers by putting your Battlesnakes into different ladders, each with a unique game mode.**
 
 Competitions run from the beginning to the end of each month, generating games, and moving Battlesnakes up and down the ladders. When the month ends, results are determined and achievements will be awarded to your account page.
 
@@ -19,7 +19,7 @@ Some ladders will offer consistent game modes month-to-month, allowing players t
 
 ### **How Do I Play?**
 
-Just enter one of your Battlesnakes into an active Battlegrounds Ladder. You can participate in one or all of the ladders!
+Just enter one of your Battlesnakes into an active Leaderboard. You can participate in one or all of the ladders!
 
 ### **When do games run?**
 
