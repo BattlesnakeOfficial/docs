@@ -21,8 +21,6 @@ A Standard Game is the original Battlesnake following the [game rules](guides/ga
 
 Note that within a Standard Game the number of Battlesnake in the game can vary, and winning strategies for 1v1 games can be different than strategies for four or eight Battlesnakes.
 
-There is a special type of standard game called 'solo', which consists of a (usually) standard game where your Battlesnake is the only Battlesnake on the board. This appears in manually created solo games and in many challenges.
-
 ## Royale
 
 <img

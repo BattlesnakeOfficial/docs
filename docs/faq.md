@@ -28,8 +28,6 @@ The Battlesnake rules implementation and engine is [open source](https://github.
 
 ### What can I do with my Battlesnake?
 
-[Challenges](guides/playing/challenges.md) provide a “single-player campaign” of Battlesnake. It’s just you and the puzzle you need to solve. They're a great way to test and build up your skills in prep for Leaderboards.
-
 [Leaderboards](guides/playing/leaderboards.md) are a set of continuously running leaderboards. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique maps and game modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches.
 
 ### How do I organize a Battlesnake competition for my class, colleagues, or friends?
