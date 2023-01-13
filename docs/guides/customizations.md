@@ -72,6 +72,6 @@ There are many ways to earn Battlesnake Points:
 * Create a Battlesnake
 * Complete challenges
 * Participate in Battlegrounds
-* Join a league
+* Join a leaderboard
 * Compete in tournaments
 * Be active in the community

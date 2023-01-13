@@ -31,7 +31,7 @@ Sometimes persistent HTTP connections, DNS lookups, and other factors can cause 
 
 ### How should I choose an Engine Region?
 
-Choosing the right Engine Region might be a little confusing depending on where you are, and where your Battlesnake is hosted. We highly encourage testing with a few different Engine Regions to see how it affects your latency. If you're worried about affecting your snake in a League or Arena, you can make a new snake and re-use the URL.
+Choosing the right Engine Region might be a little confusing depending on where you are, and where your Battlesnake is hosted. We highly encourage testing with a few different Engine Regions to see how it affects your latency. If you're worried about affecting your snake in a Leaderboard or Arena, you can make a new snake and re-use the URL.
 
 Here are some tips for common hosting setups:
 

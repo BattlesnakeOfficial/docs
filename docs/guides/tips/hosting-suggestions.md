@@ -102,7 +102,7 @@ Railway is a Platform-as-a-Service (PaaS) that allows you to deploy your Battles
   * Efficient horizontal scaling, allowing your snake to use more resources.
   * Can pull your code directly from Github and auto-deploy from a branch without needing to setup any special deploy tools.
 * **Gotchas**
-  * Free tier runs just short of 21 days per month, _not quite enough_ hours to run for an entire [League Event](guides/playing/leagues.md). Luckily, the developer plan removes this limitation.
+  * Free tier runs just short of 21 days per month. Luckily, the developer plan removes this limitation.
   * Only located in US-West for now, perfect for Battlesnake but may affect local development.
 * **You should probably use Railway if...**
   * You want full control over your local development environment.
@@ -122,7 +122,7 @@ Railway is a Platform-as-a-Service (PaaS) that allows you to deploy your Battles
   * You want full control over your IDE and local development environment.
   * You don't want to have to manage your own hosting yet.
 
-## League Ready - Most Competitive Options
+## Leaderboard Ready - Most Competitive Options
 
 &#x20;The following options are for more advanced users that want to get more performance out of their snake, or are looking for a more cost-effective hosting when scaling up resources.
 

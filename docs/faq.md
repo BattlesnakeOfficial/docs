@@ -32,8 +32,6 @@ The Battlesnake rules implementation and engine is [open source](https://github.
 
 [Battlegrounds](guides/playing/battlegrounds.md) are a rotating series of monthly leaderboards. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique maps and game modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches.
 
-[Leagues](guides/playing/leagues.md) are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held a few times each year and the finals are streamed live on Twitch. Does your Battlesnake have what it takes?
-
 ### How do I organize a Battlesnake competition for my class, colleagues, or friends?
 
 [Email us](mailto:hello@battlesnake.com) or fill out our [contact form](https://play.battlesnake.com/partner/contact/). We'll be in touch!

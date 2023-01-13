@@ -9,7 +9,7 @@ sidebar_position: 0
 
 **Battlesnake is an autonomous survival game.** Each Battlesnake is controlled by a live web server and the code _you_ write. It moves independently attempting to find food, avoid other Battlesnakes, and stay alive as long as possible.
 
-Anyone can play Battlesnake, either by training with the solo [Challenges](guides/playing/challenges.md), [Battlegrounds](guides/playing/battlegrounds), or by competing in online [League Tournaments](guides/playing/leagues.md). Success at the highest level requires creativity, unique strategies, and excellent programming.
+Anyone can play Battlesnake, either by training with the solo [Challenges](guides/playing/challenges.md), [Battlegrounds](guides/playing/battlegrounds). Success at the highest level requires creativity, unique strategies, and excellent programming.
 
 Our mission is **to make it fun and accessible for anyone to become a better programmer**.
 
