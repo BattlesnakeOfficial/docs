@@ -75,8 +75,8 @@ const config = {
         searchPagePath: 'search',
       },
       announcementBar: {
-        id: 'announcement-bar-3',  // Increment on new announcement
-        content: '⭐️ Want to see Battlesnake in action? <a href="https://youtu.be/LOlKCO3fS-s?t=7847" target="_blank" rel="noopener noreferrer">Check out a match here.</a> 💜',
+        id: 'announcement-bar-4',  // Increment on new announcement
+        content: '⭐️ Whats New at Battlesnake in 2023? <a href="https://blog.battlesnake.com/whats-new-at-battlesnake-in-2023/" target="_blank" rel="noopener noreferrer">Find out here.</a> 💜',
         backgroundColor: '#3e338f',
         textColor: '#ffffff',
         isCloseable: true
