@@ -5,28 +5,19 @@ description: A monthly mini-competition between Battlesnake Developers that feat
 
 # Leaderboards
 
-**Leaderboards are a cycling competition where you can test your skills against other developers by putting your Battlesnakes into different ladders, each with a unique game mode.**
+**Battlesnake Leaderboards are fully automated competitive ladders you can enter your Battlesnakes in to compete against other developers!**
 
-Competitions run from the beginning to the end of each month, generating games, and moving Battlesnakes up and down the ladders. When the month ends, results are determined and achievements will be awarded to your account page.
+## How do Leaderboards work?
+Leaderboards run a fixed number of games between a set time frame daily. Winning matches increases your Rating in the Leaderboard, just as losing matches decreases it. Developers are then ranked by their Rating. 
 
-Each day, between a set time period, Ladders will run up to 100 matches.&#x20;
+Ratings are updated daily. Players are then ranked according to their Rating, which then determines their standing on the Leaderboard compared to other developers.
 
-At the end of each month, the ladders will be scored and achievements awarded based on your placement on the leaderboards (such as 1st, Top 10 or Top 50).
+At the end of each month, developers are awarded Battlesnake Points based on rank. But Ratings will **NOT** reset. 
 
-## Monthly Changes
+**Rating**: The value your Battlesnake earns by winning Leaderboard games.
 
-Some ladders will offer consistent game modes month-to-month, allowing players to track improvement and progress.  Other ladders will act as testing grounds for new experimental combinations of game mechanics in a competitive environment.
+**Ranking**: Refers to your standing in the Leaderboard compared to other developers, sorted by rating.
 
-### **How Do I Play?**
+## How do Ratings work?
 
-Just enter one of your Battlesnakes into an active Leaderboard. You can participate in one or all of the ladders!
-
-### **When do games run?**
-
-Games for each ladder will run once per day. The start times are offset between each ladder Battlesnake being in too many games at once.
-
-### **Achievements**
-
-At the end of each month, the Battleground Ladders will resolve and achievements will be awarded to the Battlesnakes based on how they finished in the competition: **1st Place**, **Top 10** and **Top 50**!
-
-For more information check out our [Welcome to Battlegrounds](https://blog.battlesnake.com/welcome-to-battlegrounds/) blog post!
+Leaderboards use an unmodified [TrueSkill](https://en.wikipedia.org/wiki/TrueSkill) algorithm to track and update player ratings. With the Trueskill system, there's no disadvantage to joining a Leaderboard already in progress, so drop in your Battlesnake anytime!
