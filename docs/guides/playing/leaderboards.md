@@ -20,4 +20,4 @@ At the end of each month, developers are awarded Battlesnake Points based on ran
 
 ## How do Ratings work?
 
-Leaderboards use an unmodified [TrueSkill](https://en.wikipedia.org/wiki/TrueSkill) algorithm to track and update player ratings. With the Trueskill system, there's no disadvantage to joining a Leaderboard already in progress, so drop in your Battlesnake anytime!
+Leaderboards use an unmodified [TrueSkill](https://en.wikipedia.org/wiki/TrueSkill) algorithm to track and update player ratings. With the TrueSkill system, there's no disadvantage to joining Leaderboards already in progress, so drop in your Battlesnake anytime!
