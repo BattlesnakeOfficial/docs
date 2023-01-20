@@ -6,8 +6,8 @@ export default function Figure({ src, caption, credit }) {
     <figure style={{ display: 'flex', justifyContent: 'center' }}>
       <div>
         <img src={useBaseUrl(src)} alt={caption} />
-        <figcaption>{caption}</figcaption>
-        {credit ? <figcaption><i>{credit}</i></figcaption> : ""}
+        <figcaption style={{ textAlign: 'center' }}>{caption}</figcaption>
+        {credit ? <figcaption style={{ textAlign: 'center' }}><i>{credit}</i></figcaption> : ""}
       </div>
     </figure>
   );
