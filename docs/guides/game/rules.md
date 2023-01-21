@@ -13,7 +13,7 @@ Each Battlesnake begins every game with full health (100 points). Every time you
 
 Battlesnakes that reach zero health will be eliminated, and this presents the first challenge - to stay alive as long as possible, you must find ways to replenish your health.
 
-#### Consuming Food
+### Consuming Food
 
 The most common way to restore health is consuming the traditional food of Battlesnakes; brightly colored nutrition discs. These delicious discs will appear on the game board throughout the game. Battlesnakes that enter the same square as food will immediately consume it, filling their health to maximum (100 points).
 
@@ -25,7 +25,7 @@ However, ravenous consumption comes at a cost. Each time a Battlesnake consumes 
 Consuming food costs no health, meaning a Battlesnake with a single health point can safely eat and be rejuventated in time to keep moving.
 :::
 
-#### Food Spawn
+### Food Spawn
 
 Food spawn timing and location will depend on which [game map](guides/game/maps.md) you're playing on. 
 
@@ -43,13 +43,13 @@ As the game progresses and all Battlesnakes consume food to stay healthy, findin
 Your goal is to have your opponents run out of room before you do.
 :::
 
-#### Game Board and Boundaries
+### Board Boundaries
 
 Battlesnake is played on a rectangular game board with potentially dozens of Battlesnakes competing at the same time, each of variable length and health.
 
 You'll want to be aware of the boundaries of the game board at all times.Depending on what map you're playing on, moving outside these boundaries could result in elimination.
 
-#### Battlesnake Collisions
+### Battlesnake Collisions
 
 There are three types of collisions that your Battlesnake should be aware of.
 
@@ -63,11 +63,11 @@ There are three types of collisions that your Battlesnake should be aware of.
 Competitive Battlesnake players use head-to-head collisions to gain advantages over their opponents and force eliminations.
 :::
 
-#### Starting State and Length
+### Starting State
 
 At the beginning of a game your Battlesnake may be coiled up on a single square. This is naturally very uncomfortable for them, and as they make their first few moves they will stretch out to their full length.
 
-## Game Cycle & Turn Resolution
+## Turn Resolution
 
 Battlesnake is more than a game of moving and eating, it's also about creative thinking and competitive strategy. Understanding how the game is run and turns are resolved can be useful to getting the upper hand over your opponents.
 
