@@ -5,7 +5,6 @@ description: A collection of starter code and templates for building Battlesnake
 
 import Link from '@docusaurus/Link'
 import CardLink from '@site/src/components/CardLink';
-import Highlight from '@site/src/components/Highlight';
 
 export const officialProjects = [
   {
