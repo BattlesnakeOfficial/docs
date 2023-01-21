@@ -144,3 +144,9 @@ html[data-theme='dark'] .navbar-item-discord:before {
 img.game-mode-example {
   max-width: 400px;
 }
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+

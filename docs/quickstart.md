@@ -11,6 +11,8 @@ This guide will walk you through one way to get your first Battlesnake running, 
 
 If you do not wish to use Replit, you are welcome to use your own IDE, or any [hosting solution](guides/tips/hosting-suggestions.md) of your choosing.
 
+<iframe class="video" src="https://www.youtube.com/embed/IA7CeGRfuNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## How does it work?
 
 Developers build and deploy a web server that implements the [Battlesnake API](api/index.md). When a game is created, the game engine will make HTTP requests to your Battlesnake server, sending game board information and asking for your next move. Your Battlesnake's behavior is determined by how you program it to respond to these requests.
