@@ -41,6 +41,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/BattlesnakeOfficial/docs/edit/main',
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-katex')],
         },
         blog: false,
         theme: {
@@ -98,7 +100,7 @@ const config = {
             docId: 'starter-projects',
             label: 'Starter Projects'
           },
-         
+
           {
             type: 'docSidebar',
             sidebarId: 'api',
@@ -154,7 +156,7 @@ const config = {
                 label: 'Developer FAQ',
                 to: 'faq'
               },
-           
+
             ]
           },
           {
@@ -164,7 +166,7 @@ const config = {
                 label: 'Guides',
                 to: 'guides'
               },
-            
+
               {
                 label: 'API Reference',
                 to: 'api'
@@ -186,12 +188,12 @@ const config = {
                 label: 'Discord',
                 href: 'https://play.battlesnake.com/discord',
               },
-              
+
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/playbattlesnake',
               },
-                       ],
+            ],
           },
           {
             title: 'More',
@@ -218,6 +220,16 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
 };
 
 module.exports = config;
