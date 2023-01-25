@@ -91,6 +91,11 @@ const config = {
         items: [
           {
             type: 'doc',
+            docId: 'quickstart',
+            label: 'Quickstart',
+          },
+          {
+            type: 'doc',
             docId: 'starter-projects',
             label: 'Starter Projects'
           },
@@ -103,11 +108,6 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'api',
             label: 'API',
-          },
-          {
-            type: 'doc',
-            docId: 'faq',
-            label: 'FAQ'
           },
           {
             to: 'blog',
@@ -142,12 +142,16 @@ const config = {
             title: 'Get Started',
             items: [
               {
+                label: 'Quickstart',
+                to: 'quickstart'
+              },
+              {
                 label: 'Starter Projects',
                 to: 'starter-projects'
               },
               {
                 label: 'Developer FAQ',
-                to: 'faq'
+                to: 'guides/faq'
               },
 
             ]

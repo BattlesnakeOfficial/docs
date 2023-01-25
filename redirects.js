@@ -8,8 +8,8 @@ const redirects = [
     to: '/guides/playing/leaderboards'
   },
   {
-    from: '/quickstart',
-    to: '/guides/quickstart'
+    from: '/faq',
+    to: '/guides/faq'
   }
 ];
 

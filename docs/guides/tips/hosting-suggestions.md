@@ -27,16 +27,16 @@ We recommend the following hosting options if you're just getting started, aren'
 
 **Website**: [Replit](https://replit.com/)
 
-**Instructions:** [**Deploy your Battlesnake with Replit**](guides/quickstart.md)
+**Instructions:** [**Deploy your Battlesnake with Replit**](quickstart.md)
 
 * **Advantages**
-  * Handles both IDE and hosting - see the [Quickstart Coding Guide](guides/quickstart.md) for detailed instructions.
+  * Handles both IDE and hosting - see the [Quickstart Coding Guide](quickstart.md) for detailed instructions.
   * Everything is in your web browser - no need to install software or run anything locally.
   * Free tier is good for getting started.
 * **Gotchas**
   * Might not have the most up-to-date version of your preferred programming language.
   * Your Replit might be slow to start up! You likely have to ping it periodically, or check to make sure that is running, especially before a tournament.
-  * For speed and by default, your Replit instance will be run close to where you are, geographically. This is an advantage when using your IDE (quick when you are writing code) but may result in [high-latency](api/index.md#request-timeouts), and in the worst case, timeouts, for your Battlesnake if you and your server are located in a country far-away from where the [Battlesnake servers](faq.md#what-cloud-provider-and-region-should-i-use) are.
+  * For speed and by default, your Replit instance will be run close to where you are, geographically. This is an advantage when using your IDE (quick when you are writing code) but may result in [high-latency](api/index.md#request-timeouts), and in the worst case, timeouts, for your Battlesnake if you and your server are located in a country far-away from where the [Battlesnake servers](guides/faq.md#what-cloud-provider-and-region-should-i-use) are.
   * 
 * **You should probably use Replit if...**
   * You are just getting started and want to test out Battlesnake without too much commitment or setup.
