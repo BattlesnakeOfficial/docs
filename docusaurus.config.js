@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Battlesnake Docs',
+  title: 'Battlesnake',
   tagline: 'A multiplayer programming game where your code is the controller.',
   url: 'https://docs.battlesnake.com',
   baseUrl: '/',
@@ -42,6 +42,7 @@ const config = {
           rehypePlugins: [require('rehype-katex')],
         },
         blog: {
+          blogTitle: 'Battlesnake Blog',
           routeBasePath: 'blog'
         },
         theme: {
@@ -84,7 +85,7 @@ const config = {
       },
       navbar: {
         logo: {
-          alt: 'Battlesnake Docs',
+          alt: 'Battlesnake',
           src: 'img/logo-light.svg',
           srcDark: 'img/logo-dark.svg',
         },
