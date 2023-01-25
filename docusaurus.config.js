@@ -37,14 +37,13 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           breadcrumbs: false,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/BattlesnakeOfficial/docs/edit/main',
+          editUrl: 'https://github.com/BattlesnakeOfficial/docs/edit/main',
           remarkPlugins: [require('remark-math')],
           rehypePlugins: [require('rehype-katex')],
         },
-        blog: false,
+        blog: {
+          routeBasePath: 'blog'
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -115,6 +114,10 @@ const config = {
             type: 'doc',
             docId: 'faq',
             label: 'FAQ'
+          },
+          {
+            to: 'blog',
+            label: 'Blog'
           },
           {
             type: 'docSidebar',
