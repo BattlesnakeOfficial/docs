@@ -20,7 +20,7 @@ Each Battlesnake is controlled by a live web server and the code _you_ write. It
 
 ## Ready to get started building a Battlesnake?
 
-* [Quickstart](quickstart.md)
+* [Quickstart](guides/quickstart.md)
 * [Starter Projects](starter-projects.md)
 * [FAQ](faq.md)
 

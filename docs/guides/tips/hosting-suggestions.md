@@ -27,10 +27,10 @@ We recommend the following hosting options if you're just getting started, aren'
 
 **Website**: [Replit](https://replit.com/)
 
-**Instructions:** [**Deploy your Battlesnake with Replit**](quickstart.md)
+**Instructions:** [**Deploy your Battlesnake with Replit**](guides/quickstart.md)
 
 * **Advantages**
-  * Handles both IDE and hosting - see the [Quickstart Coding Guide](quickstart.md) for detailed instructions.
+  * Handles both IDE and hosting - see the [Quickstart Coding Guide](guides/quickstart.md) for detailed instructions.
   * Everything is in your web browser - no need to install software or run anything locally.
   * Free tier is good for getting started.
 * **Gotchas**

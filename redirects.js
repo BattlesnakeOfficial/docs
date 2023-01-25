@@ -6,6 +6,10 @@ const redirects = [
   {
     from: '/guides/playing/battlegrounds',
     to: '/guides/playing/leaderboards'
+  },
+  {
+    from: '/quickstart',
+    to: '/guides/quickstart'
   }
 ];
 

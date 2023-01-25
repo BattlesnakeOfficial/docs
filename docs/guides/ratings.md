@@ -1,6 +1,6 @@
 ---
 title: Leaderboard and Player Ratings
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 import Figure from '@site/src/components/Figure';

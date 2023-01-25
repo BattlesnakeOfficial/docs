@@ -91,24 +91,18 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'quickstart',
-            label: 'Quickstart'
-          },
-          {
-            type: 'doc',
             docId: 'starter-projects',
             label: 'Starter Projects'
-          },
-
-          {
-            type: 'docSidebar',
-            sidebarId: 'api',
-            label: 'API',
           },
           {
             type: 'docSidebar',
             sidebarId: 'guides',
             label: 'Guides',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'api',
+            label: 'API',
           },
           {
             type: 'doc',
@@ -127,16 +121,16 @@ const config = {
           {
             href: 'https://github.com/BattlesnakeOfficial/docs',
             position: 'right',
-            className: 'navbar-item-github',
+            className: 'navbar-item-icon navbar-item-github',
           },
           {
             href: 'https://play.battlesnake.com/discord',
-            className: 'navbar-item-discord',
+            className: 'navbar-item-icon navbar-item-discord',
             position: 'right',
           },
           {
             href: 'https://twitter.com/playbattlesnake',
-            className: 'navbar-item-twitter',
+            className: 'navbar-item-icon navbar-item-twitter',
             position: 'right',
           }
         ],
@@ -147,10 +141,6 @@ const config = {
           {
             title: 'Get Started',
             items: [
-              {
-                label: 'Quickstart',
-                to: 'quickstart'
-              },
               {
                 label: 'Starter Projects',
                 to: 'starter-projects'

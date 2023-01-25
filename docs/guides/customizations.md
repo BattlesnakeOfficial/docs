@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 description: Options for customizing your Battlesnake's appearance
 ---
 

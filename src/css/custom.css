@@ -68,6 +68,10 @@ html[data-theme='dark'] .navbar-item-github:before {
   }
 }
 
+.navbar-item-icon {
+  padding: 0.25rem;
+}
+
 .navbar-item-twitter:hover {
   opacity: 0.6;
 }
@@ -149,4 +153,3 @@ img.game-mode-example {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
-
