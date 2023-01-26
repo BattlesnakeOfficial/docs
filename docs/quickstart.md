@@ -88,12 +88,10 @@ If everything is set up correctly your Battlesnake will show as operational and 
 ![Battlesnake created screen, with color customization.](/img/battlesnake_created.png)
 
 :::caution
-If there is a problem or error with your Battlesnake, you can make changes to your code or configuration and then click **Refresh** to test it again.
+If there is a problem or error with your Battlesnake, you can make changes to your code or configuration and then click **Ping** to test it again.
 :::
 
-![Refresh option via the gear icon the Battlesnake page](/img/refresh_snake_page.png)
-
-![Refresh button on the Profile page](/img/refresh_profile_page.png)
+![Ping button on the Battlesnakes page](/img/refresh_snake_page.png)
 
 ## 5: Play Your First Game
 
