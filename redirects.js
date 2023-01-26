@@ -9,11 +9,11 @@ const redirects = [
   },
   {
     from: '/guides/playing-battlesnake/battlegrounds',
-    to: '/guides/playing/leaderboards'
+    to: '/guides/leaderboards/overview'
   },
   {
     from: '/guides/playing/battlegrounds',
-    to: '/guides/playing/leaderboards'
+    to: '/guides/leaderboards/overview'
   }  
 ];
 
