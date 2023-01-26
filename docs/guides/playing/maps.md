@@ -3,7 +3,7 @@ title: Maps
 sidebar_position: 2
 ---
 
-# Game Maps
+# Maps
 
 :::caution
 This page doesn't exist yet! 
