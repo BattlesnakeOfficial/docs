@@ -108,6 +108,12 @@ export const communityProjects = [
     author: 'Paul Ambrose',
     authorHref: 'https://github.com/pambrose'
   },
+    {
+    name: 'Mule and DataWeave Battlesnake Quickstart',
+    href: 'https://github.com/manikmagar/mule-battlesnake-starter',
+    author: 'Manik Magar',
+    authorHref: 'https://github.com/manikmagar'
+  },
   {
     name: 'PHP Starter Project',
     href: 'https://github.com/Nettogrof/starter-snake-php',
