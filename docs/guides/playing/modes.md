@@ -3,7 +3,7 @@ title: Modes
 sidebar_position: 1
 ---
 
-# Game Modes
+# Modes
 
 Battlesnake has several game modes all built on the same foundational [game rules.](guides/game/rules.md) All game modes and are available for casual play and may appear in competitions. In the API, the game mode is defined as the _ruleset_ on the [Game Object.](api/objects/game.md)
 

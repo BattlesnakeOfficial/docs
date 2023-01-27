@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: General
+title: General Tips & Tricks
 description: A collection of tips for developing your best Battlesnake.
 ---
 
-# General Developer Tips
+# General Tips & Tricks
 
 These tips have been suggested and collected by the community over the years. Hopefully, they'll be helpful to new Battlesnake developers playing the game for the first time!
 
