@@ -120,6 +120,10 @@ const config = {
             label: 'Hall of Fame',
           },
           {
+            to: 'creators',
+            label: 'Creators'
+          },
+          {
             href: 'https://github.com/BattlesnakeOfficial/docs',
             position: 'right',
             className: 'navbar-item-icon navbar-item-github',
