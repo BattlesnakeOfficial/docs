@@ -1,6 +1,5 @@
 ---
 title: Battlesnake Hall of Fame
-hide_table_of_contents: true
 sidebar_position: 0
 ---
 
