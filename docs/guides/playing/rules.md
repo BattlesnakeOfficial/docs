@@ -27,7 +27,7 @@ Consuming food costs no health, meaning a Battlesnake with a single health point
 
 ### Food Spawn
 
-Food spawn timing and location will depend on which [game map](guides/game/maps.md) you're playing on. 
+Food spawn timing and location will depend on which [game map](guides/playing/maps.md) you're playing on. 
 
 In most cases, some amount of food will be placed around the board at the start. On subsequent turns additional food may be added (according to our Super Secret Proprietary Algorithm\*). It's also possible for multiple pieces of food to appear on any single turn.
 
