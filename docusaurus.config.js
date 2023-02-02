@@ -119,15 +119,6 @@ const config = {
             sidebarId: 'community',
             label: 'Community',
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'halloffame',
-          //   label: 'Hall of Fame',
-          // },
-          // {
-          //   to: 'creators',
-          //   label: 'Creators'
-          // },
           {
             href: 'https://github.com/BattlesnakeOfficial/docs',
             position: 'right',

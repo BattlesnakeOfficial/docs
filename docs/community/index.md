@@ -1,12 +1,13 @@
 ---
-title: Community Initiatives
+title: Battlesnake Community
+hide_table_of_contents: true
 sidebar_position: 0
 ---
 
 import Link from '@docusaurus/Link';
 import CardLink from '@site/src/components/CardLink';
 
-# Community Initiatives
+# Battlesnake Community
 Community is at the heart of the Battlesnake ecosystem and because of that we look for ways to celebrate the contributions of our community both on the platform and beyond! 
 
 ## Check out some of the initiatives below:
