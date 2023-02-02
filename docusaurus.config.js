@@ -116,12 +116,8 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'halloffame',
-            label: 'Hall of Fame',
-          },
-          {
-            to: 'creators',
-            label: 'Creators'
+            sidebarId: 'community',
+            label: 'Community',
           },
           {
             href: 'https://github.com/BattlesnakeOfficial/docs',

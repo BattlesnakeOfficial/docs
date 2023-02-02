@@ -1,7 +1,7 @@
 ---
-title: Battlesnake Hall of Fame
+title: Hall of Fame
 hide_table_of_contents: true
-sidebar_position: 0
+sidebar_position: 1
 ---
 
 import Link from '@docusaurus/Link'
