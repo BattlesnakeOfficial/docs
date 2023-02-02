@@ -6,9 +6,9 @@ description: Options for customizing your Battlesnake's appearance
 
 # Customizing Your Battlesnake
 
-## Introduction
-
 This reference outlines all the available options for personalizing your Battlesnake's appearance. We periodically release new options, often linked to specific events or competitions.
+
+## Example JSON
 
 Each Battlesnake can choose a color, head, and tail to represent it on the game board. Here's an example of a full personalized Battlesnake.
 
@@ -46,7 +46,7 @@ Just like [choosing a color](#choosing-a-color), your head and tail are provided
 
 If an invalid value is returned (or no value at all) the `default` options will be displayed.
 
-### **Default Theme**
+### Defaults
 
 If your Battlesnake doesn't specify a head or tail these default options will be used.
 

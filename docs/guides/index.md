@@ -10,13 +10,13 @@ sidebar_position: 0
 Each Battlesnake is controlled by a live web server and the code _you_ write. It moves around the game board according to your algorithm, attempting to find food, avoid other Battlesnakes, and stay alive as long as possible.
 
 
-**Developers of all skill levels** use Battlesnake to learn new technologies, improve their programming skills, and have fun with friends, family, and colleagues. Anyone can play for free and join competitive [Leaderboards](guides/playing/leaderboards). Success at the highest level requires creativity, unique strategies, and excellent programming.
+**Developers of all skill levels** use Battlesnake to learn new technologies, improve their programming skills, and have fun with friends, family, and colleagues. Anyone can play for free and join competitive [Leaderboards](guides/leaderboards/overview.md). Success at the highest level requires creativity, unique strategies, and excellent programming.
 
 ## What can I do with my Battlesnake?
 
 **Custom Games:** Create unique scenarios to test different algorithms against friends, community members, and pre-made Battlesnake bots.
 
-**Leaderboards:** A set of competitive leaderboards for testing your skills against other developers. Throw your Battlesnakes into ladders, each with unique modes. Matches run between a set time each day, allowing you to make tweaks to your code between matches. [See guide.](guides/playing/leaderboards.md)
+**Leaderboards:** A set of competitive leaderboards for testing your skills against other developers. Throw your Battlesnakes into ladders, each with unique modes. Matches run between a set time each day, allowing you to make tweaks to your code between matches. [See guide.](guides/leaderboards/overview.md)
 
 ## Ready to get started building a Battlesnake?
 
@@ -26,7 +26,7 @@ Each Battlesnake is controlled by a live web server and the code _you_ write. It
 
 ## Popular References
 
-* [Game Rules](guides/game/rules.md)
+* [Game Rules](guides/playing/rules.md)
 * [API Reference](api/index.md)
 * [Customizations](guides/customizations.md)
 

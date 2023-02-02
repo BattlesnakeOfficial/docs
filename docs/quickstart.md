@@ -147,7 +147,7 @@ This guide has helped you build and deploy your first Battlesnake using [Replit]
 
 But this only scratches the surface!
 
-Check out the [Battlesnake Game Rules](guides/game/rules.md) and [Tips & Tricks](guides/tips/general.md) guide to making sure you understand how to program your Battlesnake to win the most games possible. You may have also noticed there are different [Game Modes](guides/game/modes.md) to explore that provide different challenges for your Battlesnake.
+Check out the [Battlesnake Game Rules](guides/playing/rules.md) and [Tips & Tricks](guides/tips/general.md) guide to making sure you understand how to program your Battlesnake to win the most games possible. You may have also noticed there are different [Game Modes](guides/playing/modes.md) to explore that provide different challenges for your Battlesnake.
 
 You can also check out the [Battlesnake Awesome List](https://github.com/xtagon/awesome-battlesnake), built by [Xtagon](https://play.battlesnake.com/profile/xtagon) and maintained by the community for more great Battlesnake resources. Anyone may [contribute](https://github.com/xtagon/awesome-battlesnake/blob/master/CONTRIBUTING.md), so if you know of any interesting resources or wish to share your own creations, [open a pull request](https://github.com/xtagon/awesome-battlesnake/pulls).
 
