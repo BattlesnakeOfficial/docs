@@ -43,7 +43,20 @@ const config = {
         },
         blog: {
           blogTitle: 'Battlesnake Blog',
-          routeBasePath: 'blog'
+          routeBasePath: 'blog',
+          postsPerPage: 3,
+          blogListComponent: '@theme/BlogListPage',
+          blogPostComponent: '@theme/BlogPostPage',
+          blogTagsListComponent: '@theme/BlogTagsListPage',
+          blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All our posts',
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [],
+          beforeDefaultRemarkPlugins: [],
+          beforeDefaultRehypePlugins: [],
+          truncateMarker: /<!--\s*(truncate)\s*-->/,
+          showReadingTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
