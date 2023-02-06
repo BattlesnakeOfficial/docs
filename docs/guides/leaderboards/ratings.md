@@ -43,7 +43,7 @@ Rating &= \lfloor 10000 \cdot \frac{1}{1 + e^{-\frac{(trueskill - \mu_0)}{\sigma
 \end{split}
 $$$
 
-<Figure caption="Transforming TrueSkill Ratings" src="/img/Ratings_logistic_function.png" />
+<Figure caption="Transforming TrueSkill Ratings" src="/img/ratings_logistic_function.png" />
 
 An important detail about this transformation is that it doesn't change the ordering of Ratings in any way, just the range of displayed values. The Leaderboard is also still sorted by the underlying TrueSkill estimates.
 
