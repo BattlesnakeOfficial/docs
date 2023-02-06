@@ -1,16 +1,17 @@
 ---
 title: Battlesnake Community
 hide_table_of_contents: true
+hide_title: true
 sidebar_position: 0
 ---
 
 import Link from '@docusaurus/Link';
 import CardLink from '@site/src/components/CardLink';
 
-# Battlesnake Community
-Community is at the heart of the Battlesnake ecosystem and because of that we look for ways to celebrate the contributions of our community both on the platform and beyond! 
+![Battlesnake Community](/img/community_banner.png)
 
-## Check out some of the initiatives below:
+## Community is at the heart of the Battlesnake 
+Because of that we are constantly on the lookout for fun and innovative ways to celebrate the contributions of our community both on the platform and beyond! 👀
 
 export const programs = [
   {

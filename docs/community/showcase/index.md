@@ -1,5 +1,6 @@
 ---
 title: Community Showcase
+hide_title: true
 hide_table_of_contents: true
 sidebar_position: 3
 ---
@@ -8,7 +9,7 @@ import Link from '@docusaurus/Link'
 import CardLink from '@site/src/components/CardLink';
 
 
-<!-- ![Battlesnake Community Showcase](/img/showcase/showcase_banner.png) -->
+![Battlesnake Community Showcase](/img/showcase/showcase_banner.png)
 
 ## Creative Content from the Battlesnake Community
 
