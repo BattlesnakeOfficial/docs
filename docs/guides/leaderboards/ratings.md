@@ -37,6 +37,7 @@ To improve on this, we transform the TrueSkill Rating into an integer between 0 
 
 $$$
 \large\begin{split}
+Trueskill &= \mu - 3 \cdot \sigma \\
 Rating &= \lfloor 10000 \cdot \frac{1}{1 + e^{-\frac{(trueskill - \mu_0)}{\sigma_0}}} \rfloor \\[4ex]
 \mu_0 &= \textnormal{initial value for }\mu \\
 \sigma_0 &= \textnormal{initial value for }\sigma
@@ -55,21 +56,14 @@ The calculation of global player Ratings is experimental, and likely to change.
 
 :::
 
-To populate a global Leaderboard of players, we combine the Ratings of all of each player's Battlesnakes that are in an active Leaderboard. Ratings with a lower **sigma** will be weighted more heavily, as these represent the Leaderboards where a Battlesnake has had more activity and should have a more accurate Rating. However, the difficulty or competitiveness of each Leaderboard is not currently taken into account.
+To populate a global leaderboard of players, we add the Trueskill estimates of all of each player's Battlesnakes that are in an active Leaderboard. We then transform this cumulative score using a similar logistic function as above, but scaled to match the number of Leaderboards. **This means in order to be competitive on the global Player Rankings, a player will need to have a high ranking Battlesnake in every Leaderboard**. The difficulty or competitiveness of each Leaderboard is not currently taken into account.
 
 $$$
-\huge\begin{split}
-\mu_{global} &= \frac{
-    \frac{\mu_a}{\sigma_a^2} + \frac{\mu_b}{\sigma_b^2}
-}{
-    \frac{1}{\sigma_a^2} + \frac{1}{\sigma_b^2}
-} \\[4ex]
-\sigma_{global} &= \sqrt{
-    \frac{1}{
-        \frac{1}{\sigma_a^2} + \frac{1}{\sigma_b^2}
-    }
-}
+\LARGE\begin{split}
+{Rating}_{base} &= \sum_{n=1}^{N} (\mu_n - 3 \cdot \sigma_n) \\
+Rating &= \lfloor 10,000 \cdot \frac{1}{1 + e^{-\frac{(Rating_{\small{base}} - N \cdot \mu_0)}{N \cdot \sigma_0}}} \rfloor \\[4ex]
+N &= \textnormal{Number of active leaderboards} \\
+\mu_0 &= \textnormal{initial value for }\mu \\
+\sigma_0 &= \textnormal{initial value for }\sigma
 \end{split}
 $$$
-
-Another way of viewing these calculations is as a weighted average of mu, where the weight is the **precision** (inverse of the variance). The sigma values are the sum of the precisions converted back into standard deviation. The mu and sigma values are then [transformed in the same way as the Leaderboard Ratings](#how-are-Leaderboard-Ratings-calculated) to produce an easy to read number between 0 - 10,000.
