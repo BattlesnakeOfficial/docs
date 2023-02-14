@@ -1,7 +1,7 @@
 ---
 title: Overview
 sidebar_position: 1
-description: A monthly mini-competition between Battlesnake Developers that features unique maps, rules, and modes.
+description: Compete with developers worldwide in Battlesnake Leaderboards.
 ---
 
 import Figure from '@site/src/components/Figure';
