@@ -167,6 +167,12 @@ export const communityProjects = [
     href: 'https://github.com/tyrelh/starter-snake-typescript-deno',
     author: 'Tyrel Hiebert',
     authorHref: 'https://github.com/tyrelh'
+  },
+  {
+    name: 'Elixir Snake with Fly.io',
+    href: 'https://github.com/sockbot/elixir-starter-battlesnake',
+    author: 'Andy Chan',
+    authorHref: 'https://github.com/sockbot'
   }
 ]
 
