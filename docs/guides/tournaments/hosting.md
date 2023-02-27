@@ -31,10 +31,6 @@ If you want to run an event with more than 32 battlesnakes, you can simply creat
 </p>
 </details>
 
-
-</p>
-</details>
-
 <details><summary>What are the popular tournament formats? How do these events normally run?</summary>
 <p>
 
