@@ -1,7 +1,7 @@
 ---
 title: Hosting a Tournament
 sidebar_position: 2
-description: Taraneh to fill in.
+description: Run your own Battlesnake Tournament for your team, classmates, or friends in just a few clicks. 
 ---
 
 # Hosting a Tournament
