@@ -6,7 +6,7 @@ description: A collection of useful algorithms for building a competitive Battle
 # Useful Algorithms
 
 :::info
-This page was inspired by BoldBigflank, 101donutman, and Xtagon in the [Battlesnake Discord](https://play.battlesnke.com/discord). Each algorithm listed should include a widely accessible definition ([think ELI5 style](https://www.howtogeek.com/694298/what-does-eli5-mean-and-how-do-you-use-it/)), how it could be applied to Battlesnake, and links to further resources. 
+This page was inspired by BoldBigflank, 101donutman, and Xtagon in the [Battlesnake Discord](https://play.battlesnke.com/discord). Each algorithm listed should include a widely accessible definition ([think ELI5 style](https://www.howtogeek.com/694298/what-does-eli5-mean-and-how-do-you-use-it/)), how it could be applied to Battlesnake, and links to further resources.
 
 [Contributions and updates are always welcome!](https://github.com/BattlesnakeOfficial/docs)
 :::
@@ -23,4 +23,18 @@ Often times Battlesnakes will want to consider the available space of each move 
 
 #### Additional Flood Fill Resources
 
-* [Flood Fill - Wikipedia](https://en.wikipedia.org/wiki/Flood\_fill)
+- [Flood Fill - Wikipedia](https://en.wikipedia.org/wiki/Flood_fill)
+
+## A\* pathfinding
+
+A\* is an algorithm to plot the shortest path between two points on a grid. You might be familiar with this if you've ever played a point and click adventure game and seen your character navigate around obstacles to get to where you clicked.
+
+#### Using A\* in Battlesnake
+
+In Battlesnake, A\* is a good way to find the way to the closest food, or attack the closest snake. It will let you write [declarative style code instead of imperative](https://www.educative.io/blog/declarative-vs-imperative-programming). This means you can write code that says "move me along the shortest path to the other snake's head" instead of declaring the "up" "down" "left" or "right move to get to where you want to go.
+
+#### Additional A\* resources
+
+- An intro to A\* pathfinding in the context of games - https://www.redblobgames.com/pathfinding/a-star/introduction.html
+- A JavaScript library implementing A\* and some other pathfinding algorithms: https://github.com/qiao/PathFinding.js/
+- A Battlesnake implementing A\* pathfinding (not compatible with API v1): https://github.com/sockbot/battlesnake-api
