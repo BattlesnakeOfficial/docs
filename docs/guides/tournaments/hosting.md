@@ -9,9 +9,7 @@ The Tournaments tool allows you to run your own Battlesnake bracket event tourna
 
 When you create a tournament, you’ll be provided with your own URL for your to share with your participants so they can easily join your tournament with just a click. This tool will also handle all of the bracketing and keep track of wins and losses. You don’t need any technical expertise to use it. Check out the video below for a full walk-through of the Tournament tool.
 
-
-<iframe class="video" src="https://youtu.be/9-yPI35TnbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<iframe class="video" src="https://www.youtube.com/embed/9-yPI35TnbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <details><summary>How many battlesnakes does a Tournament support? </summary>
 <p>
