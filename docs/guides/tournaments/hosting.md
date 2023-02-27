@@ -16,7 +16,7 @@ When you create a tournament, you’ll be provided with your own URL for your to
 <details><summary>How many battlesnakes does a Tournament support? </summary>
 <p>
 
-#### Tournaments can support anywhere from 4 - 32 Battlesnakes. Ideally, you want at least 4 or more players in a tournament. Usually, 16 Battlesnakes are the sweet spot, but you can have as many as 32 in a single tournament. 
+#### Tournaments can support anywhere from 4 - 32 Battlesnakes. Ideally, you want at least 4 or more players in a tournament. Usually, 16 Battlesnakes is the sweet spot, but you can have as many as 32 in a single tournament. 
 
 If you want to run an event with more than 32 battlesnakes, you can simply create two separate tournaments. 
 
