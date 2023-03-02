@@ -14,9 +14,11 @@ When you create a tournament, you’ll be provided with your own URL for your to
 <details><summary>How many battlesnakes does a Tournament support? </summary>
 <p>
 
-#### Tournaments can support anywhere from 4 - 32 Battlesnakes. Ideally, you want at least 4 or more players in a tournament. Usually, 16 Battlesnakes is the sweet spot, but you can have as many as 32 in a single tournament. 
+#### Tournaments can support anywhere from 4 - 32 Battlesnakes. 
 
-If you want to run an event with more than 32 battlesnakes, you can simply create two separate tournaments. 
+Ideally, you want at least 4 or more players in a tournament. 16 Battlesnakes is the sweet spot, but you can have as many as 32 in a single tournament. 
+
+If you want to run an event with more than 32 battlesnakes, you can simply create two separate tournaments and run them both indivudally!
 
 </p>
 </details>
@@ -24,7 +26,7 @@ If you want to run an event with more than 32 battlesnakes, you can simply creat
 <details><summary>How long do tournaments take to run?</summary>
 <p>
 
-#### That depends on the number of Battlesnakes in your tournament and how long you give people time to build them. That said, typical tournaments with 16 snakes take about 60-90 minutes to run. 
+#### That depends on the number of Battlesnakes in your tournament and how much time you give developers to build their Battlesnakes. That said, a typical tournaments with 16 Battlesnakes takes about 60-90 minutes to run. 
 
 </p>
 </details>
