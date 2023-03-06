@@ -11,7 +11,7 @@ hide_table_of_contents: true
 
 ---
 
-We’re very excited to announce that the Battlesnake team is joining [DevCycle](https://devcycle.com), a leading feature management and devtool company. Combined, we’ll be able to support developers from all experiences and backgrounds in becoming better programmers and delivering amazing products worldwide.
+We’re very excited to announce that the Battlesnake team is joining [DevCycle](https://devcycle.com/?utm_source=Referral&utm_medium=battlesnake-blog&utm_campaign=acquisition-communication), a leading feature management company. Combined, we’ll be able to support developers from all experiences and backgrounds in becoming better programmers and delivering amazing products worldwide.
 
 <!--truncate-->
 
