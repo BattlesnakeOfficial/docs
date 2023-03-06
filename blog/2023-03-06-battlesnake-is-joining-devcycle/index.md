@@ -1,6 +1,6 @@
 ---
 title: Battlesnake is Joining DevCycle
-description: The Battlesnake team is joining DevCycle, a leading feature management and devtool company.
+description: The Battlesnake team is joining DevCycle, a leading feature management company helping talented teams build great software.
 authors:
   - Brad
 image: ./img/blog_post_bsnake_joins_devcycle.png
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 
 ---
 
-We’re very excited to announce that the Battlesnake team is joining [DevCycle](https://devcycle.com/?utm_source=Referral&utm_medium=battlesnake-blog&utm_campaign=acquisition-communication), a leading feature management company. Combined, we’ll be able to support developers from all experiences and backgrounds in becoming better programmers and delivering amazing products worldwide.
+We’re very excited to announce that the Battlesnake team is joining [DevCycle](https://devcycle.com/?utm_source=Referral&utm_medium=battlesnake-blog&utm_campaign=acquisition-communication), a leading feature management company helping talented teams build great software. Combined, we’ll be able to support developers from all experiences and backgrounds in becoming better programmers and delivering amazing products worldwide.
 
 <!--truncate-->
 
@@ -42,7 +42,7 @@ As a team, we decided we didn’t want Battlesnake to be another recruiting or p
 
 From day one, our community has been working with us to help shape Battlesnake into what it is today. Many of you have been with us for a long time. You’ve left us over 40,000 messages on Discord, watched our streams on YouTube and Twitch more than 50,000 times, and created over 1,000 public Battlesnake repositories on GitHub. Impressively, you show no signs of slowing down!
 
-The impact your support has had on our team can not be understated. And while the competition is often fierce, you made sure it always remains friendly and welcoming for everyone. Thank you for attending our events, cheering along with our streams, creating amazing tools, and being genuinely awesome to one another.
+The impact your support has had on our team cannot be understated. And while the competition is often fierce, you make sure it always remains friendly and welcoming for everyone. Thank you for attending our events, cheering along with our streams, creating amazing tools, and being genuinely awesome to one another.
 
 
 **The Battlesnake Team** <br/>
