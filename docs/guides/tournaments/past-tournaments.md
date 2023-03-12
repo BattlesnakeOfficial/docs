@@ -21,3 +21,11 @@ description: A list of the previous Tournaments with links to their Streams
 | Board Size            | 11x11                |
 | Number of Snakes      | 4                    |
 | Game Mode             | Standard Non-Wrapped |
+
+### Other Tournamnets
+
+:::caution
+This page doesn't cover all previous Tournaments
+
+Want to help us improve our docs? [Become a contributor!](https://github.com/BattlesnakeOfficial/docs)
+:::
