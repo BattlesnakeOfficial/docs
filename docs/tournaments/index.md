@@ -1,5 +1,6 @@
 ---
 title: Tournaments
+sidebar_position: 1
 ---
 
 If you want to host a tournament check out the [Tournament Hosting Guide](guides/tournaments/hosting.md)!
