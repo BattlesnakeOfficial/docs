@@ -2,7 +2,6 @@
 title: What is Battlesnake?
 sidebar_position: 0
 slug: /
-displayed_sidebar: guides
 ---
 
 # What is Battlesnake?
