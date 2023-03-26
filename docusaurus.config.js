@@ -133,6 +133,11 @@ const config = {
             label: 'Community',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'tournaments',
+            label: 'Tournaments',
+          },
+          {
             href: 'https://github.com/BattlesnakeOfficial/docs',
             position: 'right',
             className: 'navbar-item-icon navbar-item-github',
