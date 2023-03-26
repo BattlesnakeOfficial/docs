@@ -11,8 +11,6 @@
 
 // @ts-check
 
-// TODO: Check out Mobile sidebar. And see if we can change the start on Guides
-// default when the menu is opened (since we redirect to Guides from the root)
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   api: [{
