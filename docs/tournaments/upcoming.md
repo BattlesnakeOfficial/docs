@@ -4,8 +4,6 @@ description: A list of the Upcoming Tournaments with dates and information
 sidebar_position: 1
 ---
 
-<!-- ![Header Image](./header_image.png) -->
-
 ## 2023 Community Tournament #2: Snail Mode
 
 | **Primary Tournament Details** |                                                                      |
