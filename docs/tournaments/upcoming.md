@@ -1,10 +1,10 @@
 ---
 title: Upcoming Tournaments
 description: A list of the Upcoming Tournaments with dates and information
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-![Header Image](./header_image.png)
+<!-- ![Header Image](./header_image.png) -->
 
 ## 2023 Community Tournament #2: Snail Mode
 
@@ -26,10 +26,14 @@ sidebar_position: 2
 | Number of Snakes      | 4                    |
 | Game Mode             | Standard Non-Wrapped |
 
-### Registration (Coming Soon)
+### Details
 
-### Two Tournaments
+This will be our second community led tournament of 2023!
+We are going to do Snail Mode again!!
 
-**May 6th**: 'Primary' Tournament. Up to 64 snakes will compete
+This time we are going to be hosting TWO tournaments, on back to back weekends.
+On **May 6th** we'll host the Primary Tournament with all competitors, up to 64!
+We may run the first round of games off stream, but stay tuned for more details as
+we see how the brackets fill out.
 
-**May 13th**: 'Second Chance Tournament'. Everyone knocked out in the first round from the May 6th Tournament will be added to this tournamnet on the 13th
+If you get eliminated in the first round on the 6th, don't worry! We've got a **Second Chance** Tournament on **May 13th**! We'll have a chance to see some of the snakes we didn't get a chance to see much last weekend.
