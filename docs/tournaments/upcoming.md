@@ -10,7 +10,7 @@ sidebar_position: 1
 |--------------------------------|----------------------------------------------------------------------|
 | Date                           | Saturday May 6th at 12pm EST                                         |
 | Number of Competitors          | Up to 64                                                             |
-| Registration Page              | Coming Soon!                                                         |
+| Registration Page              | [Register Here](https://play.battlesnake.com/account/tournament/community-tournament-2-snail-mode-mr8sygwh) |
 
 | **Second Chance Tournament Details** |                                                                      |
 |--------------------------------|----------------------------------------------------------------------|
