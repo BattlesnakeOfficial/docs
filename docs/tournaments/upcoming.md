@@ -6,6 +6,8 @@ sidebar_position: 1
 
 ## 2023 Community Tournament #2: Snail Mode
 
+![Banner](./upcoming-banner-may6-13.png)
+
 | **Primary Tournament Details** |                                                                      |
 |--------------------------------|----------------------------------------------------------------------|
 | Date                           | Saturday May 6th at 12pm EST                                         |
