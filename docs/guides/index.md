@@ -1,6 +1,7 @@
 ---
 title: What is Battlesnake?
 sidebar_position: 0
+slug: /
 ---
 
 # What is Battlesnake?
@@ -8,7 +9,6 @@ sidebar_position: 0
 **Battlesnake is an autonomous survival game played by web developers around the world.**
 
 Each Battlesnake is controlled by a live web server and the code _you_ write. It moves around the game board according to your algorithm, attempting to find food, avoid other Battlesnakes, and stay alive as long as possible.
-
 
 **Developers of all skill levels** use Battlesnake to learn new technologies, improve their programming skills, and have fun with friends, family, and colleagues. Anyone can play for free and join competitive [Leaderboards](guides/leaderboards/overview.md). Success at the highest level requires creativity, unique strategies, and excellent programming.
 

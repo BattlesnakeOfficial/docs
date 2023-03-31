@@ -15,6 +15,8 @@
   --ifm-color-primary-lightest: #f871b4;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-navbar-height: inherit;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -62,10 +64,14 @@ html[data-theme='dark'] .navbar-item-github:before {
   background-position: center;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 1024px) {
   .navbar-item-github {
     display: none !important;
   }
+}
+
+.navbar__link {
+  text-align: center;
 }
 
 .navbar-item-icon {
@@ -95,7 +101,7 @@ html[data-theme='dark'] .navbar-item-twitter:before {
   background-position: center;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 1024px) {
   .navbar-item-twitter {
     display: none !important;
   }
@@ -124,7 +130,7 @@ html[data-theme='dark'] .navbar-item-discord:before {
   background-position: center;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 1024px) {
   .navbar-item-discord {
     display: none !important;
   }
