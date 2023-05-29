@@ -91,7 +91,7 @@ const config = {
       },
       announcementBar: {
         id: 'announcement-bar-4',  // Increment on new announcement
-        content: '⭐️ Whats New at Battlesnake in 2023? <a href="https://blog.battlesnake.com/whats-new-at-battlesnake-in-2023/" target="_blank" rel="noopener noreferrer">Find out here.</a> 💜',
+        content: '⭐️ Whats New at Battlesnake in 2023? <a href="/blog/2023/01/16/whats-new-at-battlesnake-in-2023" target="_blank" rel="noopener noreferrer">Find out here.</a> 💜',
         backgroundColor: '#3e338f',
         textColor: '#ffffff',
         isCloseable: true
@@ -180,7 +180,7 @@ const config = {
             items: [
               {
                 label: 'Guides',
-                to: 'guides'
+                to: '/'
               },
 
               {
@@ -216,7 +216,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                href: 'https://blog.battlesnake.com',
+                to: 'blog',
               },
               {
                 label: 'Our Mission',
