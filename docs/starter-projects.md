@@ -67,6 +67,12 @@ export const communityProjects = [
     authorHref: 'https://github.com/olivercoad'
   },
   {
+    name: 'Haskell Starter with Heroku',
+    href: 'https://github.com/ccntrq/starter-snake-haskell',
+    author: 'Alexander Pankoff',
+    authorHref: 'https://github.com/ccntrq'
+  },
+  {
     name: 'Java Starter Project',
     href: 'https://github.com/battlesnakeofficial/starter-snake-java',
     author: 'BattlesnakeOfficial',
