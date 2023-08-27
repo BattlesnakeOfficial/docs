@@ -55,12 +55,6 @@ export const communityProjects = [
     authorHref: 'https://github.com/neistow'
   },
   {
-    name: 'C++ Starter Project with repl.it',
-    href: 'https://github.com/DAChenScratch/Starter-Battlesnake-Cpp-with-replit',
-    author: 'DAChenScratch',
-    authorHref: 'https://github.com/DAChenScratch'
-  },
-  {
     name: 'F\# Starter Project',
     href: 'https://github.com/olivercoad/battlesnake-starter-fsharp',
     author: 'olivercoad',
