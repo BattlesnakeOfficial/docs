@@ -168,7 +168,6 @@ Website: [Kubernetes on DigitalOcean Docs](https://docs.digitalocean.com/product
   * If you use the free T2 promotion, it is important to remember to turn it off at the end of your year unless you want to be billed!
 * **You should probably use AWS if...**
   * You want full control over the hosting and deployment of your app.
-  * It is important to you to host your server very close to the [Battlesnake servers](faq#what-cloud-provider-and-region-should-i-use).
   * You are already experienced or want to become more experienced with using AWS.
 
 ### GCP
