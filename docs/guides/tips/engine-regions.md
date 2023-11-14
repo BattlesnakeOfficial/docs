@@ -51,11 +51,10 @@ Here are some tips for common hosting setups:
 
 * Pick the region that's closest to the cloud provider's location/region you've deployed your code into.
 * e.g. for AWS us-east-1, use "GCP US-EAST4".
-* for DigitalOcean TOR1, use "DigitalOcean TOR (Toronto)"
 
 #### Running on Railway
 
-* Railway deployments run on GCP US-WEST, use the "AWS US-WEST-2" engine region for optimal latency.
+* Railway deployments run on GCP US-WEST, use the "GCP US-WEST1" engine region for optimal latency.
 
 #### Running on Heroku
 
@@ -64,22 +63,12 @@ Here are some tips for common hosting setups:
 
 ### Currently supported engine regions
 
-* **Amazon Web Services (AWS)**
-  * US-WEST-2 (Oregon) - **This is the default region**
 * **Google Cloud Platform (GCP)**
+  * GCP US-WEST1 (Oregon)
   * GCP US-EAST4 (Virginia)
   * GCP EUROPE-WEST4 (Netherlands)
   * GCP ASIA-SOUTH1 (Mumbai)
-* **Digital Ocean**
-  * DigitalOcean FRA (Frankfurt, Germany)
-  * DigitalOcean SGP (Singapore)
-  * DigitalOcean TOR (Toronto, Canada)
-
-### IPv6 Support
-
-Currently the default AWS region (`AWS US-WEST-2`) and DigitalOcean regions do not yet support IPv6 Battlesnakes. If you need support for IPv6, you'll need to use one of the GCP regions.
-
-You can enter your Battlesnake's URL in one of two ways:
-
-* With a regular hostname: `https://my-battlesnake-url.com`, where `my-battlesnake-url.com` has a AAAA DNS record pointing to your server's IPv6 address
-* With an IPv6 address: `http://[b513:e52a:d9cd:d5fd:eeb2:fbed:d24c:b12a]` (Note the square brackets around the address)
+  * GCP FRA (Frankfurt)
+  * GCP SGP (Singapore)
+  * GCP TOR (Toronto)
+ 
