@@ -171,6 +171,22 @@ Website: [Kubernetes on DigitalOcean Docs](https://docs.digitalocean.com/product
   * It is important to you to host your server very close to the [Battlesnake servers](faq#what-cloud-provider-and-region-should-i-use).
   * You are already experienced or want to become more experienced with using AWS.
 
+### GCP
+
+**Website**: [Google Cloud Platform](https://cloud.google.com/)
+
+* **Advantages**
+  * GCP has a [free tier and free credits for new users](https://cloud.google.com/free)
+  * Wide variety of ML/AI services
+  * Dev-friendly with a smaller learning curve due to good documentation and UI
+* **Gotchas**
+  * While there is a free tier, once it runs out GCP can be more expensive than some options above
+  * Holds a much smaller market share than other options, so tutorials and discussions on the internet will be harder to find
+* **You should probably use GCP if...**
+  * You plan to use Google's AI/ML tools to build your battlesnake
+  * It is important to you to host your server very close to the [Battlesnake servers](faq#what-cloud-provider-and-region-should-i-use).
+
+
 ### Local
 
 You can run your Battlesnake on your own hardware, as long as you have a way to expose a public URL on the Internet.

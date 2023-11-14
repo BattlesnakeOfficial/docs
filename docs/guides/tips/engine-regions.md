@@ -64,12 +64,14 @@ Here are some tips for common hosting setups:
 
 ### Currently supported engine regions
 
-* **Amazon Web Services (AWS)**
-  * US-WEST-2 (Oregon) - **This is the default region**
 * **Google Cloud Platform (GCP)**
+  * GCP US-WEST1 (Oregon)
   * GCP US-EAST4 (Virginia)
   * GCP EUROPE-WEST4 (Netherlands)
   * GCP ASIA-SOUTH1 (Mumbai)
+  * GCP FRA (Frankfurt)
+  * GCP SGP (Singapore)
+  * GCP TOR (Toronto)
 * **Digital Ocean**
   * DigitalOcean FRA (Frankfurt, Germany)
   * DigitalOcean SGP (Singapore)
