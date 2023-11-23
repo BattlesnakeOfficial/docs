@@ -30,10 +30,10 @@ The game board is represented by a standard 2D grid, oriented with (0,0) in the 
 }
 ```
 
-| **Property** | **Type** | **Description**                                                                                                                                                                                                      |
-| ------------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **height**   | integer  | The number of rows in the y-axis of the game board.<em>Example: 11</em>                                                                                                                                              |
-| **width**    | integer  | The number of columns in the x-axis of the game board.<em>Example: 11</em>                                                                                                                                           |
-| **food**     | array    | Array of coordinates representing food locations on the game board.<em>Example: [{"x": 5, "y": 5}, ..., {"x": 2, "y": 6}]</em>                                                                                       |
-| **hazards**  | array    | Array of coordinates representing hazardous locations on the game board. These will only appear in some [game modes](guides/playing/modes.md).<em>Example: [{"x": 0, "y": 0}, ..., {"x": 0, "y": 1}]</em> |
-| **snakes**   | array    | Array of [Battlesnake Objects](battlesnake.md) representing all Battlesnakes remaining on the game board (including yourself if you haven't been eliminated).<em>Example: [{"id": "snake-one", ...}, ...]</em>       |
+| **Property** | **Type** | **Description**                                                                                                                                                                                                       |
+| ------------ | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **height**   | integer  | The number of rows in the y-axis of the game board. <em>Example: 11</em>                                                                                                                                              |
+| **width**    | integer  | The number of columns in the x-axis of the game board. <em>Example: 11</em>                                                                                                                                           |
+| **food**     | array    | Array of coordinates representing food locations on the game board. <em>Example: [{"x": 5, "y": 5}, ..., {"x": 2, "y": 6}]</em>                                                                                       |
+| **hazards**  | array    | Array of coordinates representing hazardous locations on the game board. These will only appear in some [game modes](guides/playing/modes.md). <em>Example: [{"x": 0, "y": 0}, ..., {"x": 0, "y": 1}]</em>            |
+| **snakes**   | array    | Array of [Battlesnake Objects](battlesnake.md) representing all Battlesnakes remaining on the game board (including yourself if you haven't been eliminated). <em>Example: [{"id": "snake-one", ...}, ...]</em>       |
