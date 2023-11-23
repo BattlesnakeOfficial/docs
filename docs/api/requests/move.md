@@ -32,5 +32,5 @@ This request will be sent for every turn of the game. Use the information provid
 
 | **Parameter** | **Type**            | **Description**                                                                                                                          |
 | ------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| **move**      | string              | Your Battlesnake's move for this turn. Valid moves are up, down, left, or right.<em>Example: "up"</em>                                   |
-| **shout**     | string _(optional)_ | An optional message sent to all other Battlesnakes on the next turn. Must be 256 characters or less.<em>Example: "I am moving up!"</em>< |
+| **move**      | string              | Your Battlesnake's move for this turn. Valid moves are up, down, left, or right. <em>Example: "up"</em>                                  |
+| **shout**     | string _(optional)_ | An optional message sent to all other Battlesnakes on the next turn. Must be 256 characters or less. <em>Example: "I am moving up!"</em> |
