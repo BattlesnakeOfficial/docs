@@ -55,6 +55,12 @@ export const communityProjects = [
     authorHref: 'https://github.com/neistow'
   },
   {
+    name: 'Dart Shelf Starter Project',
+    href: 'https://github.com/hotdang-ca/starter-snake-dart-shelf',
+    author: 'James Robert Perih',
+    authorHref: 'https://github.com/hotdang-ca'
+  },
+  {
     name: 'F\# Starter Project',
     href: 'https://github.com/olivercoad/battlesnake-starter-fsharp',
     author: 'olivercoad',
