@@ -21,7 +21,7 @@ All requests to your server come from the Battlesnake game engine and have the f
 
 ### Content-Type
 
-Requests sent to your Battlesnake will contain [JSON-encoded](https://www.json.org/) request bodies. Your server is resonsible for receiving and parsing this data correctly (although most modern web frameworks come with easy ways to handle this type of request).
+Requests sent to your Battlesnake will contain [JSON-encoded](https://www.json.org/) request bodies. Your server is responsible for receiving and parsing this data correctly (although most modern web frameworks come with easy ways to handle this type of request).
 
 ## Responses
 
