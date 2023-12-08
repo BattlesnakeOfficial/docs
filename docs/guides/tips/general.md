@@ -13,7 +13,7 @@ These tips have been suggested and collected by the community over the years. Ho
 Be creative with your Battlesnake name and description. Names like _"test"_ or _"snek-1"_ are super popular and are easy to confuse with other Battlesnakes. If you really want your Battlesnake to stand out during competitions, best to give it a creative and unique name.
 
 :::tip
-The best Battlesnake names are fun, creative, and also abide by our [Code of Conduct](https://docs.battlesnake.com/policies/conduct/). Battlesnake and Team names in violation of our Code of Conduct will not be tolerated.
+The best Battlesnake names are fun, creative, and also abide by our [Code of Conduct](https://docs.battlesnake.com/conduct/). Battlesnake and Team names in violation of our Code of Conduct will not be tolerated.
 :::
 
 ## Consider Concurrency and Use Game IDs

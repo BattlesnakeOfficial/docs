@@ -104,6 +104,11 @@ const config = {
         },
         items: [
           {
+            type: 'docSidebar',
+            sidebarId: 'guides',
+            label: 'Docs',
+          },
+          {
             type: 'doc',
             docId: 'quickstart',
             label: 'Quickstart',
@@ -115,27 +120,12 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'guides',
-            label: 'Guides',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'api',
             label: 'API',
           },
           {
             to: 'blog',
             label: 'Blog'
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'community',
-            label: 'Community',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tournaments',
-            label: 'Tournaments',
           },
           {
             href: 'https://github.com/BattlesnakeOfficial/docs',
@@ -145,11 +135,6 @@ const config = {
           {
             href: 'https://play.battlesnake.com/discord',
             className: 'navbar-item-icon navbar-item-discord',
-            position: 'right',
-          },
-          {
-            href: 'https://twitter.com/playbattlesnake',
-            className: 'navbar-item-icon navbar-item-twitter',
             position: 'right',
           }
         ],
@@ -176,10 +161,10 @@ const config = {
             ]
           },
           {
-            title: 'Docs',
+            title: 'Resources',
             items: [
               {
-                label: 'Guides',
+                label: 'Docs',
                 to: '/'
               },
 
@@ -197,18 +182,13 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/BattlesnakeOfficial',
-              },
-              {
                 label: 'Discord',
                 href: 'https://play.battlesnake.com/discord',
               },
-
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/playbattlesnake',
-              },
+                label: 'Discussion Forum',
+                href: 'https://github.com/orgs/BattlesnakeOfficial/discussions',
+              }
             ],
           },
           {
@@ -219,12 +199,8 @@ const config = {
                 to: 'blog',
               },
               {
-                label: 'Our Mission',
-                href: 'https://play.battlesnake.com/mission',
-              },
-              {
-                label: 'Player Feedback',
-                href: 'https://play.battlesnake.com/feedback',
+                label: 'GitHub',
+                href: 'https://github.com/BattlesnakeOfficial',
               }
             ],
           },

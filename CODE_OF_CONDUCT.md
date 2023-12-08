@@ -1,3 +1,3 @@
 # Battlesnake Code of Conduct
 
-Please see https://docs.battlesnake.com/policies/conduct
+Please see https://play.battlesnake.com/conduct
