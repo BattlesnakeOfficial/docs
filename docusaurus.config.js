@@ -89,13 +89,13 @@ const config = {
         searchParameters: {},
         searchPagePath: 'search',
       },
-      announcementBar: {
-        id: 'announcement-bar-4',  // Increment on new announcement
-        content: '⭐️ Whats New at Battlesnake in 2023? <a href="/blog/2023/01/16/whats-new-at-battlesnake-in-2023" target="_blank" rel="noopener noreferrer">Find out here.</a> 💜',
-        backgroundColor: '#3e338f',
-        textColor: '#ffffff',
-        isCloseable: true
-      },
+      // announcementBar: {
+      //   id: 'announcement-bar-4',  // Increment on new announcement
+      //   content: '⭐️ Whats New at Battlesnake in 2023? <a href="/blog/2023/01/16/whats-new-at-battlesnake-in-2023" target="_blank" rel="noopener noreferrer">Find out here.</a> 💜',
+      //   backgroundColor: '#3e338f',
+      //   textColor: '#ffffff',
+      //   isCloseable: true
+      // },
       navbar: {
         logo: {
           alt: 'Battlesnake',
