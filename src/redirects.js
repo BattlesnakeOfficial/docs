@@ -14,7 +14,7 @@ const redirects = [
   {
     from: '/guides/playing/battlegrounds',
     to: '/guides/leaderboards/overview'
-  }  
+  }
 ];
 
 module.exports = redirects;

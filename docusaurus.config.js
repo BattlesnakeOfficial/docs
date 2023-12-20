@@ -10,8 +10,6 @@ const config = {
   tagline: 'A multiplayer programming game where your code is the controller.',
   url: 'https://docs.battlesnake.com',
   baseUrl: '/',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
@@ -35,7 +33,7 @@ const config = {
       ({
         docs: {
           routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./src/sidebars.js'),
           breadcrumbs: false,
           editUrl: 'https://github.com/BattlesnakeOfficial/docs/edit/main',
           remarkPlugins: [require('remark-math')],
@@ -44,26 +42,11 @@ const config = {
         blog: {
           blogTitle: 'Battlesnake Blog',
           routeBasePath: 'blog',
-          postsPerPage: 3,
-          blogListComponent: '@theme/BlogListPage',
-          blogPostComponent: '@theme/BlogPostPage',
-          blogTagsListComponent: '@theme/BlogTagsListPage',
-          blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
-          blogSidebarCount: 0,
           blogSidebarTitle: 'All Posts',
           remarkPlugins: [require('remark-math')],
-          rehypePlugins: [],
-          beforeDefaultRemarkPlugins: [],
-          beforeDefaultRehypePlugins: [],
-          truncateMarker: /<!--\s*(truncate)\s*-->/,
-          showReadingTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-        gtag: {
-          trackingID: 'G-ZLKCHQQP4Q',
-          anonymizeIP: true
         }
       }),
     ],
@@ -73,7 +56,7 @@ const config = {
     [
       '@docusaurus/plugin-client-redirects',
       {
-        redirects: require('./redirects.js')
+        redirects: require('./src/redirects.js')
       }
     ]
   ],
@@ -89,13 +72,7 @@ const config = {
         searchParameters: {},
         searchPagePath: 'search',
       },
-      // announcementBar: {
-      //   id: 'announcement-bar-4',  // Increment on new announcement
-      //   content: '⭐️ Whats New at Battlesnake in 2023? <a href="/blog/2023/01/16/whats-new-at-battlesnake-in-2023" target="_blank" rel="noopener noreferrer">Find out here.</a> 💜',
-      //   backgroundColor: '#3e338f',
-      //   textColor: '#ffffff',
-      //   isCloseable: true
-      // },
+      announcementBar: require('./src/announcement.js'),
       navbar: {
         logo: {
           alt: 'Battlesnake',
