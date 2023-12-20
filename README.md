@@ -1,10 +1,11 @@
-# Battlesnake community documentation
+# Battlesnake Documentation
 
 This repository contains a rewrite of all
 [documentation](https://github.com/BattlesnakeOfficial/docs) for Battlesnake,
 which is made and maintained by the community. We aim to not only improve the
-old docs, but also provide more helpful content. One of the topics we want to
-improve on is ML/AI. Contributions are more than welcome, feel free to make a
+old docs, but also provide more helpful content.
+
+Contributions are more than welcome, feel free to make a
 pull request, after you have read the [contributing guide](CONTRIBUTING.md).
 
 ## Setting up/building the project
@@ -23,7 +24,7 @@ $ npm start
 ```
 
 This command starts a local development server and opens up a browser window.
-Most changes are reflected live without having to restart the server.  
+Most changes are reflected live without having to restart the server.
 
 To build the documentation into a static page:
 
