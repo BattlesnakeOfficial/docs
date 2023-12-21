@@ -1,6 +1,5 @@
 ---
 title: Overview
-sidebar_position: 1
 description: Compete with developers worldwide in Battlesnake Leaderboards.
 ---
 

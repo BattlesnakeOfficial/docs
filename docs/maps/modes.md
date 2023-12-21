@@ -1,6 +1,5 @@
 ---
 title: Modes
-sidebar_position: 1
 ---
 
 # Modes
@@ -13,7 +12,7 @@ To play a specific mode, select the game mode at the top of the [Play Game](http
 
 <img
   src={require('@site/static/img/wip/standard\_game.png').default}
-  alt="Example Standard Game with four Battlesnakes" 
+  alt="Example Standard Game with four Battlesnakes"
   className="game-mode-example"
 />
 
@@ -25,7 +24,7 @@ Note that within a Standard Game the number of Battlesnake in the game can vary,
 
 <img
   src={require('@site/static/img/wip/royale_game.png').default}
-  alt="Example Royale Game with Hazard Sauce on three sides" 
+  alt="Example Royale Game with Hazard Sauce on three sides"
   className="game-mode-example"
 />
 
@@ -49,7 +48,7 @@ The location of hazardous squares are found in the API on the [board object](api
 
 <img
   src={require('@site/static/img/wip/constrictor_game.png').default}
-  alt="Example Constrictor Game" 
+  alt="Example Constrictor Game"
   className="game-mode-example"
 />
 
@@ -60,7 +59,7 @@ In Constrictor mode, Battlesnake tails are 'pinned' at their starting location. 
 
 <img
   src={require('@site/static/img/wip/wrapped-game-mode.png').default}
-  alt="Example Wrapped Game" 
+  alt="Example Wrapped Game"
   className="game-mode-example"
 />
 

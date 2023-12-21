@@ -1,6 +1,5 @@
 ---
 title: Maps
-sidebar_position: 2
 ---
 
 :::caution

@@ -1,6 +1,6 @@
 ---
 title: Quickstart
-sidebar_position: 1
+description: A guide to building your first Battlesnake.
 ---
 
 # Quickstart
@@ -15,7 +15,7 @@ Don't feel like reading? Follow our Quickstart video series instead.
 
 ## How does it work?
 
-To play Battlesnake you'll need to build and deploy a web server that implements the [Battlesnake Webhook API](api/index.md). 
+To play Battlesnake you'll need to build and deploy a web server that implements the [Battlesnake Webhook API](api/index.md).
 
 During a game of Battlesnake, the game engine will send requests to your web server. How you program it to respond to these requests will determine your Battlesnake's moves, behavior, and competitive success.
 
@@ -35,7 +35,7 @@ Each of the Official Starter Projects implement the  [Battlesnake Webhook API](a
 
 ## 2. Customize Your Battlesnake
 
-To make sure everything is working correctly when you deploy and run your Battlesnake for the first time, **you can edit it's appearance** (such as the color, head, and tail of your Battlesnake). 
+To make sure everything is working correctly when you deploy and run your Battlesnake for the first time, **you can edit it's appearance** (such as the color, head, and tail of your Battlesnake).
 
 The `README.md` file in each Starter Project describes where the customization code can be found. Customizations are returned by the root ["GET /"](api/requests/info.md) command of the [Battlesnake API](api/index.md).
 
@@ -51,7 +51,7 @@ To start your Battlesnake using Replit click the **Run ** button at the top of t
 
 ![Run button located at the top of the screen on the Replit website.](/img/replit_run.png)
 
-The first time you start your Battlesnake server you may see packages and dependencies being installed in the Replit console window. This may take a few moments, but will only happen on the first run. 
+The first time you start your Battlesnake server you may see packages and dependencies being installed in the Replit console window. This may take a few moments, but will only happen on the first run.
 
 Once installation is complete, your Battlesnake server will start. You should see the live output from your Battlesnake server and its Replit URL at the top of the screen. You will need this URL to register your Battlesnake in the next step.
 
@@ -95,7 +95,7 @@ If there is a problem or error with your Battlesnake, you can make changes to yo
 
 ## 5: Play Your First Game
 
-You are now ready to test your Battlesnake in live games! 
+You are now ready to test your Battlesnake in live games!
 
 So far, your Battlesnake has a sharp new look but is only smart enough to move in a random direction. This means at this point your Battlesnake is most likely going to collide with a wall or itself pretty quick -- that's ok! We all have to start somewhere.
 
@@ -107,7 +107,7 @@ You should see your new Battlesnake in the list. Click 'Add To Game' next to you
 
 ![Ready to 'Start Game' with one Battlesnake on an 11x11 board in Standard mode](/img/play_game_selected.png)
 
-You will be rewarded with a view of the game board that includes your Battlesnake and any other Battlesnakes you added to the game. 
+You will be rewarded with a view of the game board that includes your Battlesnake and any other Battlesnakes you added to the game.
 
 Click the ▶ button to start the game and watch your Battlesnake in action. You can also use the pause, forward, and back buttons to to step through the game turn by turn. This can be very helpful when reviewing your server logs for each turn!
 

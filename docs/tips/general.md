@@ -1,5 +1,4 @@
 ---
-sidebar_position: 1
 title: General Tips & Tricks
 description: A collection of tips for developing your best Battlesnake.
 ---

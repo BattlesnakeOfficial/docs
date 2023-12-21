@@ -1,8 +1,6 @@
 ---
 title: Hosting a Tournament
-sidebar_position: 2
-description: Run your own Battlesnake Tournament for your team, classmates, or friends in just a few clicks. 
-displayed_sidebar: guides
+description: Run your own Battlesnake Tournament for your team, classmates, or friends in just a few clicks.
 ---
 
 # Hosting a Tournament

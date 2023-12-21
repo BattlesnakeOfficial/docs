@@ -1,6 +1,5 @@
 ---
 title: Rating Calculations
-sidebar_position: 2
 ---
 
 import Figure from '@site/src/components/Figure';

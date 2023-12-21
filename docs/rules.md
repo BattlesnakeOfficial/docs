@@ -1,6 +1,6 @@
 ---
 title: Game Rules
-sidebar_position: 0
+description: Battlesnake gameplay rules.
 ---
 
 # Game Rules
@@ -17,7 +17,7 @@ Battlesnakes that reach zero health will be eliminated, and this presents the fi
 
 The most common way to restore health is consuming the traditional food of Battlesnakes; brightly colored nutrition discs. These delicious discs will appear on the game board throughout the game. Battlesnakes that enter the same square as food will immediately consume it, filling their health to maximum (100 points).
 
-However, ravenous consumption comes at a cost. Each time a Battlesnake consumes food it will grow longer, making it more challenging for itself (and others!) to survive. 
+However, ravenous consumption comes at a cost. Each time a Battlesnake consumes food it will grow longer, making it more challenging for itself (and others!) to survive.
 
 ![Snakes consuming food](/img/consuming-food.gif)
 
@@ -27,7 +27,7 @@ Consuming food costs no health, meaning a Battlesnake with a single health point
 
 ### Food Spawn
 
-Food spawn timing and location will depend on which [game map](guides/playing/maps.md) you're playing on. 
+Food spawn timing and location will depend on which [game map](guides/playing/maps.md) you're playing on.
 
 In most cases, some amount of food will be placed around the board at the start. On subsequent turns additional food may be added (according to our Super Secret Proprietary Algorithm\*). It's also possible for multiple pieces of food to appear on any single turn.
 
@@ -35,9 +35,9 @@ In most cases, some amount of food will be placed around the board at the start.
 
 ## Space & Movement
 
-Battlesnakes need more than food to survive; they need space to roam free and be their best possible selves. However, space on the game board is limited. 
+Battlesnakes need more than food to survive; they need space to roam free and be their best possible selves. However, space on the game board is limited.
 
-As the game progresses and all Battlesnakes consume food to stay healthy, finding the best path forward becomes increasingly challenging. Eventually all Battlesnakes will run out of room. 
+As the game progresses and all Battlesnakes consume food to stay healthy, finding the best path forward becomes increasingly challenging. Eventually all Battlesnakes will run out of room.
 
 :::tip
 Your goal is to have your opponents run out of room before you do.
@@ -97,7 +97,7 @@ Each turn in every game is divided into three steps.
       * Collided with themselves
       * Collided with another Battlesnake
       * Collided head-to-head (and lost)
-   
+
    * Repeat above steps until one Battlesnake remains.
 
 ## Open Source Game Logic

@@ -82,18 +82,17 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'guides',
+            sidebarId: 'main',
             label: 'Docs',
-          },
-          {
-            type: 'doc',
-            docId: 'quickstart',
+          }, {
             label: 'Quickstart',
+            to: 'quickstart',
+            activeBasePath: '/dev/null'  // Disable
           },
           {
-            type: 'doc',
-            docId: 'starter-projects',
-            label: 'Starter Projects'
+            label: 'Starter Projects',
+            to: 'starter-projects',
+            activeBasePath: '/dev/null'  // Disable
           },
           {
             type: 'docSidebar',

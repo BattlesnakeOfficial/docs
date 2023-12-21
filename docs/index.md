@@ -1,12 +1,12 @@
 ---
 title: What is Battlesnake?
-sidebar_position: 0
+description: Battlesnake is a competitive programming game where your code is the controller.
 slug: /
 ---
 
 # What is Battlesnake?
 
-**Battlesnake is an autonomous survival game played by web developers around the world.**
+**Battlesnake is a competitive programming game where your code is the controller.**
 
 Each Battlesnake is controlled by a live web server and the code _you_ write. It moves around the game board according to your algorithm, attempting to find food, avoid other Battlesnakes, and stay alive as long as possible.
 

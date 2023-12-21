@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 description: Tips and common patterns for hosting your Battlesnake
 ---
 
@@ -37,7 +36,7 @@ We recommend the following hosting options if you're just getting started, aren'
   * Might not have the most up-to-date version of your preferred programming language.
   * Your Replit might be slow to start up! You likely have to ping it periodically, or check to make sure that is running, especially before a tournament.
   * For speed and by default, your Replit instance will be run close to where you are, geographically. This is an advantage when using your IDE (quick when you are writing code) but may result in [high-latency](api/index.md#request-timeouts), and in the worst case, timeouts, for your Battlesnake if you and your server are located in a country far-away from where the [Battlesnake servers](guides/faq.md#what-cloud-provider-and-region-should-i-use) are.
-  * 
+  *
 * **You should probably use Replit if...**
   * You are just getting started and want to test out Battlesnake without too much commitment or setup.
   * You don't want to have to manage your own hosting yet.
