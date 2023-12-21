@@ -34,7 +34,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./src/sidebars.js'),
-          breadcrumbs: false,
+          breadcrumbs: true,
           editUrl: 'https://github.com/BattlesnakeOfficial/docs/edit/main',
           remarkPlugins: [require('remark-math')],
           rehypePlugins: [require('rehype-katex')],
@@ -97,7 +97,7 @@ const config = {
           {
             type: 'docSidebar',
             sidebarId: 'api',
-            label: 'API',
+            label: 'API Reference',
           },
           {
             to: 'blog',

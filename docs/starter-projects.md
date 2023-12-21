@@ -8,27 +8,27 @@ import CardLink from '@site/src/components/CardLink';
 
 export const officialProjects = [
   {
-    name: 'Python', 
+    name: 'Python',
     href: 'https://github.com/BattlesnakeOfficial/starter-snake-python',
     Svg: require('@site/static/img/icons/python.svg').default
   },
   {
-    name: 'Go', 
+    name: 'Go',
     href: 'https://github.com/BattlesnakeOfficial/starter-snake-go',
     Svg: require('@site/static/img/icons/go.svg').default
   },
   {
-    name: 'Rust', 
+    name: 'Rust',
     href: 'https://github.com/BattlesnakeOfficial/starter-snake-rust',
     Svg: require('@site/static/img/icons/rust.svg').default
   },
   {
-    name: 'TypeScript', 
+    name: 'TypeScript',
     href: 'https://github.com/BattlesnakeOfficial/starter-snake-typescript',
     Svg: require('@site/static/img/icons/typescript.svg').default
   },
   {
-    name: 'JavaScript', 
+    name: 'JavaScript',
     href: 'https://github.com/BattlesnakeOfficial/starter-snake-javascript',
     Svg: require('@site/static/img/icons/javascript.svg').default
   }
@@ -41,7 +41,7 @@ export const OfficialProjects = ({projects}) => (
         <CardLink to={p.href} bodyStyle={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <p.Svg role="img" style={{width: '20px'}} />
           <p>{p.name}</p>
-        </CardLink> 
+        </CardLink>
       </div>
     ))}
   </div>
@@ -195,39 +195,36 @@ export const CommunityProjects = ({projects}) => (
   </div>
 )
 
-These projects and templates are great starting points for building your Battlesnake. They're available for many different programming languages and platforms &mdash; some officially maintained by the Battlesnake team, and others contributed by the Battlesnake community!
+These projects and templates are great starting points for building your Battlesnake. They're available for many different programming languages and platforms &mdash; some maintained by Battlesnake core team members and others contributed by the Battlesnake community.
 
-## Official Templates
+## Starter Project Templates
 
-These GitHub templates are built and maintained by the Battlesnake team. We do our best to keep them functional and up-to-date with the latest game features. If something doesn't work as you'd expect or needs updating, [please let us know](https://github.com/BattlesnakeOfficial/feedback/discussions) so we can make changes :)
+These projects are built and maintained by Battlesnake core team members. We do our best to keep them functional and up-to-date with the latest game features. If something doesn't work as you'd expect or needs updating, [please let us know](https://play.battlesnake.com/feedback) so we can make changes :)
 
-If you're building a Battlesnake for the first time, these are great starting points.
-
-:::tip
-We recommended clicking the green _"Use this template"_ button to bring a clean copy of the starter code into your own GitHub account. You are also welcome to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) one of these repos instead, but please do not submit Pull Requests back to the template repos.
-:::
+If you're building a Battlesnake for the first time these are great starting points.
 
 <OfficialProjects projects={officialProjects} />
 
-## Community Starter Projects
-
-The Battlesnake community is all about collaboration and shared learning. Sometimes players will build their own starter projects for new combinations of languages and platforms and share them back to the community to help new players get started!
-
-:::info
-**These projects are maintained independently by their developers.** See project guidelines for each project if you're interested in getting involved or have any questions/concerns.
+:::tip
+**These projects are GitHub Templates**, and we recommended clicking the green _"Use this template"_ button to bring a clean copy of the starter code into your own GitHub account. You are also welcome to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) one of these repos instead, but please do not submit Pull Requests back to the template repos.
 :::
+
+## Community Projects
+
+The Battlesnake community is all about collaboration and shared learning. Sometimes players will build their own starter projects featuring new combinations of languages and platforms and share them back to the community to help new players get started!
 
 <CommunityProjects projects={communityProjects} />
 
+:::info
+**These projects are maintained independently by their developers.** See project guidelines for each project if you're interested in getting involved or have any questions or concerns.
+:::
+
 ## Contributing
 
-**Want to submit your starter project to this list? Wonderful!**
-
-Community starter projects must follow these guidelines in order to be listed:
+**Want to submit your own projects to this list? Wonderful!** Community starter projects must match the following criteria to be listed:
 
 * Contain just enough code to run a simple Battlesnake and nothing more
 * Be well documented and easy to understand
-* Provide a simple, extensible unit test setup
 * Ideally have a minimal project structure
 
-If your project fits, feel free to submit a [pull request](https://github.com/BattlesnakeOfficial/docs) or [start a feedback thread](https://github.com/BattlesnakeOfficial/feedback/discussions) and we'll take a look!
+If your project fits, feel free to submit a [pull request](https://github.com/BattlesnakeOfficial/docs) or [start a discussion thread](https://play.battlesnake.com/feedback) and we'll take a look!

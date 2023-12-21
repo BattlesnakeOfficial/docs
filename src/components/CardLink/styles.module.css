@@ -1,7 +1,7 @@
 .card {
   margin-bottom: var(--ifm-spacing-vertical);
-  transition: all 0.2s ease;
   outline: 1px solid var(--ifm-color-primary-lightest);
+  font-weight: bold;
 }
 
 [data-theme='dark'] .card {

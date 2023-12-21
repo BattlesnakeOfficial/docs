@@ -5,11 +5,55 @@ description: Options for customizing your Battlesnake's appearance
 
 # Customizing Your Battlesnake
 
-This reference outlines all the available options for personalizing your Battlesnake's appearance. We periodically release new options, often linked to specific events or competitions.
+You can customize your Battlesnake's appearance in three ways, by choosing a head, tail, and a color to represent your Battlesnake on the game board.
+
+Your choices are determined by how your Battlesnake responds to [Battlesnake API](api) requests &mdash; specifically the root URL.
+
+
+## Heads and Tails
+
+There are _many_ head and tail options to choose from, and you can mix and match them however you like! You can [browse which options are available to you](https://play.battlesnake.com/customizations) in the Battlesnake UI.
+
+
+### Default Head and Tail
+
+If your Battlesnake does not specify a valid head or tail, the `default` options will be used.
+
+![default head and tail](/img/defaultsnake.png)
+
+
+### Unlocking Heads and Tails
+
+New head and tail customizations are unlocked using **Battlesnake Points**, which can be earned monthly by competing in [Leaderboards](leaderboards/overview).
+
+To unlock a new customization, find one that is not in your collection and click on the unlock button. If you have enough points, the head or tail will be added to your account and is ready to use on your Battlesnake!
+
+![Unlock a new customization with Battlesnake Points](/img/Customization_Unlock.png)
+
+
+## Choosing a Color
+
+Your Battlesnake can choose any valid hex color code to represent it on the game board. This value should be a 7 character string starting with "#" that looks similar to "#33CC00".
+
+You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors\_picker.asp) to help you find the exact color you're looking for.
+
+#### **Some Example Battlesnake Colors**
+
+![#E80978](/img/screenshot-2020-05-13-09.19.33.png) <span style={{position: 'relative', top: '-25px'}}>#E80978</span>
+
+![#3E338F](/img/screenshot-2020-05-13-09.19.58.png) <span style={{position: 'relative', top: '-25px'}}>#3E338F</span>
+
+![#4C89C8](/img/screenshot-2020-05-13-09.20.29.png) <span style={{position: 'relative', top: '-25px'}}>#4C89C8</span>
+
+
+### Default Color
+
+If your Battlesnake does not specificy a valid color, it will use a default value of `#888888`.
+
 
 ## Example JSON
 
-Each Battlesnake can choose a color, head, and tail to represent it on the game board. Here's an example of a full personalized Battlesnake.
+Here's an example of a full personalized Battlesnake.
 
 ```json title="customizations.json"
 {
@@ -21,53 +65,4 @@ Each Battlesnake can choose a color, head, and tail to represent it on the game 
 
 This configuration will display your Battlesnake like this:
 
-![Sample Snake](/img/wip/samplesnake.png)
-
-## Choosing a Color
-
-Your Battlesnake can choose any valid six-digit hex color code to represent it on the game board. This value is provided in response to the [GET /](api/requests/info.md) command of the [Battlesnake API](api/index.md) and should be a 7 character string starting with "#" that looks similar to "#33CC00".
-
-You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors\_picker.asp) to help you find the exact color you're looking for.
-
-#### **Some Example Battlesnake Colors**
-
-![#E80978](/img/wip/screenshot-2020-05-13-09.19.33.png)
-
-![#3E338F](/img/wip/screenshot-2020-05-13-09.19.58.png)
-
-![#4C89C8](/img/wip/screenshot-2020-05-13-09.20.29.png)
-
-## Choosing a Head and Tail
-
-Several customization options are available for how your Battlesnake's head and tail will display on the game board. You can mix and match them however you like.
-
-Just like [choosing a color](#choosing-a-color), your head and tail are provided in response to the [GET /](api/requests/info.md) command of the [Battlesnake API](api/index.md). Each value is a string, matching one of the available options shown [on our customizations page](https://play.battlesnake.com/customizations).
-
-If an invalid value is returned (or no value at all) the `default` options will be displayed.
-
-### Defaults
-
-If your Battlesnake doesn't specify a head or tail these default options will be used.
-
-![default head and tail](/img/wip/defaultsnake.png)
-
-## Collecting Heads and Tails
-
-All developers start with a base collection of head and tails to choose from.  Check out your [**Customizations Collections**](https://play.battlesnake.com/customizations) page for a complete list of the heads and tails you can use. There are over 100 customizations to collect, with new heads and tails being released regularly.
-
-### Unlocking Customizations
-
-New head and tail customizations are unlocked using **Battlesnake Points.**
-
-To unlock a customization, just find one that is not in your collection and click on the unlock button. If you have enough points, the head or tail will be added to your account and is ready to use on your Battlesnake!
-
-![Unlock a new customization with Battlesnake Points](/img/wip/Customization_Unlock.png)
-
-### Earning Battlesnake Points
-
-Battlesnake Points are gained by participating in various Battlesnake activities. As you explore the Battlesnake platform and complete goals, you will automatically earn points.
-
-There are many ways to earn Battlesnake Points:
-
-* Participate in Leaderboards
-* Be active in the community
+![Sample Snake](/img/samplesnake.png)
