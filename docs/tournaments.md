@@ -13,10 +13,6 @@ You shouldn't need any technical expertise to use it. Check out the video below 
 
 <iframe class="video" src="https://www.youtube.com/embed/9-yPI35TnbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Frequently Asked Questions
-
-If you have a question and don't find an answer here, you can always ask us on Discord!
-
 #### How many battlesnakes can participate in a tournament?
 Tournaments can support 4 to 32 Battlesnakes. We find 16 to be a good sweet spot, in terms of competitiveness and time commitment. If you want to run an event with more than 32 Battlesnakes, you can always create two separate tournaments and run them both indivudally.
 
