@@ -1,14 +1,13 @@
 ---
+title: Useful Algorithms
 description: A collection of useful algorithms for building a competitive Battlesnake.
+sidebar_position: 3
 ---
 
 # Useful Algorithms
 
-:::info
-This page was inspired by BoldBigflank, 101donutman, and Xtagon in the [Battlesnake Discord](https://play.battlesnke.com/discord). Each algorithm listed should include a widely accessible definition ([think ELI5 style](https://www.howtogeek.com/694298/what-does-eli5-mean-and-how-do-you-use-it/)), how it could be applied to Battlesnake, and links to further resources.
+Contributions and suggestions for this resource are [always welcome!](https://github.com/BattlesnakeOfficial/docs)
 
-[Contributions and updates are always welcome!](https://github.com/BattlesnakeOfficial/docs)
-:::
 
 ## Flood Fill
 
@@ -24,7 +23,7 @@ Often times Battlesnakes will want to consider the available space of each move 
 
 - [Flood Fill - Wikipedia](https://en.wikipedia.org/wiki/Flood_fill)
 
-## A\* pathfinding
+## A\* Pathfinding
 
 A\* is an algorithm to plot the shortest path between two points on a grid. You might be familiar with this if you've ever played a point and click adventure game and seen your character navigate around obstacles to get to where you clicked.
 
