@@ -1,7 +1,6 @@
 ---
 title: Hosting Suggestions
 description: Tips and common patterns for hosting your Battlesnake
-sidebar_position: 0
 ---
 
 # Hosting Suggestions

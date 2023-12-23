@@ -6,7 +6,7 @@ authors:
 
 ![](./img/Graphic-for-Game-Engine-Regions_BlogPostGameEngine-1600x900-DigitalOceanNoLines.png)
 
-In November 2021, Rob was able to announce an incredible new Battlesnake feature he had been working very hard on: [Engine Regions](__GHOST_URL__/announcing-engine-regions/). 
+In November 2021, Rob was able to announce an incredible new Battlesnake feature he had been working very hard on: [Engine Regions](__GHOST_URL__/announcing-engine-regions/).
 
 Today, we are pleased to share that he has emerged again from behind his monitors to let us know that we have expanded global coverage with new Engine Regions hosted on [DigitalOcean](play.battlesnake.com/partner/digitalocean).
 
@@ -16,7 +16,7 @@ Battlesnake Engine Regions allow players to host their Battlesnake wherever suit
 
 The Engine Region feature allows you to select an Engine Region server closer to where your Battlesnake is hosted, and then measures the response time between your Battlesnake and the Engine Region server you choose. All Engine Regions are compatible, and Battlesnake games continue to be played globally.
 
-For a full list of all supported Engine Regions, and instructions on how to set your Battlesnake's region, check out our [documentation](https://docs.battlesnake.com/guides/tips/engine-regions). 
+For a full list of all supported Engine Regions, and instructions on how to set your Battlesnake's region, check out our [documentation](guides/engine-regions).
 
 ## New Engine Region Locations
 
@@ -29,7 +29,7 @@ These locations should better support our Battlesnake friends in Central Europe,
 Go to your profile at [http://play.battlesnake.com/me](http://play.battlesnake.com/me), choose a Battlesnake and click "Edit", and you'll see the dropdown to change your "Engine Region".
 
 :::warning Psst...
-Did you know that DigitalOcean is a 2022 Battlesnake League Partner, and that they are offering a [$100 credit](https://play.battlesnake.com/partner/digitalocean) for Battlesnake developers wanting to try them out? 
+Did you know that DigitalOcean is a 2022 Battlesnake League Partner, and that they are offering a [$100 credit](https://play.battlesnake.com/partner/digitalocean) for Battlesnake developers wanting to try them out?
 
 :::
 

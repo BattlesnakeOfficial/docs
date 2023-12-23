@@ -35,4 +35,4 @@ The Battlesnake rules and core engine is [open source](https://github.com/Battle
 
 You can build a successful Battlesnake on almost any cloud provider, hosted anywhere in the world. Your choice of cloud provider has no impact on your ability to play the game and we encourage you to explore and learn new platforms.
 
-If you are wanting to compete at the highest possible level and are worried about optimizing available compute time and round-trip latency, you may want to host your Battlesnake in close geographical proximity to one of the supported [game engine regions](tips/engine-regions).
+If you are wanting to compete at the highest possible level and are worried about optimizing available compute time and round-trip latency, you may want to host your Battlesnake in close geographical proximity to one of the supported [game engine regions](guides/engine-regions).

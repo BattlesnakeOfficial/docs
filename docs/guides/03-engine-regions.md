@@ -1,7 +1,6 @@
 ---
-title: Choosing an Engine Region
+title: Engine Regions
 description: Tips and suggestions for choosing your Battlesnake's engine region.
-sidebar_position: 2
 ---
 
 # Choosing an Engine Region

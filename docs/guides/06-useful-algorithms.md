@@ -1,7 +1,6 @@
 ---
 title: Useful Algorithms
 description: A collection of useful algorithms for building a competitive Battlesnake.
-sidebar_position: 3
 ---
 
 # Useful Algorithms

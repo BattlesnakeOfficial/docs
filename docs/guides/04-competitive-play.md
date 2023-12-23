@@ -1,7 +1,6 @@
 ---
 title: Competitive Play
 description: A collection of tips for developing your best Battlesnake.
-sidebar_position: 2
 ---
 
 # Tips for Competitive Play
@@ -33,7 +32,7 @@ The amount of time you have to respond is provided in each API request sent. In 
 
 For most Battlesnake developers this won't be a problem. However top competitors will optimize their Battlesnakes to use as much compute time as possible.
 
-If you're experiencing additional latency based on where your Battlesnake is hosted geographically (i.e. far from the game engine servers), check out alternative [Engine Regions](guides/tips/engine-regions.md) and consider deploying your Battlesnake closer to the game engine.
+If you're experiencing additional latency based on where your Battlesnake is hosted geographically (i.e. far from the game engine servers), check out alternative [Engine Regions](guides/engine-regions) and consider deploying your Battlesnake closer to the game engine.
 
 
 ## Testing Your Battlesnake Locally

@@ -18,7 +18,7 @@ Does this mean you'll be playing against only other Battlesnakes using the same 
 
 Go to your profile at [http://play.battlesnake.com/me](http://play.battlesnake.com/me), choose a Battlesnake and click "Edit", and you'll see a new dropdown for "Engine Region":
 ![](./img/Screen-Shot-2021-11-18-at-3.00.24-PM.png)Selecting your Battlesnake's Engine Region
-[Check out the documentation](https://docs.battlesnake.com/guides/tips/engine-regions) for more info on how to select the right region for your Battlesnake and hosting platform!
+[Check out the documentation](guides/engine-regions) for more info on how to select the right region for your Battlesnake and hosting platform!
 
 ## Looking for Feedback!
 

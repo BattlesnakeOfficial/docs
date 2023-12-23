@@ -1,6 +1,5 @@
 ---
 title: 'Snail Mode (Experimental)'
-sidebar_position: 3
 ---
 
 # Map: Snail Mode (Experimental)
