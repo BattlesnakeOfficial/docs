@@ -32,6 +32,6 @@ In Battlesnake, A\* is a good way to find the way to the closest food, or attack
 
 #### Additional A\* resources
 
-- An intro to A\* pathfinding in the context of games - https://www.redblobgames.com/pathfinding/a-star/introduction.html
-- A JavaScript library implementing A\* and some other pathfinding algorithms: https://github.com/qiao/PathFinding.js/
-- A Battlesnake implementing A\* pathfinding (not compatible with API v1): https://github.com/sockbot/battlesnake-api
+- [An intro to A\* pathfinding in the context of games](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
+- [A JavaScript library implementing A\* and some other pathfinding algorithms](https://github.com/qiao/PathFinding.js/)
+- [An older Battlesnake project implementing A\* pathfinding](https://github.com/sockbot/battlesnake-api)
