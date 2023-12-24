@@ -24,7 +24,7 @@ If your Battlesnake does not specify a valid head or tail, the `default` options
 
 ### Unlocking Heads and Tails
 
-New head and tail customizations are unlocked using **Battlesnake Points**, which can be earned monthly by competing in [Leaderboards](leaderboards/overview).
+New head and tail customizations are unlocked using **Battlesnake Points**, which can be earned monthly by competing in [Leaderboards](leaderboards).
 
 To unlock a new customization, find one that is not in your collection and click on the unlock button. If you have enough points, the head or tail will be added to your account and is ready to use on your Battlesnake!
 

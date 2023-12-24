@@ -19,7 +19,7 @@ We suggest you start with the technologies you're comfortable with and expand to
 
 ### Can I use Battlesnake as a team-building exercise for my colleagues?
 
-Definitely! [Battlesnake Tournaments](tournaments) were created due to popular demand for uses exactly like this! It works for both large and small teams looking to do something different and learn something new. It’s challenging to describe the singular thrill you get when you watch your Battlesnake eliminate your peers and become a champion.
+Definitely! [Battlesnake Tournaments](guides/tournaments) were created due to popular demand for uses exactly like this! It works for both large and small teams looking to do something different and learn something new. It’s challenging to describe the singular thrill you get when you watch your Battlesnake eliminate your peers and become a champion.
 
 ### Can I use Battlesnake to teach my students how to code?
 

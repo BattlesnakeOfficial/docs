@@ -17,8 +17,6 @@ As part of this new feature, we have released some previous exclusive customizat
 
 ![A screenshot of the 2022 Collection group of new head and tail customizations including the night cap and wave tails, along with the eel, shark and sleepy heads](./img/New-Customizations-for-August-1.png)
 
-You can find all the details in the [Battlesnake Points announcement](/battlesnake-points/) post.
-
 ## More Game Maps
 
 Now that the Game Maps system in Rules is fully operational and battle tested we are now experimenting with all kinds of new ways to create maps for Battlesnake games.

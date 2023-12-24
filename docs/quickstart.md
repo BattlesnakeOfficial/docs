@@ -15,7 +15,7 @@ Don't feel like reading? You can follow along with a video version of this guide
 
 ## How does it work?
 
-To play Battlesnake you'll need to build and deploy a web server that implements the [Battlesnake API](api/index).
+To play Battlesnake you'll need to build and deploy a web server that implements the [Battlesnake API](api).
 
 During each game, the game engine will send requests to your web server. The code you write to respond to these requests will determine how your Battlesnake behaves and ultimately whether you win or lose.
 
@@ -84,7 +84,7 @@ If there is ever a problem or error with your Battlesnake, you can make edits to
 
 To make sure everything is working correctly you can edit your Battlesnake's appearance (head, tail, and color).
 
-The `README.md` file in each starter project should describe where the customization code can be found. Customizations are returned by calling the [root URL of your server](api/requests/info).
+The `README.md` file in each starter project should describe where the customization code can be found. Customizations are returned by calling the [root URL of your server](api/webhooks).
 
 You should see code that defines a head, tail, and color for your Battlesnake. You can change these values to be whatever you'd like, selecting from the [customizations available on your account](https://play.battlesnake.com/customizations).
 
@@ -135,13 +135,13 @@ Here are some great goals to help you develop and improve your Battlesnake early
 * ✅ Avoid colliding with other Battlesnakes
 * ✅ Try to move towards food
 
-For details on how the move request and other requests work, we recommend reading through the [Battlesnake API Reference](api/index).
+For details on how the move request and other requests work, we recommend reading through the [Battlesnake API Reference](api).
 
 ## Additional resources
 
 This guide only scratches the surface of Battlesnake!
 
-Check out the [Battlesnake Game Rules](rules) and [Tips & Tricks](tips/general) to make sure you understand how to program your Battlesnake to win the most games possible. You may have also noticed there are different [Maps](maps) that provide different challenges for your Battlesnake.
+Check out the [Battlesnake Game Rules](rules) and [API Reference](api) to make sure you understand how to program your Battlesnake to win the most games possible. You may have also noticed there are different [Maps](maps) that provide different challenges for your Battlesnake.
 
 You can also check out the [Battlesnake Awesome List](https://github.com/BattlesnakeOfficial/awesome-battlesnake) for more great Battlesnake resources. Anyone may [contribute](https://github.com/BattlesnakeOfficial/awesome-battlesnake/blob/main/CONTRIBUTING.md) so feel free to share interesting resources or your own creations!
 

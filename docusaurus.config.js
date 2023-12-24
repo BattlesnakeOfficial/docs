@@ -52,14 +52,7 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: require('./src/redirects.js')
-      }
-    ]
-  ],
+  plugins: [],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -130,8 +123,8 @@ const config = {
                 to: 'starter-projects'
               },
               {
-                label: 'Developer FAQ',
-                to: 'guides/faq'
+                label: 'FAQ',
+                to: 'faq'
               },
 
             ]
