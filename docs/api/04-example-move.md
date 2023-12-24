@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Example Move Request
 
-### Move API Request
+### Move Request
 
 ```json title="POST /move"
 {
@@ -28,8 +28,8 @@ sidebar_position: 4
     "height": 11,
     "width": 11,
     "food": [
-      {"x": 5, "y": 5}, 
-      {"x": 9, "y": 0}, 
+      {"x": 5, "y": 5},
+      {"x": 9, "y": 0},
       {"x": 2, "y": 6}
     ],
     "hazards": [
@@ -41,8 +41,8 @@ sidebar_position: 4
         "name": "My Snake",
         "health": 54,
         "body": [
-          {"x": 0, "y": 0}, 
-          {"x": 1, "y": 0}, 
+          {"x": 0, "y": 0},
+          {"x": 1, "y": 0},
           {"x": 2, "y": 0}
         ],
         "latency": "111",
@@ -54,14 +54,14 @@ sidebar_position: 4
           "head":"pixel",
           "tail":"pixel"
         }
-      }, 
+      },
       {
         "id": "snake-b67f4906-94ae-11ea-bb37",
         "name": "Another Snake",
         "health": 16,
         "body": [
-          {"x": 5, "y": 4}, 
-          {"x": 5, "y": 3}, 
+          {"x": 5, "y": 4},
+          {"x": 5, "y": 3},
           {"x": 6, "y": 3},
           {"x": 6, "y": 2}
         ],
@@ -82,8 +82,8 @@ sidebar_position: 4
     "name": "My Snake",
     "health": 54,
     "body": [
-      {"x": 0, "y": 0}, 
-      {"x": 1, "y": 0}, 
+      {"x": 0, "y": 0},
+      {"x": 1, "y": 0},
       {"x": 2, "y": 0}
     ],
     "latency": "111",
@@ -99,7 +99,7 @@ sidebar_position: 4
 }
 ```
 
-### Move API Response
+### Move Response
 
 ```json title="200 OK"
 {

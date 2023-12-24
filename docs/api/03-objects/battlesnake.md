@@ -10,8 +10,8 @@ sidebar_position: 4
   "name": "Sneky McSnek Face",
   "health": 54,
   "body": [
-    {"x": 0, "y": 0}, 
-    {"x": 1, "y": 0}, 
+    {"x": 0, "y": 0},
+    {"x": 1, "y": 0},
     {"x": 2, "y": 0}
   ],
   "latency": "123",
@@ -38,4 +38,4 @@ sidebar_position: 4
 | **length**         | integer  | Length of this Battlesnake from head to tail. Equivalent to the length of the body array.<em>Example: 3</em>                                                                                                                            |
 | **shout**          | string   | Message shouted by this Battlesnake on the previous turn.<em>Example: "why are we shouting??"</em>                                                                                                                                      |
 | **squad**          | string   | The squad that the Battlesnake belongs to. Used to identify squad members in Squad Mode games.<em>Example: "1"</em>                                                                                                                     |
-| **customizations** | object   | The collection of customizations that control how this Battlesnake is displayed. Properties have the same restrictions and limitations as described in the [GET / API Request](../requests/info.md). _Example: {"color":"#888888", "head":"default", "tail":"default" }_ |
+| **customizations** | object   | The collection of customizations that control how this Battlesnake is displayed. _Example: {"color":"#888888", "head":"default", "tail":"default" }_ |

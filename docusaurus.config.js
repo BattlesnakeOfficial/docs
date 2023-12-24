@@ -95,9 +95,9 @@ const config = {
             activeBasePath: '/dev/null'  // Disable
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'api',
             label: 'API Reference',
+            to: 'api',
+            activeBasePath: '/dev/null' // Disable
           },
           {
             to: 'blog',

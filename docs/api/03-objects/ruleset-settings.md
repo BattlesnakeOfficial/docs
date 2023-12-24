@@ -5,7 +5,7 @@ sidebar_position: 3
 # RulesetSettings
 
 ```json
-"settings": {
+{
   "foodSpawnChance": 25,
   "minimumFood": 1,
   "hazardDamagePerTurn": 14,
