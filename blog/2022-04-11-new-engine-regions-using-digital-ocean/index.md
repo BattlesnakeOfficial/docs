@@ -6,9 +6,9 @@ authors:
 
 ![](./img/Graphic-for-Game-Engine-Regions_BlogPostGameEngine-1600x900-DigitalOceanNoLines.png)
 
-In November 2021, Rob was able to announce an incredible new Battlesnake feature he had been working very hard on: [Engine Regions](__GHOST_URL__/announcing-engine-regions/).
+In November 2021, Rob was able to announce an incredible new Battlesnake feature he had been working very hard on: Engine Regions.
 
-Today, we are pleased to share that he has emerged again from behind his monitors to let us know that we have expanded global coverage with new Engine Regions hosted on [DigitalOcean](play.battlesnake.com/partner/digitalocean).
+Today, we are pleased to share that he has emerged again from behind his monitors to let us know that we have expanded global coverage with new Engine Regions hosted on DigitalOcean.
 
 ## How Engine Regions Work
 
@@ -35,7 +35,7 @@ Did you know that DigitalOcean is a 2022 Battlesnake League Partner, and that th
 
 ## GCP Beta Test Concluded
 
-We are also officially taking the [previously released Google Cloud Platform Regions ](__GHOST_URL__/announcing-engine-regions/)and ending their Beta period - they are here to stay! Thanks to everyone who tested them out and provided feedback on them, we really appreciate it. These Engine Regions will continue to be available for any Battlesnake player to use.
+We are also officially taking the previously released Google Cloud Platform Regions and ending their Beta period - they are here to stay! Thanks to everyone who tested them out and provided feedback on them, we really appreciate it. These Engine Regions will continue to be available for any Battlesnake player to use.
 
 ![A map of the supported GCP Game Engine Regions, with a stamp over it saying 'Out of Beta'](./img/e80cc397-2917-4107-954c-f74fe7187abf.png)
 

@@ -11,7 +11,7 @@ June was a busy month for the team with getting Summer League off the ground and
 
 ## Summer League Launched
 
-Summer League is live and we are halfway through the competition. In addition to wrapped mode, Summer League has introduced a completely new aspect to league competition: the massive Arcade Maze game map. 
+Summer League is live and we are halfway through the competition. In addition to wrapped mode, Summer League has introduced a completely new aspect to league competition: the massive Arcade Maze game map.
 
 ### Arcade Maze Map
 
@@ -23,7 +23,7 @@ We have also added some new [Arcade Maze Challenges](https://play.battlesnake.co
 
 ### Update League UI
 
-Sherri and Lorne have been working hard to polish the new [League Dashboard](https://play.battlesnake.com/league/summer-league-2022/arenas/summer-league-2022/) interface as we continue to level up the Battlesnake user experience. The new leaderboard shows an animated match timer and recent round stats which provides you with easy access to your Battlesnakes recent game history! 
+Sherri and Lorne have been working hard to polish the new [League Dashboard](https://play.battlesnake.com/league/summer-league-2022/arenas/summer-league-2022/) interface as we continue to level up the Battlesnake user experience. The new leaderboard shows an animated match timer and recent round stats which provides you with easy access to your Battlesnakes recent game history!
 
 ![Screenshot of the revised League Leaderboard user interface](./img/New-Leaderboard.png)
 
@@ -39,15 +39,15 @@ Implementation of all game maps, including the Summer League Arcade Maze map, ar
 
 ## Build your own Battlesnake Maps
 
-We've made it easier to build your own maps in code, and register them to be used with the local CLI. Learn more about it in Rob's new blog post [here](__GHOST_URL__/build-your-own-battlesnake-maps/). 
+We've made it easier to build your own maps in code, and register them to be used with the local CLI.
 
 ## Battlesnake CLI Improvements
 
-With all the updates to Rules in May and June we have implemented several improvements to the [Battlesnake CLI](https://github.com/BattlesnakeOfficial/rules/tree/main/cli) to help developers test their Battlesnakes in different situations. 
+With all the updates to Rules in May and June we have implemented several improvements to the [Battlesnake CLI](https://github.com/BattlesnakeOfficial/rules/tree/main/cli) to help developers test their Battlesnakes in different situations.
 
 ### New Browser Feature
 
-If you are tired of trying to debug your snake using the ASCII board, the CLI can now render games in a browser using our game board renderer! 
+If you are tired of trying to debug your snake using the ASCII board, the CLI can now render games in a browser using our game board renderer!
 
 Just add the `--browser` flag to your CLI command and it will load up the game in a web browser in real time.
 
@@ -57,7 +57,7 @@ Using the `--map <name>` flag on the CLI command you can create a game with any 
 
 ### Solo Mode
 
-The CLI now supports running single Battlesnake games (aka solo games) using all of the game modes provided in the Rules. 
+The CLI now supports running single Battlesnake games (aka solo games) using all of the game modes provided in the Rules.
 
 ---
 

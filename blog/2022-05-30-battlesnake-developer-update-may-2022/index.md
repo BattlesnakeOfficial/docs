@@ -11,7 +11,7 @@ I am pleased to open the May Developer update with an introduction to [Lorne](ht
 
 ## Battlegrounds
 
-After hinting for a while that something was coming soon, we are proud to announce the launch of [Battlegrounds](https://play.battlesnake.com/battlegrounds/), the details of which are fully captured in a [blog post](__GHOST_URL__/welcome-to-battlegrounds/) from earlier this month. Chris has worked very hard on this for many weeks, and we're really happy with the results!
+After hinting for a while that something was coming soon, we are proud to announce the launch of [Battlegrounds](https://play.battlesnake.com/battlegrounds/), the details of which are fully captured in a blog post from earlier this month. Chris has worked very hard on this for many weeks, and we're really happy with the results!
 
 Battlegrounds is the next step in providing competitive play between Leagues, replacing the Global Arena system. The old Global Arenas will be shutting down on May 31st, so be sure to move your Battlesnakes over to the Battlegrounds!
 
@@ -21,7 +21,7 @@ Battlegrounds is the next step in providing competitive play between Leagues, re
 
 [Last November](/) we ran a Beta-Test for folks to be able to run their own Battlesnake Competition, and had some fabulous community members take this new feature out for a spin for us.
 
-**Interested in hosting your own tournament? **This feature is still in limited access but if you are interested in giving the beta a whirl, **[apply here! ](tinyurl.com/ymuevkfa )**We've created a minor version release of assorted improvements, from bug fixes to workflow adjustments. Keep an eye on [Discord](https://play.battlesnake.com/discord/) for opportunities to play in these community-run tournaments. And thanks to everyone who has already run or participated in one of these events - your feedback has been very helpful!
+**Interested in hosting your own tournament? **This feature is still in limited access but if you are interested in giving the beta a whirl, **[apply here! ](https://tinyurl.com/ymuevkfa )**We've created a minor version release of assorted improvements, from bug fixes to workflow adjustments. Keep an eye on [Discord](https://play.battlesnake.com/discord/) for opportunities to play in these community-run tournaments. And thanks to everyone who has already run or participated in one of these events - your feedback has been very helpful!
 
 ![A screenshot for creating a Battlesnake competition, includes a form to collect title, dates, and description](./img/Screen-Shot-2022-05-27-at-9.52.31-AM.png)Sneaky peek of the UI for creating your own competition!
 
@@ -36,7 +36,7 @@ Rob has been busy hacking away in the [Rules repository,](https://github.com/Bat
 
 Some of these changes may be breaking for folks, so please let Rob know in the [#rules-updates](https://discord.com/channels/689979228841836632/978649366879404072) channel on Discord if you encounter any issues while upgrading.
 
-## Instrumenting your Battlesnake with New Relic 
+## Instrumenting your Battlesnake with New Relic
 
 One of the *most fun* parts of my job is getting the chance to jump on a livestream or put together a video to share the joy of learning with all your fine Battlesnake friends. A very cool project this May was being able to work with certified awesome dude Alec from New Relic, creating some tutorial videos on how to add New Relic to your Battlesnake, specifically with some custom-made (and freely available!) Battlesnake Dashboards.
 
@@ -48,7 +48,7 @@ Once you've mastered that, we have a second video about how to go further, tweak
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_zYLCLiC8gQ/0.jpg)](https://www.youtube.com/watch?v=_zYLCLiC8gQ)
 
-If you prefer learning by reading, there is also a companion [blog post](__GHOST_URL__/how-to-monitor-your-battlesnake-with-newrelic/) that walks through the quick start process. However you like to consume knowledge, please check it out and let us know what you think! Don't forget to add the `New Relic` tag to your Battlesnake once you've integrated.
+If you prefer learning by reading, there is also a companion blog post that walks through the quick start process. However you like to consume knowledge, please check it out and let us know what you think! Don't forget to add the `New Relic` tag to your Battlesnake once you've integrated.
 
 ## Community Updates
 

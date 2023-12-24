@@ -6,7 +6,7 @@ authors:
 
 ![](./img/Battlesnake-Then-and-Now.png)
 
-Brad Van Vugt, developer and CEO behind [Battlesnake](play.battlesnake.com) shares some history, lessons learned, and the journey behind building a company around what started as a one-off event.
+Brad Van Vugt, developer and CEO behind [Battlesnake](https://play.battlesnake.com) shares some history, lessons learned, and the journey behind building a company around what started as a one-off event.
 
 **You can listen to both podcasts here:**
 
@@ -27,7 +27,7 @@ Brad Van Vugt, developer and CEO behind [Battlesnake](play.battlesnake.com) shar
 ](https://open.spotify.com/show/69cAXLsHmwztInIhAeyOqJ)
 
 **Battlesnake started from unlikely beginnings. **
-In these interviews, Brad talks about how Battlesnake was initially created to be a one-off event to help find talent. The event was so successful, he decided to turn it into a company. Two years later, Battlesnake has become a competitive coding game played by experienced developers around the world and has partnered with some of the biggest developer brands in the industry. At the heart of Battlesnake is a large and growing dedicated coding community. 
+In these interviews, Brad talks about how Battlesnake was initially created to be a one-off event to help find talent. The event was so successful, he decided to turn it into a company. Two years later, Battlesnake has become a competitive coding game played by experienced developers around the world and has partnered with some of the biggest developer brands in the industry. At the heart of Battlesnake is a large and growing dedicated coding community.
 
 >  "Before it became a company, Battlesnake was once a year, one-weekend event. We'd all get together to see what we could do. And developers started to spend the ***whole year*** building battlesnakes thinking "Okay, I'm gonna win next year. And I'm going to start now. And I'm going to do it the way I want, using AWS and Redis, and C++, because I think that would be fun, and they'd get to work." - Brad Van Vugt
 
@@ -41,9 +41,9 @@ In these interviews, Brad talks about how Battlesnake was initially created to b
 **The challenges of attracting and keeping an audience of experienced developers**
 Brad talks about one of the early mistakes he made—not creating spaces for the Battlesnake developer community. "We should have created a Discord sooner." Brad says in a few quotes from the interview.
 
-> "A community formed around Battlesnakes, before we even thought of trying to form a community." 
+> "A community formed around Battlesnakes, before we even thought of trying to form a community."
 
-> "We're learning that multiple highly engaged channels are incredibly important. It's not enough to have a discord. It's not enough to have a GitHub discussion board, it's not enough to be on Twitch. It's all of those and more. They give you a direct line of communication to your audience and this opens up so many opportunities." 
+> "We're learning that multiple highly engaged channels are incredibly important. It's not enough to have a discord. It's not enough to have a GitHub discussion board, it's not enough to be on Twitch. It's all of those and more. They give you a direct line of communication to your audience and this opens up so many opportunities."
 
 > "Live Streaming is incredibly undervalued in the industry, just in general. And it's been one of our core advantages and growing and managing the community early on." - Brad Van Vugt
 
