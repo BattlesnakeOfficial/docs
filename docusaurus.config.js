@@ -42,7 +42,8 @@ const config = {
         blog: {
           blogTitle: 'Battlesnake Blog',
           routeBasePath: 'blog',
-          blogSidebarTitle: 'All Posts',
+          blogSidebarTitle: 'Some Recent Posts',
+          blogSidebarCount: 10,
           remarkPlugins: [require('remark-math')],
         },
         theme: {
