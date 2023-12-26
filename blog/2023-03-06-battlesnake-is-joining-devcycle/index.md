@@ -3,7 +3,6 @@ title: Our Team is Joining DevCycle
 description: The Battlesnake team is joining DevCycle, a leading feature management company helping talented teams build great software.
 authors:
   - Brad
-image: ./img/blog_post_bsnake_joins_devcycle.png
 hide_table_of_contents: true
 ---
 
