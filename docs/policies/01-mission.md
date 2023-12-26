@@ -1,12 +1,10 @@
 ---
-title: Mission & Values
+title: Mission, Vision, and Values
 ---
 
 ## Our Mission
 
-Our mission is to help every developer, become a better developer.
-
-We build games for programmers that encourage self-directed learning, are challenging to master, and are fun to share with friends and family.
+Our mission is to help every developer, become a better developer. We build games for programmers that encourage self-directed learning, are challenging to master, and are fun to share with friends and family.
 
 
 ## Our Values
