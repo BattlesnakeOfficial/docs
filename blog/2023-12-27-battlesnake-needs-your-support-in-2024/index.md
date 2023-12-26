@@ -7,7 +7,7 @@ authors:
 
 A lot has happened in 2023, and now that we're starting to get our feet under us again I wanted to take a moment to discuss some important changes for next year.
 
-Early this year [our team joined DevCycle](/blog/2023-03-06-battlesnake-is-joining-devcycle), and as a result, we stopped working on Battlesnake full-time. This significantly impacted our ability to produce seasonal leagues and other fun content. It was a good thing, in that we've had to focus on what makes Battlesnake most exciting, but also stressful since we weren't sure how the community would react (spoiler: y’all stuck with us 💃).
+Early this year [our team joined DevCycle](/blog/2023/03/06/battlesnake-is-joining-devcycle), and as a result, we stopped working on Battlesnake full-time. This significantly impacted our ability to produce seasonal leagues and other fun content. It was a good thing, in that we've had to focus on what makes Battlesnake most exciting, but also stressful since we weren't sure how the community would react (spoiler: y’all stuck with us 💃).
 
 Since then, Chris, Kerri, myself, and a few core community members (thanks Rob, Andrew, Corey, Joe, Aileen, and Xtagon!) have kept Battlesnake operational while DevCycle paid our bills. It’s been convenient, but also not ideal for a number of reasons. A few months ago I decided to make a big change.
 
