@@ -57,6 +57,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/logo-social.png',
       algolia: {
         appId: 'MWV3QIWAYI',
         apiKey: '0e16ab11aafbcc953a3f72215140716c',
