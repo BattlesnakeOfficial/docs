@@ -30,7 +30,7 @@ Valid responses must return an _HTTP 200 OK_ status code. If any other status co
 
 ### Latency & Timeouts
 
-Your Battlesnake server must respond to requests made by the game engine within the given timeout value. This value is provided in the request body as a [property on the game object](api/objects/game).
+Your Battlesnake server must respond to requests made by the game engine within the given timeout value. This value is provided in the request body as a [property on the game object](objects/game).
 
 In most games this will be 500ms, however, this value can technically vary from game to game. If your response does not reach the game engine within the specified timeout, the game engine will consider it an invalid response.
 
