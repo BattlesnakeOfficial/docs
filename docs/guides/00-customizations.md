@@ -7,7 +7,7 @@ description: Options for customizing your Battlesnake's appearance
 
 You can customize your Battlesnake's appearance in three ways, by choosing a head, tail, and a color to represent your Battlesnake on the game board.
 
-Your choices are determined by how your Battlesnake responds to [Battlesnake API](api) requests &mdash; specifically the root URL.
+Your choices are determined by how your Battlesnake responds to [Battlesnake API](/api) requests &mdash; specifically the root URL.
 
 
 ## Heads and Tails
