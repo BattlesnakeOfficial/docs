@@ -24,6 +24,6 @@ That depends highly on the number of developers participating, and how long they
 
 #### How do tournament events usually work?
 
-Most groups find it easiest to use the [Standard 11x11 Map](maps/standard), with 4 Battlesnakes per match. This is plenty challenging for folks who are building Battlesnakes for the first time.
+Most groups find it easiest to use the [Standard 11x11 Map](/maps/standard), with 4 Battlesnakes per match. This is plenty challenging for folks who are building Battlesnakes for the first time.
 
 We recommend at least one full day of Battlesnake development prior to the tournament. Student groups tend to run a tournament over the course of a weekend, similar to a hackathon. Competitions among colleagues tend to happen over a week or so, where developers work on their Battlesnakes throughout the week and then gather on Friday to watch one final tournament.

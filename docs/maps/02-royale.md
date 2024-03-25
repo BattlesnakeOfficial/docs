@@ -4,11 +4,11 @@ title: 'Royale'
 
 # Map: Royale
 
-The Battlesnake Royale map was the first to introduce a new danger, called [Hazards](rules#hazards).
+The Battlesnake Royale map was the first to introduce a new danger, called [Hazards](/rules#hazards).
 
 Hazards slowly encroach from the edges of the game board every 25 turns, creating an ever-shrinking 'safe zone'. Entering a grid location marked as a Hazard will cost 14 health, _in addition_ to the loss of 1 health per turn.
 
-Hazard locations are available in the [Board Object](api/objects/board) of the [Battlesnake API](api), listed under `hazards`.
+Hazard locations are available in the [Board Object](/api/objects/board) of the [Battlesnake API](/api), listed under `hazards`.
 
 Food can spawn inside and outside of the Hazard area. If a Battlesnake consumes food inside a Hazard location, it will receive the full benefits of the food and not be penalized for entering the Hazard.
 
