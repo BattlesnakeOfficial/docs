@@ -179,6 +179,12 @@ export const communityProjects = [
     href: 'https://github.com/sockbot/elixir-starter-battlesnake',
     author: 'Andy Chan',
     authorHref: 'https://github.com/sockbot'
+  },
+  {
+    name: 'Swift Starter Project',
+    href: 'https://github.com/maartene/BattlesnakeSwiftStarter',
+    author: 'Maarten Engels',
+    authorHref: 'https://github.com/maartene'
   }
 ]
 
