@@ -65,7 +65,7 @@ Responses to this request are ignored by the game engine.
 
 ## Move
 
-HTP Request: `POST /move`
+HTTP Request: `POST /move`
 
 This request will be sent for every turn of every game that your Battlesnake plays. Use the information provided to determine how your Battlesnake will move on that turn, either up, down, left, or right.
 
