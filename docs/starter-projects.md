@@ -185,6 +185,12 @@ export const communityProjects = [
     href: 'https://github.com/maartene/BattlesnakeSwiftStarter',
     author: 'Maarten Engels',
     authorHref: 'https://github.com/maartene'
+  },
+  {
+    name: 'C++ Starter Project',
+    href: 'https://github.com/bgaechter/battlesnake-starter-cpp',
+    author: 'Benny Gaechter',
+    authorHref: 'https://github.com/bgaechter'
   }
 ]
 
