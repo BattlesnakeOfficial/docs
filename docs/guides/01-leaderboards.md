@@ -48,7 +48,7 @@ TrueSkill is a ranking system [first developed by Microsoft](https://www.microso
 
 All players enter the Leaderboard with the same starting values for $\mu$ and $\sigma$. As they play more matches, $\sigma$ decreases, representing the system having more confidence in their rating being accurate. You can visualize this as the distribuion curve above becoming "narrower".
 
-If Battlesnakes are consistenly winning against higher rated opponents, TrueSkill will increase $\sigma$ (or decrease confidence), which increases overall rating until win rates settle down to expected values.
+If Battlesnakes are consistenly winning against higher rated opponents, TrueSkill will increase $\mu$ (or decrease confidence), which increases overall rating until win rates settle down to expected values.
 
 In the Leaderboards, each Battlesnake has its own $\mu$ and $\sigma$ that are updated after each game. These values are then used to calculate a rating using the formal $\mu - 3\sigma$, which is a conservative way of saying _"We don't know exactly what your skill level is, but we're 99% sure it's above this number"_. Leaderboards are then sorted by rating and ranks are assigned.
 
