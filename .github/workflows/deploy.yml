@@ -15,9 +15,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v4
         with:
-          path: "build/"
+          name: build
+          path: build/
   deploy:
     name: Deploy
     needs: build
