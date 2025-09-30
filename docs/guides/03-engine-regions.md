@@ -7,7 +7,7 @@ description: Tips and suggestions for choosing your Battlesnake's engine region.
 
 You can control where Battlesnake API requests originate from by selecting an appropriate engine region. This can be helpful when trying to minimize latency between your Battlesnake server and the game engine.
 
-Choice of engine region does not affect which Battlesnakes you can play against, the rules of the game, or the matchmaking in arenas. The region selected is just used to measure the response time from your Battlesnake to each APi request.
+Choice of engine region does not affect which Battlesnakes you can play against, the rules of the game, or the matchmaking in arenas. The region selected is just used to measure the response time from your Battlesnake to each API request.
 
 ### What regions are available?
 
