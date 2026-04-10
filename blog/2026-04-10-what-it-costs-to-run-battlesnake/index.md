@@ -32,7 +32,7 @@ Battlesnake currently has 18 GitHub Sponsors, bringing in roughly **$120/month**
 
 I'm happy to cover it — I took this on because I care about the community and want to keep it going. But I also think you should know the real numbers.
 
-We're actively rewriting the platform in Rust with cost efficiency as a major goal, so these numbers should come down over time. More on that as the rewrite progresses.
+We're actively [rewriting the platform in Rust](https://coreyja.com/blog/battlesnake-in-2026) with cost efficiency as a major goal, so these numbers should come down over time. I talked more about the rewrite and how I ended up running Battlesnake on [my podcast](https://coreyja.com/podcast/taking-over-battlesnake).
 
 If you want to help keep things running:
 
