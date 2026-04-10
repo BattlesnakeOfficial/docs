@@ -15,6 +15,8 @@ All the infrastructure runs through my personal LLC. GitHub Sponsors donations c
 
 Here's what March 2026 looked like — the most recent full month:
 
+All costs are in USD.
+
 | Service | What it does | Cost |
 |---|---|---|
 | Google Cloud | Runs the game engine, web platform, and backend services | $442.10 |
@@ -24,7 +26,7 @@ Here's what March 2026 looked like — the most recent full month:
 | GitHub | Organization plan and CI/CD | $20.00 |
 | **Total** | | **$619.72** |
 
-April's Google Cloud bill just came in at $485.86, so the current run rate is somewhere around **$620–660/month**.
+April's Google Cloud bill just came in at $485.86, so the current run rate is somewhere around **$620–660 USD/month**.
 
 ## Sponsorship
 
@@ -32,7 +34,7 @@ Battlesnake currently has 18 GitHub Sponsors, bringing in roughly **$120/month**
 
 I'm happy to cover it — I took this on because I care about the community and want to keep it going. But I also think you should know the real numbers.
 
-We're actively [rewriting the platform in Rust](https://coreyja.com/blog/battlesnake-in-2026) with cost efficiency as a major goal, so these numbers should come down over time. I talked more about the rewrite and how I ended up running Battlesnake on [my podcast](https://coreyja.com/podcast/taking-over-battlesnake).
+We're actively [rewriting the platform in Rust](https://coreyja.com/posts/battlesnake-in-2026/) with cost efficiency as a major goal, so these numbers should come down over time. I talked more about the rewrite and how I ended up running Battlesnake on [my podcast](https://coreyja.com/podcast/taking-over-battlesnake).
 
 If you want to help keep things running:
 
