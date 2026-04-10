@@ -89,11 +89,11 @@ function MaintainerBanner() {
         />
         <div style={{ flex: 1, minWidth: '200px' }}>
           <div style={{ fontWeight: 'bold', fontSize: '1.1rem' }}>
-            Maintained and funded by Corey Alexander
+            Remaining ~${outOfPocket}/month covered by <a href="https://coreyja.com">Corey Alexander</a>
           </div>
           <div style={{ fontSize: '0.9rem', marginTop: '0.25rem' }}>
-            Currently covering ~${outOfPocket}/month out of pocket to keep Battlesnake running.{' '}
-            <a href="https://coreyja.com/blog/battlesnake-in-2026">Read about how I ended up here.</a>
+            The gap between sponsorships and infrastructure costs is currently funded out of pocket.{' '}
+            <a href="https://coreyja.com/blog/battlesnake-in-2026">Read about how I ended up running Battlesnake.</a>
           </div>
         </div>
       </div>
@@ -117,8 +117,9 @@ export default function Funding() {
 
             <p>
               Battlesnake is community-funded and maintained by volunteers. All infrastructure
-              runs through a personal LLC — GitHub Sponsors donations come in, infrastructure
-              bills go out, and the difference is covered out of pocket.
+              runs through <a href="https://coreyja.com">Corey Alexander's</a> personal
+              LLC — GitHub Sponsors donations come in, infrastructure bills go out, and
+              Corey covers the difference out of pocket.
             </p>
 
             <h2>Monthly Costs</h2>
