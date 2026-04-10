@@ -20,7 +20,7 @@ jobs:
       - name: Fetch sponsor data
         run: node .github/scripts/update-sponsors.js
         env:
-          GITHUB_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SPONSORS_TOKEN || github.token }}
 
       - name: Commit and push if changed
         run: |
