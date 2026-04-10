@@ -10,12 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
-      # Use SPONSORS_TOKEN for checkout so the push triggers the deploy workflow.
-      # Pushes from the default GITHUB_TOKEN don't trigger other workflows.
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.SPONSORS_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -29,9 +26,35 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
 
-      - name: Commit and push if changed
+      - name: Create PR if data changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          if git diff --quiet src/data/sponsors.json; then
+            echo "No changes to sponsor data"
+            exit 0
+          fi
+
+          BRANCH="automated/update-sponsors"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Reset branch to current main
+          git checkout -B "$BRANCH"
           git add src/data/sponsors.json
-          git diff --staged --quiet || (git commit -m "Update sponsors data" && git push)
+          git commit -m "Update sponsors data"
+          git push -f origin "$BRANCH"
+
+          # Check for existing open PR
+          EXISTING_PR=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+
+          if [ -n "$EXISTING_PR" ]; then
+            echo "PR #$EXISTING_PR already exists, updated branch"
+          else
+            gh pr create \
+              --title "Update sponsors data" \
+              --body "Automated daily update of GitHub Sponsors data." \
+              --head "$BRANCH" \
+              --base main
+            gh pr merge "$BRANCH" --auto --squash
+          fi
