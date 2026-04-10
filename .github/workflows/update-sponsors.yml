@@ -17,10 +17,13 @@ jobs:
         with:
           node-version: 18
 
+      # Requires a classic PAT with read:org + read:user scopes.
+      # Fine-grained PATs and GitHub Apps don't support sponsor queries.
+      # The built-in GITHUB_TOKEN has no org-level permissions either.
       - name: Fetch sponsor data
         run: node .github/scripts/update-sponsors.js
         env:
-          GITHUB_TOKEN: ${{ secrets.SPONSORS_TOKEN || github.token }}
+          GITHUB_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
 
       - name: Commit and push if changed
         run: |
