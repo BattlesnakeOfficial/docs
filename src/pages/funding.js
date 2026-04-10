@@ -89,7 +89,7 @@ function MaintainerBanner() {
         />
         <div style={{ flex: 1, minWidth: '200px' }}>
           <div style={{ fontWeight: 'bold', fontSize: '1.1rem' }}>
-            Remaining ~${outOfPocket}/month covered by <a href="https://coreyja.com">Corey Alexander</a>
+            Maintained by <a href="https://coreyja.com">Corey Alexander</a> — remaining ~${outOfPocket}/month covered out of pocket
           </div>
           <div style={{ fontSize: '0.9rem', marginTop: '0.25rem' }}>
             The gap between sponsorships and infrastructure costs is currently funded out of pocket.{' '}
