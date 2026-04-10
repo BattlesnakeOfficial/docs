@@ -45,7 +45,7 @@ function CostTable() {
         <tr>
           <th>Service</th>
           <th>What it does</th>
-          <th>Cost</th>
+          <th>Cost (USD)</th>
         </tr>
       </thead>
       <tbody>
@@ -89,11 +89,11 @@ function MaintainerBanner() {
         />
         <div style={{ flex: 1, minWidth: '200px' }}>
           <div style={{ fontWeight: 'bold', fontSize: '1.1rem' }}>
-            Maintained by <a href="https://coreyja.com">Corey Alexander</a> — remaining ~${outOfPocket}/month covered out of pocket
+            Maintained by <a href="https://coreyja.com">Corey Alexander</a> — remaining ~${outOfPocket} USD/month covered out of pocket
           </div>
           <div style={{ fontSize: '0.9rem', marginTop: '0.25rem' }}>
             The gap between sponsorships and infrastructure costs is currently funded out of pocket.{' '}
-            <a href="https://coreyja.com/blog/battlesnake-in-2026">Read about how I ended up running Battlesnake.</a>
+            <a href="https://coreyja.com/posts/battlesnake-in-2026/">Read about how I ended up running Battlesnake.</a>
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@ export default function Funding() {
             <h2>Monthly Costs</h2>
 
             <p>
-              As of March 2026, it costs roughly <strong>$620–660/month</strong> to keep
+              As of March 2026, it costs roughly <strong>$620–660 USD/month</strong> to keep
               Battlesnake running:
             </p>
 
@@ -141,7 +141,7 @@ export default function Funding() {
             <p>
               Battlesnake currently has <strong>{sponsorData.totalCount} GitHub Sponsors</strong>
               {sponsorData.monthlyIncomeEstimate && (
-                <> contributing roughly <strong>${sponsorData.monthlyIncomeEstimate}/month</strong></>
+                <> contributing roughly <strong>${sponsorData.monthlyIncomeEstimate} USD/month</strong></>
               )}. Thank you to everyone who helps keep the lights on!
             </p>
 
