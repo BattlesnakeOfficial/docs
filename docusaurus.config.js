@@ -169,6 +169,10 @@ const config = {
                 to: 'blog',
               },
               {
+                label: 'Funding',
+                to: 'funding',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/BattlesnakeOfficial',
               }

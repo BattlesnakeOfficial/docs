@@ -1,0 +1,26 @@
+{
+  "updatedAt": "2026-04-10T12:00:00Z",
+  "totalCount": 19,
+  "monthlyIncomeEstimate": 120,
+  "sponsors": [
+    { "login": "xtagon", "name": "Justin Workman", "avatarUrl": "https://avatars.githubusercontent.com/u/47229?v=4" },
+    { "login": "metawilm", "name": "Willem Broekema", "avatarUrl": "https://avatars.githubusercontent.com/u/84825?v=4" },
+    { "login": "backwardspy", "name": "pigeon", "avatarUrl": "https://avatars.githubusercontent.com/u/289746?v=4" },
+    { "login": "ador", "name": "Adrienn Szabo", "avatarUrl": "https://avatars.githubusercontent.com/u/380560?v=4" },
+    { "login": "hskrasek", "name": "Hunter Skrasek", "avatarUrl": "https://avatars.githubusercontent.com/u/787487?v=4" },
+    { "login": "SAN1TAR1UM", "name": "Alex Chastain", "avatarUrl": "https://avatars.githubusercontent.com/u/910933?v=4" },
+    { "login": "coreyja", "name": "Corey Alexander", "avatarUrl": "https://avatars.githubusercontent.com/u/964771?v=4" },
+    { "login": "originalwebgurl", "name": "Sherri Flemings", "avatarUrl": "https://avatars.githubusercontent.com/u/2898748?v=4" },
+    { "login": "Nettogrof", "name": "Nettogrof", "avatarUrl": "https://avatars.githubusercontent.com/u/3385721?v=4" },
+    { "login": "ljmsc", "name": "Lukas Schmitt", "avatarUrl": "https://avatars.githubusercontent.com/u/4758361?v=4" },
+    { "login": "LEB-FredrikPruzelius", "name": "Fredrik Prüzelius", "avatarUrl": "https://avatars.githubusercontent.com/u/5318931?v=4" },
+    { "login": "mishahawthorn", "name": "Misha Hawthorn", "avatarUrl": "https://avatars.githubusercontent.com/u/6118330?v=4" },
+    { "login": "codemaster2b", "name": "Jon Butterfield", "avatarUrl": "https://avatars.githubusercontent.com/u/16708598?v=4" },
+    { "login": "nosnaws", "name": "Alec Swanson", "avatarUrl": "https://avatars.githubusercontent.com/u/32313837?v=4" },
+    { "login": "OutWrest", "name": "Salah", "avatarUrl": "https://avatars.githubusercontent.com/u/47069801?v=4" },
+    { "login": "WbaN314", "name": "WbaN314", "avatarUrl": "https://avatars.githubusercontent.com/u/49495930?v=4" },
+    { "login": "rninformatics", "name": "rninformatics", "avatarUrl": "https://avatars.githubusercontent.com/u/62665246?v=4" },
+    { "login": "rob-odwyer", "name": "Rob ODwyer", "avatarUrl": "https://avatars.githubusercontent.com/u/126593209?v=4" },
+    { "login": "taranerd", "name": "taranerd", "avatarUrl": "https://avatars.githubusercontent.com/u/129525957?v=4" }
+  ]
+}
