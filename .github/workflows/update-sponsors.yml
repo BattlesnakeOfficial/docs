@@ -12,7 +12,11 @@ jobs:
       contents: write
       pull-requests: write
     steps:
+      # Use SPONSORS_TOKEN (byte-the-bot PAT) for checkout so pushes
+      # trigger CI. Pushes from the default GITHUB_TOKEN don't trigger workflows.
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SPONSORS_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
