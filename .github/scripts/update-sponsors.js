@@ -12,7 +12,12 @@ if (!GITHUB_TOKEN) {
 }
 
 const QUERY = `{
+  viewer {
+    login
+  }
   organization(login: "BattlesnakeOfficial") {
+    viewerIsAMember
+    viewerCanAdminister
     sponsorshipsAsMaintainer(first: 100, activeOnly: true) {
       totalCount
       nodes {
@@ -62,6 +67,15 @@ async function main() {
   const org = result.data.organization;
   const sponsorships = org.sponsorshipsAsMaintainer;
   const incomeInCents = org.monthlyEstimatedSponsorsIncomeInCents;
+
+  // Diagnostic: surface what the token actually sees so we can tell whether
+  // a null monthlyIncomeEstimate is a permission gate or a real zero.
+  console.log(
+    `viewer.login=${result.data.viewer?.login} ` +
+    `viewerIsAMember=${org.viewerIsAMember} ` +
+    `viewerCanAdminister=${org.viewerCanAdminister} ` +
+    `tokenScopes=${response.headers.get('x-oauth-scopes') || 'unknown'}`,
+  );
 
   const sponsors = sponsorships.nodes.map(node => ({
     login: node.sponsorEntity.login,
