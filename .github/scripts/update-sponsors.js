@@ -69,16 +69,50 @@ async function main() {
     avatarUrl: node.sponsorEntity.avatarUrl,
   }));
 
+  // Prefer the org-level estimate, but fall back to summing per-sponsor tier
+  // prices. The org field requires admin scope and returns 0/null for
+  // tokens that lack it; the per-sponsor tier data is visible to anyone
+  // with read:org and gives us the same monthly total.
+  const orgEstimate = incomeInCents > 0 ? Math.round(incomeInCents / 100) : null;
+  const tierSum = sponsorships.nodes.reduce(
+    (acc, node) => acc + (node.tier?.monthlyPriceInDollars || 0),
+    0,
+  );
+  const monthlyIncomeEstimate = orgEstimate ?? (tierSum > 0 ? tierSum : null);
+
   const data = {
     updatedAt: new Date().toISOString(),
     totalCount: sponsorships.totalCount,
-    monthlyIncomeEstimate: incomeInCents > 0 ? Math.round(incomeInCents / 100) : null,
+    monthlyIncomeEstimate,
     sponsors,
   };
 
   const outPath = path.join(__dirname, '..', '..', 'src', 'data', 'sponsors.json');
-  fs.writeFileSync(outPath, JSON.stringify(data, null, 2) + '\n');
+  fs.writeFileSync(outPath, formatSponsorsJson(data));
   console.log(`Updated ${outPath} with ${sponsors.length} sponsors`);
+}
+
+// Custom formatter that keeps each sponsor on a single line so daily diffs
+// stay easy to review. The default JSON.stringify(..., 2) expands every
+// object, which makes the diff noisy when avatar URLs change.
+function formatSponsorsJson(data) {
+  const lines = [
+    '{',
+    `  "updatedAt": ${JSON.stringify(data.updatedAt)},`,
+    `  "totalCount": ${JSON.stringify(data.totalCount)},`,
+    `  "monthlyIncomeEstimate": ${JSON.stringify(data.monthlyIncomeEstimate)},`,
+    '  "sponsors": [',
+  ];
+  data.sponsors.forEach((sponsor, i) => {
+    const trailing = i === data.sponsors.length - 1 ? '' : ',';
+    const inner = Object.entries(sponsor)
+      .map(([k, v]) => `${JSON.stringify(k)}: ${JSON.stringify(v)}`)
+      .join(', ');
+    lines.push(`    { ${inner} }${trailing}`);
+  });
+  lines.push('  ]');
+  lines.push('}');
+  return lines.join('\n') + '\n';
 }
 
 main().catch(err => {
