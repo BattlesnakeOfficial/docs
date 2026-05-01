@@ -80,6 +80,14 @@ async function main() {
   );
   const monthlyIncomeEstimate = orgEstimate ?? (tierSum > 0 ? tierSum : null);
 
+  // Diagnostic: surface what scopes the token actually returned.
+  const tierVisible = sponsorships.nodes.filter(n => n.tier).length;
+  console.log(
+    `Income source: orgEstimate=${orgEstimate} tierSum=${tierSum} ` +
+    `tiersVisible=${tierVisible}/${sponsorships.nodes.length} ` +
+    `(incomeInCents raw=${incomeInCents})`,
+  );
+
   const data = {
     updatedAt: new Date().toISOString(),
     totalCount: sponsorships.totalCount,
