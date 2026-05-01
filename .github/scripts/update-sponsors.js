@@ -80,12 +80,12 @@ async function main() {
   );
   const monthlyIncomeEstimate = orgEstimate ?? (tierSum > 0 ? tierSum : null);
 
-  // Diagnostic: surface what scopes the token actually returned.
-  const tierVisible = sponsorships.nodes.filter(n => n.tier).length;
+  // Log which source produced the estimate so token-scope regressions are
+  // easy to spot in workflow logs. Both fields require the PAT to belong
+  // to a BattlesnakeOfficial org owner; they return 0/null otherwise.
   console.log(
-    `Income source: orgEstimate=${orgEstimate} tierSum=${tierSum} ` +
-    `tiersVisible=${tierVisible}/${sponsorships.nodes.length} ` +
-    `(incomeInCents raw=${incomeInCents})`,
+    `monthlyIncomeEstimate=${monthlyIncomeEstimate} ` +
+    `(orgEstimate=${orgEstimate}, tierSum=${tierSum})`,
   );
 
   const data = {
