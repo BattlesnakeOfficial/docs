@@ -1,26 +1,117 @@
 {
-  "updatedAt": "2026-04-10T12:00:00Z",
-  "totalCount": 19,
-  "monthlyIncomeEstimate": 120,
+  "updatedAt": "2026-09-06T12:17:04.431Z",
+  "totalCount": 22,
+  "monthlyIncomeEstimate": null,
   "sponsors": [
-    { "login": "xtagon", "name": "Justin Workman", "avatarUrl": "https://avatars.githubusercontent.com/u/47229?v=4" },
-    { "login": "metawilm", "name": "Willem Broekema", "avatarUrl": "https://avatars.githubusercontent.com/u/84825?v=4" },
-    { "login": "backwardspy", "name": "pigeon", "avatarUrl": "https://avatars.githubusercontent.com/u/289746?v=4" },
-    { "login": "ador", "name": "Adrienn Szabo", "avatarUrl": "https://avatars.githubusercontent.com/u/380560?v=4" },
-    { "login": "hskrasek", "name": "Hunter Skrasek", "avatarUrl": "https://avatars.githubusercontent.com/u/787487?v=4" },
-    { "login": "SAN1TAR1UM", "name": "Alex Chastain", "avatarUrl": "https://avatars.githubusercontent.com/u/910933?v=4" },
-    { "login": "coreyja", "name": "Corey Alexander", "avatarUrl": "https://avatars.githubusercontent.com/u/964771?v=4" },
-    { "login": "originalwebgurl", "name": "Sherri Flemings", "avatarUrl": "https://avatars.githubusercontent.com/u/2898748?v=4" },
-    { "login": "Nettogrof", "name": "Nettogrof", "avatarUrl": "https://avatars.githubusercontent.com/u/3385721?v=4" },
-    { "login": "ljmsc", "name": "Lukas Schmitt", "avatarUrl": "https://avatars.githubusercontent.com/u/4758361?v=4" },
-    { "login": "LEB-FredrikPruzelius", "name": "Fredrik Prüzelius", "avatarUrl": "https://avatars.githubusercontent.com/u/5318931?v=4" },
-    { "login": "mishahawthorn", "name": "Misha Hawthorn", "avatarUrl": "https://avatars.githubusercontent.com/u/6118330?v=4" },
-    { "login": "codemaster2b", "name": "Jon Butterfield", "avatarUrl": "https://avatars.githubusercontent.com/u/16708598?v=4" },
-    { "login": "nosnaws", "name": "Alec Swanson", "avatarUrl": "https://avatars.githubusercontent.com/u/32313837?v=4" },
-    { "login": "OutWrest", "name": "Salah", "avatarUrl": "https://avatars.githubusercontent.com/u/47069801?v=4" },
-    { "login": "WbaN314", "name": "WbaN314", "avatarUrl": "https://avatars.githubusercontent.com/u/49495930?v=4" },
-    { "login": "rninformatics", "name": "rninformatics", "avatarUrl": "https://avatars.githubusercontent.com/u/62665246?v=4" },
-    { "login": "rob-odwyer", "name": "Rob ODwyer", "avatarUrl": "https://avatars.githubusercontent.com/u/126593209?v=4" },
-    { "login": "taranerd", "name": "taranerd", "avatarUrl": "https://avatars.githubusercontent.com/u/129525957?v=4" }
+    {
+      "login": "xtagon",
+      "name": "Justin Workman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47229?u=1ee365b272e4d74d6abfd3770ed2a9f841d22037&v=4"
+    },
+    {
+      "login": "metawilm",
+      "name": "Willem Broekema",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84825?u=0bf976afd97e93ba4f954508c895ccaf3006b437&v=4"
+    },
+    {
+      "login": "fables-tales",
+      "name": "Fable Tales",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96662?u=c592e5b89ad3b906084829ba5e3ed73fe61bef82&v=4"
+    },
+    {
+      "login": "internexio",
+      "name": "David Pedersen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/187256?u=83ab52b48852c5a5975fe99bfd036fe093357dcb&v=4"
+    },
+    {
+      "login": "backwardspy",
+      "name": "pigeon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/289746?v=4"
+    },
+    {
+      "login": "ador",
+      "name": "Adrienn Szabo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/380560?u=5fae3e11bddcddca51a37e63b4afdb3ff7f103f6&v=4"
+    },
+    {
+      "login": "hskrasek",
+      "name": "Hunter Skrasek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/787487?u=1f256fab4a8d7b8e5476244d5b6f17bc2c2044e8&v=4"
+    },
+    {
+      "login": "SAN1TAR1UM",
+      "name": "Alex Chastain",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/910933?u=7d6183a6b5a6eedd2ad3a6081dab6d43b8f73ce3&v=4"
+    },
+    {
+      "login": "coreyja",
+      "name": "Corey Alexander",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/964771?u=8bc34ae5acd14a3fdee69464526a0c826921974a&v=4"
+    },
+    {
+      "login": "originalwebgurl",
+      "name": "Sherri Flemings",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2898748?u=22ca8f7dc4717bd145e8205a52c3356f39f26aa1&v=4"
+    },
+    {
+      "login": "Nettogrof",
+      "name": "Nettogrof",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3385721?u=da0380c087e056743d4add08afa4e1c650dd5958&v=4"
+    },
+    {
+      "login": "ljmsc",
+      "name": "Lukas Schmitt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4758361?u=9f9d7ef40a1e5fccff7cbcd460fc38f53882ee8b&v=4"
+    },
+    {
+      "login": "LEB-FredrikPruzelius",
+      "name": "Fredrik Prüzelius",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5318931?u=f888a6ed48d764ae9992070a2b45c585d56e39a1&v=4"
+    },
+    {
+      "login": "mishahawthorn",
+      "name": "Misha Hawthorn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6118330?u=0903cc741f85abd39a4e91aed6f3d8acb3321b12&v=4"
+    },
+    {
+      "login": "kschniedergers",
+      "name": "Kai Schniedergers",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6611560?v=4"
+    },
+    {
+      "login": "codemaster2b",
+      "name": "Jon Butterfield",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16708598?u=7bf7c4bb954c3759f0d8629bbe5f96d8a165c061&v=4"
+    },
+    {
+      "login": "nosnaws",
+      "name": "Alec Swanson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32313837?u=ee6eefb290a8d46f1576d85083bafa863ca5eaac&v=4"
+    },
+    {
+      "login": "OutWrest",
+      "name": "Salah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47069801?u=3e2ba4154275602620c80336157930384d879e26&v=4"
+    },
+    {
+      "login": "WbaN314",
+      "name": "WbaN314",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49495930?u=b5ea06b01f794ec536325a7e232cb403853252a3&v=4"
+    },
+    {
+      "login": "rninformatics",
+      "name": "rninformatics",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62665246?v=4"
+    },
+    {
+      "login": "taranerd",
+      "name": "taranerd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/129525957?u=63774f18f08914714dbc4483b6665d905f034594&v=4"
+    },
+    {
+      "login": "odiodin",
+      "name": "odiodin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/299295098?v=4"
+    }
   ]
 }
