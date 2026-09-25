@@ -21,6 +21,7 @@ const QUERY = `{
     sponsorshipsAsMaintainer(first: 100, activeOnly: true) {
       totalCount
       nodes {
+        privacyLevel
         sponsorEntity {
           ... on User {
             login
@@ -68,11 +69,16 @@ async function main() {
   const sponsorships = org.sponsorshipsAsMaintainer;
   const incomeInCents = org.monthlyEstimatedSponsorsIncomeInCents;
 
-  const sponsors = sponsorships.nodes.map(node => ({
-    login: node.sponsorEntity.login,
-    name: node.sponsorEntity.name || node.sponsorEntity.login,
-    avatarUrl: node.sponsorEntity.avatarUrl,
-  }));
+  // Org admin tokens can see private sponsorships. Only list sponsors who
+  // chose to be public; totalCount still includes everyone, which reveals
+  // nothing about who they are.
+  const sponsors = sponsorships.nodes
+    .filter(node => node.privacyLevel === 'PUBLIC')
+    .map(node => ({
+      login: node.sponsorEntity.login,
+      name: node.sponsorEntity.name || node.sponsorEntity.login,
+      avatarUrl: node.sponsorEntity.avatarUrl,
+    }));
 
   const data = {
     updatedAt: new Date().toISOString(),
