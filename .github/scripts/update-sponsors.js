@@ -1,6 +1,11 @@
 // Fetches current GitHub Sponsors data and writes src/data/sponsors.json
 // Run via: node .github/scripts/update-sponsors.js
 // Requires GITHUB_TOKEN env var with read:org scope
+//
+// The deploy workflow runs this right before `npm run build`, so the
+// published funding page always reflects live sponsor data. The committed
+// src/data/sponsors.json is only a fallback snapshot for local dev and
+// PR test builds, which don't have access to the token.
 
 const fs = require('fs');
 const path = require('path');
@@ -16,6 +21,7 @@ const QUERY = `{
     sponsorshipsAsMaintainer(first: 100, activeOnly: true) {
       totalCount
       nodes {
+        privacyLevel
         sponsorEntity {
           ... on User {
             login
@@ -63,11 +69,16 @@ async function main() {
   const sponsorships = org.sponsorshipsAsMaintainer;
   const incomeInCents = org.monthlyEstimatedSponsorsIncomeInCents;
 
-  const sponsors = sponsorships.nodes.map(node => ({
-    login: node.sponsorEntity.login,
-    name: node.sponsorEntity.name || node.sponsorEntity.login,
-    avatarUrl: node.sponsorEntity.avatarUrl,
-  }));
+  // Org admin tokens can see private sponsorships. Only list sponsors who
+  // chose to be public; totalCount still includes everyone, which reveals
+  // nothing about who they are.
+  const sponsors = sponsorships.nodes
+    .filter(node => node.privacyLevel === 'PUBLIC')
+    .map(node => ({
+      login: node.sponsorEntity.login,
+      name: node.sponsorEntity.name || node.sponsorEntity.login,
+      avatarUrl: node.sponsorEntity.avatarUrl,
+    }));
 
   const data = {
     updatedAt: new Date().toISOString(),
