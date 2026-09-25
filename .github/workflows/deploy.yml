@@ -3,6 +3,13 @@ on:
   push:
     branches:
       - main
+  # Daily rebuild so the funding page picks up sponsor changes
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch: {}
+concurrency:
+  group: pages
+  cancel-in-progress: false
 jobs:
   build:
     name: Build
@@ -14,6 +21,17 @@ jobs:
           node-version: 18.x
           cache: npm
       - run: npm ci
+      # Overwrites the committed src/data/sponsors.json snapshot with live data.
+      # Requires a classic PAT with read:org + read:user scopes.
+      # Fine-grained PATs and GitHub Apps don't support sponsor queries.
+      # On push deploys a sponsor API failure shouldn't block shipping docs,
+      # so we fall back to the committed snapshot. Scheduled and manual runs
+      # exist to refresh sponsors, so those fail loudly instead.
+      - name: Fetch sponsor data
+        run: node .github/scripts/update-sponsors.js
+        continue-on-error: ${{ github.event_name == 'push' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.SPONSORS_TOKEN }}
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

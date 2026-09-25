@@ -1,6 +1,11 @@
 // Fetches current GitHub Sponsors data and writes src/data/sponsors.json
 // Run via: node .github/scripts/update-sponsors.js
 // Requires GITHUB_TOKEN env var with read:org scope
+//
+// The deploy workflow runs this right before `npm run build`, so the
+// published funding page always reflects live sponsor data. The committed
+// src/data/sponsors.json is only a fallback snapshot for local dev and
+// PR test builds, which don't have access to the token.
 
 const fs = require('fs');
 const path = require('path');
