@@ -61,11 +61,11 @@ Keeping Replit open in a second window or tab while games are running is helpful
 :::
 
 
-## 3. Create your Battlesnake on play.battlesnake.com
+## 3. Create your Battlesnake on arena.battlesnake.com
 
 Once you have a working URL, you can register it on the Battlesnake website and start playing games. You only need to register a Battlesnake's URL once - after that you can edit your code and restart your server as much as you'd like in between games.
 
-Create a new Battlesnake by going to [play.battlesnake.com/account/battlesnakes](https://play.battlesnake.com/account/battlesnakes).
+Create a new Battlesnake by going to [arena.battlesnake.com/battlesnakes/new](https://arena.battlesnake.com/battlesnakes/new).
 
 Copy your server URL from Replit (see previous step) into the 'URL' field for your new Battlesnake. Next, give it a great name, a sassy description, and click save.
 
@@ -86,7 +86,7 @@ To make sure everything is working correctly you can edit your Battlesnake's app
 
 The `README.md` file in each starter project should describe where the customization code can be found. Customizations are returned by calling the [root URL of your server](api/webhooks).
 
-You should see code that defines a head, tail, and color for your Battlesnake. You can change these values to be whatever you'd like, selecting from the [customizations available on your account](https://play.battlesnake.com/customizations).
+You should see code that defines a head, tail, and color for your Battlesnake. You can change these values to be whatever you'd like, selecting from the [customizations available on your account](https://arena.battlesnake.com/customizations).
 
 ![Customizing the Battlesnake colour to 'red' #ff0000 for the Python Starter Snake](/img/python_customization.png)
 
@@ -99,7 +99,7 @@ Restart your server and click the **Ping** button in your Battlesnake dashboard.
 
 Your Battlesnake is now ready to play in live games! It's not very smart yet, but that's okay! Every prize winning Battlesnake has to start somewhere.
 
-Create a custom game by going to [play.battlesnake.com/account/games/create](https://play.battlesnake.com/account/games/create).
+Create a custom game by going to [arena.battlesnake.com/games/new](https://arena.battlesnake.com/games/new).
 
 You should see your new Battlesnake in the list. Click 'Add To Game' to add it to the game, then click 'Start Game' to get rolling!
 

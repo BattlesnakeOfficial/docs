@@ -71,7 +71,7 @@ The calculation of global player ratings is experimental, and likely to change.
 
 In order to power a global ranking of all players, we sum the unmodified Trueskill ratings of each player's Leaderboard entries. We then transform this cumulative score using a similar logistic function as above, but scaled to match the number of Leaderboards.
 
-This means that to be competitive on the [global player rankings](https://play.battlesnake.com/rankings), a player will need to have a high ranking Battlesnake in every Leaderboard. The difficulty or relative competitiveness of each Leaderboard is not currently considered in these calculations, but we're open to ideas about this in the future.
+This means that to be competitive on the [global player rankings](https://arena.battlesnake.com/rankings), a player will need to have a high ranking Battlesnake in every Leaderboard. The difficulty or relative competitiveness of each Leaderboard is not currently considered in these calculations, but we're open to ideas about this in the future.
 
 $$$
 \LARGE\begin{split}

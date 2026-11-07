@@ -41,7 +41,7 @@ All Battlesnake game logic is [open source](https://github.com/BattlesnakeOffici
 
 Install the [Battlesnake Rules CLI](https://github.com/BattlesnakeOfficial/rules/tree/main/cli) to get started.
 
-Running games locally can speed up your development cycles significantly, but can also be more complex than using play.battlesnake.com.
+Running games locally can speed up your development cycles significantly, but can also be more complex than using arena.battlesnake.com.
 
 
 ## Brand Matters!

@@ -23,10 +23,10 @@ Want to know more? Check out the [frequently asked questions](faq).
 ### Other Resources
 
 * You can find real working examples in the [Community Starter Projects](starter-projects#community-starter-projects).
-* The quickest way to get questions answered is on [Discord](https://play.battlesnake.com/discord).
+* The quickest way to get questions answered is on [Discord](https://arena.battlesnake.com/discord).
 
 ### Have feedback?
 
-If you find issues with this documentation or have suggestions, please let us know on [GitHub Discussions](https://play.battlesnake.com/feedback).
+If you find issues with this documentation or have suggestions, please let us know on [GitHub Discussions](https://arena.battlesnake.com/feedback).
 
 Battlesnake is developed and maintained by a small team of volunteers in their spare time. We'd love to hear from you and will do our best to respond quickly and be helpful!
