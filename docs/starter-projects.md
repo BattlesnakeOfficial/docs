@@ -211,7 +211,7 @@ These projects and templates are great starting points for building your Battles
 
 ## Starter Project Templates
 
-These projects are built and maintained by Battlesnake core team members. We do our best to keep them functional and up-to-date with the latest game features. If something doesn't work as you'd expect or needs updating, [please let us know](https://play.battlesnake.com/feedback) so we can make changes :)
+These projects are built and maintained by Battlesnake core team members. We do our best to keep them functional and up-to-date with the latest game features. If something doesn't work as you'd expect or needs updating, [please let us know](https://arena.battlesnake.com/feedback) so we can make changes :)
 
 If you're building a Battlesnake for the first time these are great starting points.
 
@@ -239,4 +239,4 @@ The Battlesnake community is all about collaboration and shared learning. Someti
 * Be well documented and easy to understand
 * Ideally have a minimal project structure
 
-If your project fits, feel free to submit a [pull request](https://github.com/BattlesnakeOfficial/docs) or [start a discussion thread](https://play.battlesnake.com/feedback) and we'll take a look!
+If your project fits, feel free to submit a [pull request](https://github.com/BattlesnakeOfficial/docs) or [start a discussion thread](https://arena.battlesnake.com/feedback) and we'll take a look!

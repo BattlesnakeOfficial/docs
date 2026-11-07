@@ -103,7 +103,7 @@ const config = {
             className: 'navbar-item-icon navbar-item-github',
           },
           {
-            href: 'https://play.battlesnake.com/discord',
+            href: 'https://arena.battlesnake.com/discord',
             className: 'navbar-item-icon navbar-item-discord',
             position: 'right',
           }
@@ -153,7 +153,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://play.battlesnake.com/discord',
+                href: 'https://arena.battlesnake.com/discord',
               },
               {
                 label: 'Discussion Forum',

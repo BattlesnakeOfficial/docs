@@ -12,7 +12,7 @@ Your choices are determined by how your Battlesnake responds to [Battlesnake API
 
 ## Heads and Tails
 
-There are _many_ head and tail options to choose from, and you can mix and match them however you like! You can [browse which options are available to you](https://play.battlesnake.com/customizations) in the Battlesnake UI.
+There are _many_ head and tail options to choose from, and you can mix and match them however you like! You can [browse which options are available to you](https://arena.battlesnake.com/customizations) in the Battlesnake UI.
 
 
 ### Default Head and Tail
