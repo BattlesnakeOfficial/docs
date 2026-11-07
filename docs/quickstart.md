@@ -65,11 +65,7 @@ Keeping Replit open in a second window or tab while games are running is helpful
 
 Once you have a working URL, you can register it on the Battlesnake website and start playing games. You only need to register a Battlesnake's URL once - after that you can edit your code and restart your server as much as you'd like in between games.
 
-Create a new Battlesnake by going to [arena.battlesnake.com/battlesnakes/new](https://arena.battlesnake.com/battlesnakes/new). You'll be asked to sign in with GitHub first.
-
-:::tip
-Played Battlesnake on play.battlesnake.com before? Your snakes, profile, and customizations can come with you. See [arena.battlesnake.com/welcome-back](https://arena.battlesnake.com/welcome-back) to claim your account.
-:::
+Create a new Battlesnake by going to [arena.battlesnake.com/battlesnakes/new](https://arena.battlesnake.com/battlesnakes/new).
 
 Copy your server URL from Replit (see previous step) into the 'URL' field for your new Battlesnake. Next, give it a great name, a sassy description, and click save.
 
